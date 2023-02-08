@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  8 FEB 2023 05:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  8 FEB 2023 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1134,26 +1134,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--115
 
  []
 
-
-Overfull \hbox (4.43736pt too wide) detected at line 139
-[]
- []
-
 [1
 
 {C:/Users/RyanPC/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-(hw1.aux)
+[3] (hw1.aux)
 Package rerunfilecheck Info: File `hw1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33806 strings out of 476465
- 717284 string characters out of 2790746
- 1875324 words of memory out of 3000000
+ 33807 strings out of 476465
+ 717290 string characters out of 2790746
+ 1874324 words of memory out of 3000000
  53509 multiletter control sequences out of 15000+600000
  521716 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,10n,118p,1002b,966s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 116i,10n,118p,1002b,1111s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\RyanPC\AppData\Local\MiKTeX\fonts/pk/ljfour/public/esint/dpi600\es
 int10.pk><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmbx10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -1169,9 +1164,9 @@ cm/cmr7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on hw1.pdf (2 pages, 143054 bytes).
+Output written on hw1.pdf (3 pages, 144960 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
+ 92 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
  16397 words of extra memory for PDF output out of 17280 (max. 10000000)
 

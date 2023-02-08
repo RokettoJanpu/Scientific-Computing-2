@@ -135,20 +135,28 @@ which is a smaller interval.
 \tbf{P4.} \pf Using the Taylor expansion of $y$ at $t_n$,
 \begin{align*}
 	\tau_{n+1} &= y + hy' + \frac12h^2y'' + \frac16h^3y''' + O(h^4) - y \\
-	& - h\sbr{\frac{23}{12}y' - \frac43\br{y' - hy'' + \frac12h^2y''' - \frac16h^3y'''' + O(h^4)} + \frac{5}{12}\br{y' - 2hy'' + 2h^2y''' - \frac43h^3y'''' + O(h^4)}}
+	& - h\sbr{\frac{23}{12}y' - \frac43\br{y' - hy'' + \frac12h^2y''' + O(h^3)} + \frac{5}{12}\br{y' - 2hy'' + 2h^2y''' + O(h^3)}}
 \end{align*}
 Collect coefficients of the following terms:
 $$y: \quad 1 - 1 = 0$$
 $$hy': \quad 1 - \frac{23}{12} + \frac43 - \frac{5}{12} = \frac{1}{12}(12-23+16-5) = 0$$
 $$h^2y'': \quad \frac12 - \frac43 + \frac56 = \frac16(3-8+5) = 0$$
 $$h^3y''': \quad \frac16 + \frac23 - \frac56 = \frac16(1+4-5) = 0$$
-$$h^4y'''': \quad \frac{1}{24} - \frac29 + \frac59 \ne 0$$
-This gives $\tau_{n+1}=O(h^4)$. Thus the method is consistent of order 3.
+Thus $\tau_{n+1}=O(h^4)$, i.e. the method is consistent of order 3.
 \sep
 
 
 
-\tbf{P5.} 
+\tbf{P5.} \pf Substituting $k$ into the recurrence,
+$$u_{n+1} = u_n + hf\br{t_n+\frac12h,u_n+\frac12hk}$$
+Using the Taylor expansion of $y$ at $t_n+\frac12h$,
+$$\tau_{n+1} = y + hy' + \frac12h^2y'' + O(h^3) - y - h\sbr{y' + \frac12y'' + O(h^2)}$$
+Collect coefficients of the following terms:
+$$y: \quad 1 - 1 = 0$$
+$$hy': \quad 1 - 1 = 0$$
+$$h^2y'': \quad \frac12 - \frac12 = 0$$
+Thus $\tau_{n+1}=O(h^3)$, i.e. the method is consistent of order 2.
+\sep
 
 
 
@@ -159,7 +167,7 @@ This gives $\tau_{n+1}=O(h^4)$. Thus the method is consistent of order 3.
 \item Since we have four undetermined coefficients, we take a third order Taylor expansion. Any higher order expansion would give an overconstrained system.
 \begin{align*}
 	\tau_{n+1} &= y + hy' + \frac12h^2y'' + \frac16h^3y''' + O(h^4) - a_0y - a_1\sbr{y' - hy' + \frac12h^2y'' - \frac16h^3y''' + O(h^4)}\\
-	& - h\sbr{b_0y' + b_1(y' - hy'' + \frac12h^2y''' - \frac16h^3y'''' + O(h^4))}
+	& - h\sbr{b_0y' + b_1\br{y' - hy'' + \frac12h^2y''' + O(h^3)}}
 \end{align*}
 Collect coefficients of the following terms. To seek consistency of the highest possible order (in this case order 3), set each sum equal to 0:
 $$y: \quad 1 - a_0 - a_1 = 0$$
