@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  8 FEB 2023 03:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  8 FEB 2023 05:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1147,8 +1147,8 @@ Package rerunfilecheck Info: File `hw1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33805 strings out of 476465
- 717278 string characters out of 2790746
+ 33806 strings out of 476465
+ 717284 string characters out of 2790746
  1875324 words of memory out of 3000000
  53509 multiletter control sequences out of 15000+600000
  521716 words of font info for 92 fonts, out of 8000000 for 9000
@@ -1169,9 +1169,9 @@ cm/cmr7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on hw1.pdf (2 pages, 142446 bytes).
+Output written on hw1.pdf (2 pages, 143054 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
+ 86 PDF objects out of 1000 (max. 8388607)
+ 6 named destinations out of 1000 (max. 500000)
  16397 words of extra memory for PDF output out of 17280 (max. 10000000)
 

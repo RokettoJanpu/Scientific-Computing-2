@@ -148,6 +148,10 @@ This gives $\tau_{n+1}=O(h^4)$. Thus the method is consistent of order 3.
 
 
 
+\tbf{P5.} 
+
+
+
 \tbf{P6.}
 
 \begin{enumerate}[label=(\alph*)]
@@ -165,9 +169,9 @@ $$h^3y''': \quad \frac16+ \frac16a_1 - \frac12b_1 = 0$$
 These equations form a linear system whose solution is $a_0=-4,~a_1=5,~b_0=4,~b_1=2$.
 
 
-\item Applying the method (with coefficients found in the last part) to $y'=0=:f(t,y)$ with initial condition $y(0)=a$.
+\item Applying the method to $y'=0=:f(t,y)$ with initial condition $y(0)=a$,
 $$u_{n+1} + 4u_n - 5u_{n-1} = 0$$
-With ansatz $u_n=r^n$, we get
+Using the ansatz solution $r^n$,
 $$0 = r^2+4r-5 = (r+5)(r-1)
 \imp r=1,-5
 \imp u_n = A + B(-5)^n$$
@@ -176,6 +180,7 @@ $$a+\delta_0 = A+B,~a+\delta_1 = A-5B
 \imp \delta_0 - \delta_1 = 6B$$
 If $\delta_0\ne\delta_1$ then $B\ne0$, in which case the solution blows up. Thus the method is unstable.
 
+\item LINK
 
 \end{enumerate}
 
