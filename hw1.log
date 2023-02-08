@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  8 FEB 2023 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  8 FEB 2023 17:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1120,7 +1120,7 @@ LaTeX Font Info:    Trying to load font information for U+esint on input line 9
 (C:\Users\RyanPC\AppData\Local\Programs\MiKTeX\tex/latex/esint\uesint.fd
 File: uesint.fd 
 )
-Overfull \hbox (26.55547pt too wide) in paragraph at lines 110--111
+Overfull \hbox (4.94438pt too wide) in paragraph at lines 110--111
 []\OT1/cmr/bx/n/10 (-20) P2. \OT1/cmr/m/n/10 (-20) Pick $0 \OMS/cmsy/m/n/10 ^^T
  \OML/cmm/m/it/10 T < \OMS/cmsy/m/n/10 1$\OT1/cmr/m/n/10 (-20) . Fix $\OML/cmm/
 m/it/10 r \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 R$\OT1/cmr/m/n/10 (-20) . Then $\OML
@@ -1130,7 +1130,7 @@ n-der $\OML/cmm/m/it/10 Q \OT1/cmr/m/n/10 (-20) := []$.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--115
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
 
  []
 
@@ -1148,7 +1148,7 @@ Package rerunfilecheck Info: File `hw1.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  33816 strings out of 476465
- 717422 string characters out of 2790746
+ 717420 string characters out of 2790746
  1874324 words of memory out of 3000000
  53516 multiletter control sequences out of 15000+600000
  521884 words of font info for 93 fonts, out of 8000000 for 9000
@@ -1170,7 +1170,7 @@ msfonts/cm/cmsy10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/RyanPC/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on hw1.pdf (3 pages, 159524 bytes).
+Output written on hw1.pdf (3 pages, 160512 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)

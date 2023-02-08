@@ -102,18 +102,17 @@ $$|y-y_0|\le r
 \le |y-y_0|+|y_0|
 \le r+|y_0|
 \imp |f(t,y)| = |y^2| = |y|^2 \le (r+|y_0|)^2$$
-i.e. $|f|\le M$ on $Q$ where $M:=(r+|y_0|)^2$. Then by theorem 1, the IVP has a solution for $0\le t-t_0\le \min(\tfrac rM,T-t_0)$.
+i.e. $|f|\le M$ on $Q$ where $M:=(r+|y_0|)^2$. Then by theorem 1, the IVP has a solution for $0\le t-t_0\le \min(\tfrac rM,T-t_0)$, i.e. $t_0 \le t\le t_0+\min(\frac rM,T-t_0)$.
 \sep
 
 
 
-\tbf{P2.} Pick $0\le T<\infty$. Fix $r\in\bR$. Then $f(t,y):=2y^{1/2}$ is continuous on the cylinder $Q:=\brc{t_0\le t\le T,~|y-y_0|\le r}$. Now for all $(t,y)\in Q$ with $y\ge0$, using similar arguments as in P1,
-$$|y-y_0|\le r
-\imp y = |y| \le r+|y_0|
-\imp |f(t,y)| = |2y^{1/2}| = 2y^{1/2} \le 2(r+|y_0|)^{1/2}$$
-i.e. $|f|\le M$ on $Q$ where $M:=2(r+|y_0|)^{1/2}$. Then by theorem 1, the IVP has a solution for $0\le t-t_0\le \min(\frac rM,T-t_0)$.\\
+\tbf{P2.} Pick $0\le T<\infty$. Fix $r\in\bR$. Then $f(t,y):=2y^{1/2}$ is continuous on the cylinder $Q:=\brc{t_0\le t\le T,~|y|\le r}$. Now for all $(t,y)\in Q$ with $y\ge0$, using similar arguments as in P1,
+$$|y|\le r
+\imp |f(t,y)| = |2y^{1/2}| = 2y^{1/2} \le 2r^{1/2}$$
+i.e. $|f|\le M$ on $Q$ where $M:=2r^{1/2}$. Then by theorem 1, the IVP has a solution for $0\le t\le \min(\frac rM,T)$.\\
 
-To see that $f(y):=2y^{1/2}$ is not Lipschitz at $y=0$, suppose there exists $C>0$ such that $|f(x)-f(0)|\le C|x-0|$ for all $x\ge0$, i.e. $2x^{1/2}\le Cx$. But if we set $x=\frac{1}{C^2}$, we get $2\le Cx^{1/2}=C\frac1C=1$, a contradiction.
+To see that $f(y):=2y^{1/2}$ is not Lipschitz at $y=0$, suppose there exists $C>0$ such that $|f(x)-f(0)|\le C|x-0|$ for all $x\ge0$, i.e. $2x^{1/2}\le Cx$. But if we set $x=\frac{1}{C^2}$, then $2\le Cx^{1/2}=C\frac1C=1$, a contradiction.
 \sep
 
 
@@ -122,7 +121,7 @@ To see that $f(y):=2y^{1/2}$ is not Lipschitz at $y=0$, suppose there exists $C>
 $$y_2(t) = 1 + \int_0^t f(s,y_1(s))ds = 1 + \int_0^t 1ds = 1 + t$$
 $$y_3(t) = 1 + \int_0^t f(s,y_2(s))ds = 1 + \int_0^t (1+s)^2ds = 1 + \int_0^t (1+2s+s^2)ds = 1+t+t^2+\frac13t^3$$
 $$y_4(t) = 1 + \int_0^t\br{1+2s+3s^2+\frac83s^3+\frac53s^4+\frac23s^5+\frac19s^6}ds = 1+t+t^2+t^3+\frac23t^4+\frac13t^5+\frac19t^6+\frac1{63}t^7$$
-The Picard iterates seem to converge to $\frac1{1-t}$ for $t<1$. Plugging values into the time interval given in P1, we get
+The Picard iterates seem to converge to $\sum_{n\ge0}t^n=\frac1{1-t}$ on $0<t<1$. Plugging values into the time interval in P1, we get
 $$M = (r+|y_0|)^2 = (r+1)^2$$
 $$\frac rM = \frac{r}{(r+1)^2} \le 1$$
 $$T-t_0 = T < t^* = t_0+\frac{1}{y_0} = 1$$
@@ -174,10 +173,10 @@ $$y: \quad 1 - a_0 - a_1 = 0$$
 $$hy': \quad 1 + a_1 - b_0 - b_1 = 0$$
 $$h^2y'': \quad \frac12 - \frac12a_1 + b_1 = 0$$
 $$h^3y''': \quad \frac16+ \frac16a_1 - \frac12b_1 = 0$$
-These equations form a linear system whose solution is $a_0=-4,~a_1=5,~b_0=4,~b_1=2$.
+The solution of this system (using WolframAlpha) is $a_0=-4,~a_1=5,~b_0=4,~b_1=2$.
 
 
-\item \pf Applying the method to $y'=0=:f(t,y)$ with initial condition $y(0)=a$,
+\item \pf Applying the method (with coefficients from the last part) to $y'=0=:f(t,y)$ with initial condition $y(0)=a$,
 $$u_{n+1} + 4u_n - 5u_{n-1} = 0$$
 Using the ansatz solution $r^n$,
 $$0 = r^2+4r-5 = (r+5)(r-1)
