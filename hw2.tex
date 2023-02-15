@@ -102,7 +102,7 @@
 
 \item Code: \url{https://github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw2%20problem%201%20part%20b.ipynb}
 
-Generally, CPU time decreases as $\ep$ increases, the only exception being the case for method RK45 at $\mu=1000$. Moreover, the CPU times are considerably higher for RK45 than LSODA, especially when comparing RK45 vs LSODA at $\mu=1000$. This phenomena is likely due to the Van der Pol problem being stiff and RK45 being an explicit method, leading to restrictions on feasible step size which in turn limit the method's effectiveness. On the other hand, LSODA is an implicit method with stiffness detection, leading to increased effectiveness for this problem.
+Generally, CPU time decreases as $\ep$ increases. Moreover, the CPU times are considerably higher for RK45 than LSODA, especially when comparing RK45 vs LSODA at $\mu=1000$. This phenomena is likely due to the Van der Pol problem being stiff and RK45 being an explicit method, leading to restrictions on feasible step size which in turn limit the method's effectiveness. On the other hand, LSODA is an implicit method with stiffness detection, leading to increased effectiveness for this problem.
 
 \item Code:
 	
