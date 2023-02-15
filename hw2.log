@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  15 FEB 2023 16:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  15 FEB 2023 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1131,51 +1131,26 @@ kettoJanpu / Scientific-[]Computing-[]2 / blob / main / hw2 % 20problem % 202 .
  ipynb$[] 
  []
 
-<hw2 problem 2 RAS.pdf, id=9, 578.16pt x 578.16pt>
-File: hw2 problem 2 RAS.pdf Graphic file (type pdf)
-<use hw2 problem 2 RAS.pdf>
-Package pdftex.def Info: hw2 problem 2 RAS.pdf  used on input line 122.
-(pdftex.def)             Requested size: 578.15858pt x 578.15858pt.
-File: hw2 problem 2 RAS.pdf Graphic file (type pdf)
-<use hw2 problem 2 RAS.pdf>
-Package pdftex.def Info: hw2 problem 2 RAS.pdf  used on input line 122.
-(pdftex.def)             Requested size: 578.15858pt x 578.15858pt.
-<hw2 problem 2 RAS.pdf, id=12, page=1, 578.16pt x 578.16pt>
-File: hw2 problem 2 RAS.pdf Graphic file (type pdf)
-<use hw2 problem 2 RAS.pdf, page 1>
-Package pdftex.def Info: hw2 problem 2 RAS.pdf , page1 used on input line 122.
-(pdftex.def)             Requested size: 578.15858pt x 578.15858pt.
-File: hw2 problem 2 RAS.pdf Graphic file (type pdf)
-<use hw2 problem 2 RAS.pdf, page 1>
-Package pdftex.def Info: hw2 problem 2 RAS.pdf , page1 used on input line 122.
-(pdftex.def)             Requested size: 231.2599pt x 231.2599pt.
+<hw2 problem 2 RAS.png, id=9, 578.16pt x 578.16pt>
+File: hw2 problem 2 RAS.png Graphic file (type png)
+<use hw2 problem 2 RAS.png>
+Package pdftex.def Info: hw2 problem 2 RAS.png  used on input line 123.
+(pdftex.def)             Requested size: 202.35902pt x 202.35902pt.
 [1
 
-{C:/Users/RyanPC/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-File: hw2 problem 2 RAS.pdf Graphic file (type pdf)
-<use hw2 problem 2 RAS.pdf, page 1>
-Package pdftex.def Info: hw2 problem 2 RAS.pdf , page1 used on input line 122.
-(pdftex.def)             Requested size: 231.2599pt x 231.2599pt.
-File: hw2 problem 2 RAS.pdf Graphic file (type pdf)
-<use hw2 problem 2 RAS.pdf, page 1>
-Package pdftex.def Info: hw2 problem 2 RAS.pdf , page1 used on input line 122.
-(pdftex.def)             Requested size: 231.2599pt x 231.2599pt.
-File: hw2 problem 2 RAS.pdf Graphic file (type pdf)
-<use hw2 problem 2 RAS.pdf, page 1>
-Package pdftex.def Info: hw2 problem 2 RAS.pdf , page1 used on input line 122.
-(pdftex.def)             Requested size: 231.2599pt x 231.2599pt.
- [2 <./hw2 problem 2 RAS.pdf>] (hw2.aux)
+{C:/Users/RyanPC/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./hw2 probl
+em 2 RAS.png>] [2] (hw2.aux)
 Package rerunfilecheck Info: File `hw2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33822 strings out of 476465
- 717699 string characters out of 2790746
+ 33827 strings out of 476465
+ 717689 string characters out of 2790746
  1860324 words of memory out of 3000000
- 53521 multiletter control sequences out of 15000+600000
- 521933 words of font info for 94 fonts, out of 8000000 for 9000
+ 53522 multiletter control sequences out of 15000+600000
+ 521984 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,18n,118p,1002b,1077s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 116i,6n,118p,1002b,958s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmbx10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmmi10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type
@@ -1183,9 +1158,9 @@ msfonts/cm/cmmi10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type
 onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/RyanPC/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/RyanPC/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on hw2.pdf (2 pages, 102485 bytes).
+Output written on hw2.pdf (2 pages, 152857 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 500000)
- 16929 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 16914 words of extra memory for PDF output out of 17280 (max. 10000000)
 
