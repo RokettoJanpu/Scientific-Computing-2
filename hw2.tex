@@ -126,7 +126,7 @@ In order of increasing area enclosed by contour, the methods are: forward Euler,
 
 
 
-\tbf{Problem 3.} \pf The local truncation error at step $n+1$ is
+\tbf{Problem 3.} \pf For the backward Euler method, the local truncation error at step $n+1$ is
 $$\tau_{n+1} = y_{n+1} - y_n - hf(t_{n+1},y_{n+1})$$
 For the numerical solution $u$,
 $$0 = u_{n+1} - u_n - hf(t_{n+1},u_{n+1})$$
@@ -138,8 +138,16 @@ $$e_{n+1} \le e_n + hL\norm{y_{n+1}-u_{n+1}} + \tau \le e_n + hLe_{n+1} + \tau$$
 $$\imp (1-hL)e_{n+1} \le e_n + \tau
 \imp e_{n+1} \le \frac{1}{1-hL}e_n + \frac{\tau}{1-hL} = ae_n + b,~a:=\frac{1}{1-hL},~b:=\frac{\tau}{1-hL}$$
 To ensure $a,b>0$, pick $h<\frac{1}{2L}$ so that
-$$hL < \frac12 \imp 1-hL > \frac12 \imp 0 < a < 2$$
+$$hL < \frac12 \imp 1-hL > \frac12 \imp 0 < a < 2,~b\ge0$$
+Before proceeding, we compute, using $hL<\frac12$,
+$$a = \frac{1}{1-hL} = 1 + hL + (hL)^2 + (hL)^3 + \dots \le 1 + hL + hL = 1 + 2hL \le e^{2hL} \quad (3.1)$$
+$$a - 1 = \frac{1}{1-hL} - 1 = \frac{hL}{1-hL} \imp \frac{1}{a-1} = \frac{1-hL}{hL} \quad (3.2)$$
 The solution to the recurrence $x_n=ax_n+b$ is $x_n=a^nx_0+\frac{a^n-1}{a-1}b$, so
-$$e_{n+1} \le $$
+$$e_n \le a^ne_0 + \frac{a^n-1}{a-1}b$$
+Using $hn\le hN=T$ where $N$ is the number of time steps and $T$ is the period, and (3.1),
+$$a^ne_0 \le e^{2Lhn}e_0 \le e^{2LT}e_0 = O(e_0)$$
+Using $hn\le T$, (3.2), and $\tau=O(h^{p+1})$,
+$$\frac{a^n-1}{a-1}b \le \frac{(e^{2Lhn}-1)(1-hL)\tau}{hL(1-hL)} \le \frac{(e^{2LT}-1)\tau}{Lh} = O(h^p)$$
+Putting together the calculations, $e_n\le O(e_0)+O(h^p)$, i.e. the error decays as $O(e_0)+O(h^p)$ as $h\to0$ uniformly on the interval $[0,T]$. Thus the method converges.
 
 \end{document}
