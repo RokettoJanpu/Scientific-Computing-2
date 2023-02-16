@@ -126,5 +126,20 @@ In order of increasing area enclosed by contour, the methods are: forward Euler,
 
 
 
-\tbf{Problem 3.} \pf set
+\tbf{Problem 3.} \pf The local truncation error at step $n+1$ is
+$$\tau_{n+1} = y_{n+1} - y_n - hf(t_{n+1},y_{n+1})$$
+For the numerical solution $u$,
+$$0 = u_{n+1} - u_n - hf(t_{n+1},u_{n+1})$$
+Subtract the latter equation from the former.
+$$\tau_{n+1} = (y_{n+1}-u_{n+1}) - (y_n-u_n) - h[f(t_{n+1},y_{n+1})-f(t_{n+1},u_{n+1})]$$
+$$\imp (y_{n+1}-u_{n+1}) = (y_n-u_n) + h[f(t_{n+1},y_{n+1})-f(t_{n+1},u_{n+1})] + \tau_{n+1}$$
+Set $e_n:=\norm{y_n-u_n}$ and $\tau:=\max_n\norm{\tau_n}$. Since $f$ is $L$--Lipschitz in $u$,
+$$e_{n+1} \le e_n + hL\norm{y_{n+1}-u_{n+1}} + \tau \le e_n + hLe_{n+1} + \tau$$
+$$\imp (1-hL)e_{n+1} \le e_n + \tau
+\imp e_{n+1} \le \frac{1}{1-hL}e_n + \frac{\tau}{1-hL} = ae_n + b,~a:=\frac{1}{1-hL},~b:=\frac{\tau}{1-hL}$$
+To ensure $a,b>0$, pick $h<\frac{1}{2L}$ so that
+$$hL < \frac12 \imp 1-hL > \frac12 \imp 0 < a < 2$$
+The solution to the recurrence $x_n=ax_n+b$ is $x_n=a^nx_0+\frac{a^n-1}{a-1}b$, so
+$$e_{n+1} \le $$
+
 \end{document}
