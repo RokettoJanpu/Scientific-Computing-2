@@ -109,6 +109,7 @@ $$\sum_{l=1}^2 b_lc_l = (1-\gamma)\gamma+\gamma\cdot 1
 = 2-2^{1/2}-1-2\inv+2^{1/2}
 = 1-2\inv
 = \frac12$$
+
 Thus the method is 2nd order accurate. To show it is A--stable, first find the stability function $R(z)$ and let $|z|\to\infty$. 
 $$I - zA = \m{1-\gamma z & 0 \\ -(1-\gamma)z & 1-\gamma z}
 \imp D := \det(I-zA) = (1-\gamma z)^2 = \gamma^2z^2 - 2\gamma z+1$$
@@ -119,6 +120,7 @@ $$R(z) - 1 = zb^T(I-zA)\inv 1_{s\times 1} = \frac zD\sbr{(1-\gamma)(1-\gamma z)+
 $$\imp R(z) - 1 = \frac zD\sbr{1-\gamma^2z}
 = \frac{-\gamma^2z^2+z}{\gamma^2z^2-2\gamma z+1}
 \imp R(z) = \frac{-\gamma^2z^2+z}{\gamma^2z^2-2\gamma z+1} + 1 \app[|z|] -1+1 = 0$$
+
 To finish showing A--stability, we plot the RAS and see that it contains the left half plane. Code in 2nd cell of:  
 
 \url{https://github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw3%20RAS.ipynb}
@@ -173,6 +175,7 @@ $$\lim_{|z|\to\infty}R(z)=0 \iff -1 = \frac12\lim_{|z|\to\infty}\frac{(1-4\gamma
 $$\iff -2\gamma^2 = 1-4\gamma
 \iff 2\gamma^2-4\gamma+1=0
 \iff \gamma = \frac44 \pm \frac{(16-8)^{1/2}}4 = 1 \pm \frac{2\cdot 2^{1/2}}4 = 1\pm 2^{-1/2}$$
+
 We check that the method for $\gamma=1\pm2^{-1/2}$ is A--stable, hence L--stable, by plotting the RASes and seeing that they contain the left half plane. Code in 3rd cell of:
 
 \url{https://github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw3%20RAS.ipynb}
@@ -181,7 +184,48 @@ We check that the method for $\gamma=1\pm2^{-1/2}$ is A--stable, hence L--stable
 \includegraphics[scale=.3]{hw3 dirk3 ras 1}
 \includegraphics[scale=.3]{hw3 dirk3 ras 2}
 \end{center}
+
+\end{enumerate}
+\sep
+
+
+
+\tbf{Problem 3.}
+
+\begin{enumerate}
 	
+\item Set $f(t,y):=-L(y-\phi(t))+\phi'(t)$. To implement DIRK2, we first obtain explicit formulas for $k_1,k_2,u_{n+1}$.
+$$k_1 = f(t_n+\gamma h,u_n+h\gamma k_1)
+= -L\sbr{u_n+h\gamma k_1-\phi(t_n+\gamma h)}+\phi'(t_n+\gamma h)$$
+$$\imp k_1 = -Lh\gamma k_1-L\sbr{u_n-\phi(t_n+\gamma h)}+\phi'(t_n+\gamma h)$$
+$$\imp (1+Lh\gamma)k_1 = -L\sbr{u_n-\phi(t_n+\gamma h)}+\phi'(t_n+\gamma h)
+\imp k_1 = \frac{-L\sbr{u_n-\phi(t_n+\gamma h)}+\phi'(t_n+\gamma h)}{1+Lh\gamma}$$
+$$k_2 = f(t_n+h,u_n+h(1-\gamma)k_1+h\gamma k_2) = -L\sbr{u_n+h(1-\gamma)k_1+h\gamma k_2-\phi(t_n+h)}+\phi'(t_n+h)$$
+$$\imp k_2 = -Lh\gamma k_2-L\sbr{u_n+h(1-\gamma)k_1-\phi(t_n+h)}+\phi'(t_n+h)$$
+$$\imp (1+Lh\gamma)k_2 = -L\sbr{u_n+h(1-\gamma)k_1-\phi(t_n+h)}+\phi'(t_n+h)$$
+$$\imp k_2 = \frac{-L\sbr{u_n+h(1-\gamma)k_1-\phi(t_n+h)}+\phi'(t_n+h)}{1+Lh\gamma}$$
+$$u_{n+1} = u_n+h\sbr{(1-\gamma)k_1+\gamma k_2}$$
+
+We do the same for DIRK3.
+$$k_1 = f(t_n+\gamma h,u_n+h\gamma k_1)$$
+so the explicit formula for $k_1$ is the same as in DIRK2.
+$$k_1 = \frac{-L\sbr{u_n-\phi(t_n+\gamma h)}+\phi'(t_n+\gamma h)}{1+Lh\gamma}$$
+$$k_2 = f(t_n+(1-\gamma)h,u_n+h(1-2\gamma)k_2+h\gamma k_2)$$
+$$= -L\sbr{u_n+h(1-2\gamma)k_1+h\gamma k_2-\phi(t_n+(1-\gamma)h)}+\phi'(t_n+(1-\gamma)h)$$
+$$= -Lh\gamma k_2-L\sbr{u_n+h(1-2\gamma)k_1-\phi(t_n+(1-\gamma)h)}+\phi'(t_n+(1-\gamma)h)$$
+$$\imp (1+Lh\gamma)k_2 = -L\sbr{u_n+h(1-2\gamma)k_1-\phi(t_n+(1-\gamma)h)}+\phi'(t_n+(1-\gamma)h)$$
+$$\imp k_2 = \frac{-L\sbr{u_n+h(1-2\gamma)k_1-\phi(t_n+(1-\gamma)h)}+\phi'(t_n+(1-\gamma)h)}{1+Lh\gamma}$$
+$$u_{n+1} = u_n+\frac h2[k_1+k_2]$$
+
+Code: \url{https://github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw3.ipynb}
+
+\begin{center}
+\includegraphics[scale=.3]{hw3 dirk2 err}
+\includegraphics[scale=.3]{hw3 dirk3 err}
+\end{center}
+
+For larger values of $h$, about $\log h>-10$, the log--log graph has a slope of 2, ie the error looks quadratic in $h$. For smaller values of $h$, about $\log h<-10$, the log--log graph has a slope of 1, ie the error looks linear in $h$.
+
 \end{enumerate}
 
 \end{document}
