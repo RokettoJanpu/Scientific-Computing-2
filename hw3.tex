@@ -109,7 +109,7 @@ $$\sum_{l=1}^2 b_lc_l = (1-\gamma)\gamma+\gamma\cdot 1
 = 2-2^{1/2}-1-2\inv+2^{1/2}
 = 1-2\inv
 = \frac12$$
-Thus the method is 2nd order accurate. To show it is A--stable, we first find the stability function $R(z)$ and let $|z|\to\infty$. 
+Thus the method is 2nd order accurate. To show it is A--stable, first find the stability function $R(z)$ and let $|z|\to\infty$. 
 $$I - zA = \m{1-\gamma z & 0 \\ -(1-\gamma)z & 1-\gamma z}
 \imp D := \det(I-zA) = (1-\gamma z)^2 = \gamma^2z^2 - 2\gamma z+1$$
 $$\imp (I-zA)\inv = \frac1D\m{1-\gamma z & 0 \\ (1-\gamma)z & 1-\gamma z}
@@ -119,7 +119,69 @@ $$R(z) - 1 = zb^T(I-zA)\inv 1_{s\times 1} = \frac zD\sbr{(1-\gamma)(1-\gamma z)+
 $$\imp R(z) - 1 = \frac zD\sbr{1-\gamma^2z}
 = \frac{-\gamma^2z^2+z}{\gamma^2z^2-2\gamma z+1}
 \imp R(z) = \frac{-\gamma^2z^2+z}{\gamma^2z^2-2\gamma z+1} + 1 \app[|z|] -1+1 = 0$$
-To finish showing A--stability, we plot $|R(z)|<1$ and see that it contains the left half plane.
+To finish showing A--stability, we plot the RAS and see that it contains the left half plane. Code in 2nd cell of:  
 
+\url{https://github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw3%20RAS.ipynb}
+
+\begin{center}
+\includegraphics[scale=.3]{hw3 dirk2 RAS}
+\end{center}
+\sep
+
+
+
+\tbf{Problem 2.} From the Butcher array,
+$$A = \m{\gamma & 0 \\ 1-2\gamma & \gamma},
+b = \m{1/2 \\ 1/2},
+c = \m{\gamma \\ 1-\gamma}$$
+
+\begin{enumerate}
+	
+\item \pf Check the 1st order accuracy condition.
+$$\sum_{l=1}^2 b_l = \frac12 + \frac12 = 1$$
+Check the 2nd order accuracy condition.
+$$\sum_{l=1}^2 b_lc_l = \frac12\gamma+ \frac12(1-\gamma) = \frac12(\gamma+1-\gamma) = \frac12$$
+
+\item \pf Check the 3rd order accuracy conditions.
+$$\sum_{p,q,r} b_pa_{pq}a_{pr} = \frac12[\gamma^2+2\gamma\cdot0+0^2] + \frac12[(1-2\gamma)^2+2(1-2\gamma)\gamma+\gamma^2]$$
+The quantity in the second bracket is
+$$(1-2\gamma)^2+2(1-2\gamma)\gamma+\gamma^2 = 1+4\gamma^2-4\gamma+2\gamma-4\gamma^2+\gamma^2
+= \gamma^2-2\gamma+1
+= (\gamma-1)^2$$
+giving
+$$\sum_{p,q,r} b_pa_{pq}a_{pr} = \frac12[\gamma^2+\gamma^2-2\gamma+1] = \gamma^2-\gamma+\frac12$$
+We find
+$$\gamma^2 = \frac12+ \frac3{36} + 2\frac{3^{1/2}}{12}
+= \frac1{12}[3+1+2\cdot 3^{1/2}]
+= \frac1{12}[4+2\cdot 3^{1/2}]
+= \frac16[2+3^{1/2}]$$
+so finally,
+$$\sum_{p,q,r} b_pa_{pq}a_{pr} = \frac16[2+3^{1/2}-3-3^{1/2}+3] = \frac13$$
+
+\item First find the stability function $R(z)$.
+$$I - zA = \m{1-\gamma z & 0 \\ -(1-2\gamma)z & 1-\gamma z}
+\imp D := \det(I-zA) = (1-\gamma z)^2 = \gamma^2z^2 - 2\gamma z+1$$
+$$\imp (I-zA)\inv = \frac1D\m{1-\gamma z & 0 \\ (1-2\gamma)z & 1-\gamma z}
+\imp (I-zA)\inv 1_{s\times 1} = \frac1D\m{1-\gamma z \\ (1-2\gamma)z+1-\gamma z} = \frac1D\m{1-\gamma z \\ (1-3\gamma)z+1}$$
+$$R(z) - 1 = zb^T(I-zA)\inv 1_{s\times 1} = \frac z{2D}\sbr{1-\gamma z+(1-3\gamma)z+1)}
+= \frac z{2D}\sbr{(1-4\gamma)z+2}
+= \frac12\frac{(1-4\gamma)z^2+2z}{\gamma^2z^2-2\gamma z+1}$$
+We find $\gamma$ by imposing $\lim_{|z|\to\infty}R(z)=0$.
+$$\lim_{|z|\to\infty}R(z)=0 \iff -1 = \frac12\lim_{|z|\to\infty}\frac{(1-4\gamma)z^2+2z}{\gamma^2z^2-2\gamma z+1}
+\iff \lim_{|z|\to\infty}\frac{(1-4\gamma)z^2+2z}{\gamma^2z^2-2\gamma z+1} = -2
+\iff \frac{1-4\gamma}{\gamma^2} = -2$$
+$$\iff -2\gamma^2 = 1-4\gamma
+\iff 2\gamma^2-4\gamma+1=0
+\iff \gamma = \frac44 \pm \frac{(16-8)^{1/2}}4 = 1 \pm \frac{2\cdot 2^{1/2}}4 = 1\pm 2^{-1/2}$$
+We check that the method for $\gamma=1\pm2^{-1/2}$ is A--stable, hence L--stable, by plotting the RASes and seeing that they contain the left half plane. Code in 3rd cell of:
+
+\url{https://github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw3%20RAS.ipynb}
+
+\begin{center}
+\includegraphics[scale=.3]{hw3 dirk3 ras 1}
+\includegraphics[scale=.3]{hw3 dirk3 ras 2}
+\end{center}
+	
+\end{enumerate}
 
 \end{document}

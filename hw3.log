@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  18 FEB 2023 22:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  19 FEB 2023 02:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1135,20 +1135,64 @@ y/m/n/10 ^^@ \OT1/cmr/m/n/10 1 = \OML/cmm/m/it/10 zb[]\OT1/cmr/m/n/10 (\OML/cmm
 [] = [] []
  []
 
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<hw3 dirk2 RAS.png, id=7, 578.16pt x 578.16pt>
+File: hw3 dirk2 RAS.png Graphic file (type png)
+<use hw3 dirk2 RAS.png>
+Package pdftex.def Info: hw3 dirk2 RAS.png  used on input line 127.
+(pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
 [1
 
-{C:/Users/RyanPC/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (hw3.aux)
+{C:/Users/RyanPC/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./hw3 dirk2
+ RAS.png>]
+Overfull \hbox (42.08855pt too wide) detected at line 165
+ \OT1/cmr/m/n/10 =[]\OMS/cmsy/m/n/10 )  \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 I \OM
+S/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 zA\OT1/cmr/m/n/10 )[] = [] []  =[]\OMS/cmsy/
+m/n/10 )  \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 I \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/i
+t/10 zA\OT1/cmr/m/n/10 )[]1[] = [] [] = [] []
+ []
+
+
+Overfull \hbox (5.17557pt too wide) detected at line 168
+\OML/cmm/m/it/10 R\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 ) \OMS/cms
+y/m/n/10 ^^@ \OT1/cmr/m/n/10 1 = \OML/cmm/m/it/10 zb[]\OT1/cmr/m/n/10 (\OML/cmm
+/m/it/10 I \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 zA\OT1/cmr/m/n/10 )[]1[] = [] 
+[] = [] [] = [][]
+ []
+
+
+Overfull \hbox (19.65378pt too wide) detected at line 172
+[] \OML/cmm/m/it/10 R\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 ) = 0  
+\OMS/cmsy/m/n/10 ([])  ^^@\OT1/cmr/m/n/10 1 = [] [] []  \OMS/cmsy/m/n/10 ([])  
+[] [] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2  \OMS/cmsy/m/n/10
+ ([])  [] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2
+ []
+
+<hw3 dirk3 ras 1.png, id=27, 578.16pt x 578.16pt>
+File: hw3 dirk3 ras 1.png Graphic file (type png)
+<use hw3 dirk3 ras 1.png>
+Package pdftex.def Info: hw3 dirk3 ras 1.png  used on input line 181.
+(pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
+<hw3 dirk3 ras 2.png, id=28, 578.16pt x 578.16pt>
+File: hw3 dirk3 ras 2.png Graphic file (type png)
+<use hw3 dirk3 ras 2.png>
+Package pdftex.def Info: hw3 dirk3 ras 2.png  used on input line 182.
+(pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
+[2] [3 <./hw3 dirk3 ras 1.png> <./hw3 dirk3 ras 2.png>] (hw3.aux)
 Package rerunfilecheck Info: File `hw3.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33791 strings out of 476465
- 717112 string characters out of 2790746
- 1869324 words of memory out of 3000000
- 53502 multiletter control sequences out of 15000+600000
- 521612 words of font info for 90 fonts, out of 8000000 for 9000
+ 33844 strings out of 476465
+ 718101 string characters out of 2790746
+ 1872324 words of memory out of 3000000
+ 53541 multiletter control sequences out of 15000+600000
+ 521831 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,11n,118p,1002b,957s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 116i,11n,118p,1002b,1202s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmbx10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmex10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type
@@ -1160,10 +1204,11 @@ Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/R
 yanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:
 /Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmsy7.pfb>
-Output written on hw3.pdf (1 page, 115635 bytes).
+ts/cm/cmsy7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmtt10.pfb>
+Output written on hw3.pdf (3 pages, 240692 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
- 16397 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 91 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
+ 16924 words of extra memory for PDF output out of 17280 (max. 10000000)
 
