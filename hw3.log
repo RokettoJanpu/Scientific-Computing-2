@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  19 FEB 2023 03:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  20 FEB 2023 02:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1148,7 +1148,7 @@ Package pdftex.def Info: hw3 dirk2 RAS.png  used on input line 129.
 
 {C:/Users/RyanPC/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./hw3 dirk2
  RAS.png>]
-Overfull \hbox (42.08855pt too wide) detected at line 167
+Overfull \hbox (42.08855pt too wide) detected at line 169
  \OT1/cmr/m/n/10 =[]\OMS/cmsy/m/n/10 )  \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 I \OM
 S/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 zA\OT1/cmr/m/n/10 )[] = [] []  =[]\OMS/cmsy/
 m/n/10 )  \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 I \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/i
@@ -1156,7 +1156,7 @@ t/10 zA\OT1/cmr/m/n/10 )[]1[] = [] [] = [] []
  []
 
 
-Overfull \hbox (5.17557pt too wide) detected at line 170
+Overfull \hbox (5.17557pt too wide) detected at line 172
 \OML/cmm/m/it/10 R\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 ) \OMS/cms
 y/m/n/10 ^^@ \OT1/cmr/m/n/10 1 = \OML/cmm/m/it/10 zb[]\OT1/cmr/m/n/10 (\OML/cmm
 /m/it/10 I \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 zA\OT1/cmr/m/n/10 )[]1[] = [] 
@@ -1164,7 +1164,7 @@ y/m/n/10 ^^@ \OT1/cmr/m/n/10 1 = \OML/cmm/m/it/10 zb[]\OT1/cmr/m/n/10 (\OML/cmm
  []
 
 
-Overfull \hbox (19.65378pt too wide) detected at line 174
+Overfull \hbox (19.65378pt too wide) detected at line 176
 [] \OML/cmm/m/it/10 R\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 ) = 0  
 \OMS/cmsy/m/n/10 ([])  ^^@\OT1/cmr/m/n/10 1 = [] [] []  \OMS/cmsy/m/n/10 ([])  
 [] [] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2  \OMS/cmsy/m/n/10
@@ -1174,37 +1174,126 @@ Overfull \hbox (19.65378pt too wide) detected at line 174
 <hw3 dirk3 ras 1.png, id=27, 578.16pt x 578.16pt>
 File: hw3 dirk3 ras 1.png Graphic file (type png)
 <use hw3 dirk3 ras 1.png>
-Package pdftex.def Info: hw3 dirk3 ras 1.png  used on input line 184.
+Package pdftex.def Info: hw3 dirk3 ras 1.png  used on input line 186.
 (pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
 <hw3 dirk3 ras 2.png, id=28, 578.16pt x 578.16pt>
 File: hw3 dirk3 ras 2.png Graphic file (type png)
 <use hw3 dirk3 ras 2.png>
-Package pdftex.def Info: hw3 dirk3 ras 2.png  used on input line 185.
+Package pdftex.def Info: hw3 dirk3 ras 2.png  used on input line 187.
 (pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
 [2]
 <hw3 dirk2 err.png, id=37, 578.16pt x 578.16pt>
 File: hw3 dirk2 err.png Graphic file (type png)
 <use hw3 dirk2 err.png>
-Package pdftex.def Info: hw3 dirk2 err.png  used on input line 223.
+Package pdftex.def Info: hw3 dirk2 err.png  used on input line 226.
 (pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
 <hw3 dirk3 err.png, id=38, 578.16pt x 578.16pt>
 File: hw3 dirk3 err.png Graphic file (type png)
 <use hw3 dirk3 err.png>
-Package pdftex.def Info: hw3 dirk3 err.png  used on input line 224.
+Package pdftex.def Info: hw3 dirk3 err.png  used on input line 227.
 (pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
- [3 <./hw3 dirk3 ras 1.png> <./hw3 dirk3 ras 2.png>] [4 <./hw3 dirk2 err.png> <
-./hw3 dirk3 err.png>] (hw3.aux)
+ [3 <./hw3 dirk3 ras 1.png> <./hw3 dirk3 ras 2.png>]
+<hw3 dirk2 err new ic.png, id=46, 578.16pt x 578.16pt>
+File: hw3 dirk2 err new ic.png Graphic file (type png)
+<use hw3 dirk2 err new ic.png>
+Package pdftex.def Info: hw3 dirk2 err new ic.png  used on input line 236.
+(pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
+<hw3 dirk3 err new ic.png, id=47, 578.16pt x 578.16pt>
+File: hw3 dirk3 err new ic.png Graphic file (type png)
+<use hw3 dirk3 err new ic.png>
+Package pdftex.def Info: hw3 dirk3 err new ic.png  used on input line 237.
+(pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
+<hw3 dirk2 err vs t graph 1.png, id=48, 578.16pt x 578.16pt>
+File: hw3 dirk2 err vs t graph 1.png Graphic file (type png)
+<use hw3 dirk2 err vs t graph 1.png>
+Package pdftex.def Info: hw3 dirk2 err vs t graph 1.png  used on input line 243
+.
+(pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
+<hw3 dirk2 err vs t graph 2.png, id=49, 578.16pt x 578.16pt>
+File: hw3 dirk2 err vs t graph 2.png Graphic file (type png)
+<use hw3 dirk2 err vs t graph 2.png>
+Package pdftex.def Info: hw3 dirk2 err vs t graph 2.png  used on input line 244
+.
+(pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
+<hw3 dirk2 err vs t graph 3.png, id=50, 578.16pt x 578.16pt>
+File: hw3 dirk2 err vs t graph 3.png Graphic file (type png)
+<use hw3 dirk2 err vs t graph 3.png>
+Package pdftex.def Info: hw3 dirk2 err vs t graph 3.png  used on input line 245
+.
+(pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
+<hw3 dirk2 err vs t graph 4.png, id=51, 578.16pt x 578.16pt>
+File: hw3 dirk2 err vs t graph 4.png Graphic file (type png)
+<use hw3 dirk2 err vs t graph 4.png>
+Package pdftex.def Info: hw3 dirk2 err vs t graph 4.png  used on input line 246
+.
+(pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
+<hw3 dirk2 err vs t graph 5.png, id=52, 578.16pt x 578.16pt>
+File: hw3 dirk2 err vs t graph 5.png Graphic file (type png)
+<use hw3 dirk2 err vs t graph 5.png>
+Package pdftex.def Info: hw3 dirk2 err vs t graph 5.png  used on input line 247
+.
+(pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
+<hw3 dirk2 err vs t graph 6.png, id=53, 578.16pt x 578.16pt>
+File: hw3 dirk2 err vs t graph 6.png Graphic file (type png)
+<use hw3 dirk2 err vs t graph 6.png>
+Package pdftex.def Info: hw3 dirk2 err vs t graph 6.png  used on input line 248
+.
+(pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
+ [4 <./hw3 dirk2 err.png> <./hw3 dirk3 err.png> <./hw3 dirk2 err new ic.png> <.
+/hw3 dirk3 err new ic.png>]
+<hw3 dirk3 err vs t graph 1.png, id=63, 578.16pt x 578.16pt>
+File: hw3 dirk3 err vs t graph 1.png Graphic file (type png)
+<use hw3 dirk3 err vs t graph 1.png>
+Package pdftex.def Info: hw3 dirk3 err vs t graph 1.png  used on input line 250
+.
+(pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
+<hw3 dirk3 err vs t graph 2.png, id=64, 578.16pt x 578.16pt>
+File: hw3 dirk3 err vs t graph 2.png Graphic file (type png)
+<use hw3 dirk3 err vs t graph 2.png>
+Package pdftex.def Info: hw3 dirk3 err vs t graph 2.png  used on input line 251
+.
+(pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
+<hw3 dirk3 err vs t graph 3.png, id=65, 578.16pt x 578.16pt>
+File: hw3 dirk3 err vs t graph 3.png Graphic file (type png)
+<use hw3 dirk3 err vs t graph 3.png>
+Package pdftex.def Info: hw3 dirk3 err vs t graph 3.png  used on input line 252
+.
+(pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
+<hw3 dirk3 err vs t graph 4.png, id=66, 578.16pt x 578.16pt>
+File: hw3 dirk3 err vs t graph 4.png Graphic file (type png)
+<use hw3 dirk3 err vs t graph 4.png>
+Package pdftex.def Info: hw3 dirk3 err vs t graph 4.png  used on input line 253
+.
+(pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
+<hw3 dirk3 err vs t graph 5.png, id=67, 578.16pt x 578.16pt>
+File: hw3 dirk3 err vs t graph 5.png Graphic file (type png)
+<use hw3 dirk3 err vs t graph 5.png>
+Package pdftex.def Info: hw3 dirk3 err vs t graph 5.png  used on input line 254
+.
+(pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
+<hw3 dirk3 err vs t graph 6.png, id=68, 578.16pt x 578.16pt>
+File: hw3 dirk3 err vs t graph 6.png Graphic file (type png)
+<use hw3 dirk3 err vs t graph 6.png>
+Package pdftex.def Info: hw3 dirk3 err vs t graph 6.png  used on input line 255
+.
+(pdftex.def)             Requested size: 173.44933pt x 173.44933pt.
+ [5 <./hw3 dirk2 err vs t graph 1.png> <./hw3 dirk2 err vs t graph 2.png> <./hw
+3 dirk2 err vs t graph 3.png> <./hw3 dirk2 err vs t graph 4.png> <./hw3 dirk2 e
+rr vs t graph 5.png> <./hw3 dirk2 err vs t graph 6.png>] [6 <./hw3 dirk3 err vs
+ t graph 1.png> <./hw3 dirk3 err vs t graph 2.png> <./hw3 dirk3 err vs t graph 
+3.png> <./hw3 dirk3 err vs t graph 4.png> <./hw3 dirk3 err vs t graph 5.png> <.
+/hw3 dirk3 err vs t graph 6.png>] (hw3.aux)
 Package rerunfilecheck Info: File `hw3.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33870 strings out of 476465
- 718599 string characters out of 2790746
+ 34028 strings out of 476465
+ 723819 string characters out of 2790746
  1872324 words of memory out of 3000000
- 53561 multiletter control sequences out of 15000+600000
+ 53702 multiletter control sequences out of 15000+600000
  521882 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,11n,118p,1002b,1204s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 116i,11n,118p,1002b,1212s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmbx10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmex10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type
@@ -1218,9 +1307,9 @@ yanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:
 10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmsy7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmtt10.pfb>
-Output written on hw3.pdf (4 pages, 338912 bytes).
+Output written on hw3.pdf (6 pages, 572452 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 16934 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 138 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
+ 17004 words of extra memory for PDF output out of 17280 (max. 10000000)
 

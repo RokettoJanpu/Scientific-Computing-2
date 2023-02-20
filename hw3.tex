@@ -126,7 +126,7 @@ To finish showing A--stability, we plot the RAS and see that it contains the lef
 \url{https://github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw3%20RAS.ipynb}
 
 \begin{center}
-\includegraphics[scale=.3]{hw3 dirk2 RAS}
+	\includegraphics[scale=.3]{hw3 dirk2 RAS}
 \end{center}
 \sep
 
@@ -144,6 +144,7 @@ $$\sum_{l=1}^2 b_l = \frac12 + \frac12 = 1$$
 Check the 2nd order accuracy condition.
 $$\sum_{l=1}^2 b_lc_l = \frac12\gamma+ \frac12(1-\gamma) = \frac12(\gamma+1-\gamma) = \frac12$$
 
+
 \item \pf Check the 3rd order accuracy conditions.
 $$\sum_{p,q,r} b_pa_{pq}a_{pr} = \frac12[\gamma^2+2\gamma\cdot0+0^2] + \frac12[(1-2\gamma)^2+2(1-2\gamma)\gamma+\gamma^2]$$
 The quantity in the second bracket is
@@ -159,6 +160,7 @@ $$\gamma^2 = \frac12+ \frac3{36} + 2\frac{3^{1/2}}{12}
 = \frac16[2+3^{1/2}]$$
 so finally,
 $$\sum_{p,q,r} b_pa_{pq}a_{pr} = \frac16[2+3^{1/2}-3-3^{1/2}+3] = \frac13$$
+
 
 \item First find the stability function $R(z)$.
 $$I - zA = \m{1-\gamma z & 0 \\ -(1-2\gamma)z & 1-\gamma z}
@@ -181,8 +183,8 @@ We check that the method for $\gamma=1\pm2^{-1/2}$ is A--stable, hence L--stable
 \url{https://github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw3%20RAS.ipynb}
 
 \begin{center}
-\includegraphics[scale=.3]{hw3 dirk3 ras 1}
-\includegraphics[scale=.3]{hw3 dirk3 ras 2}
+	\includegraphics[scale=.3]{hw3 dirk3 ras 1}
+	\includegraphics[scale=.3]{hw3 dirk3 ras 2}
 \end{center}
 
 \end{enumerate}
@@ -190,9 +192,11 @@ We check that the method for $\gamma=1\pm2^{-1/2}$ is A--stable, hence L--stable
 
 
 
-\tbf{Problem 3.}
+\tbf{Problem 3.} Code for all parts of this problem:
 
-\begin{enumerate}
+\url{https://github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw3.ipynb}
+
+\begin{enumerate}[label=(\alph*)]
 	
 \item Set $f(t,y):=-L(y-\phi(t))+\phi'(t)$. To implement DIRK2, we first obtain explicit formulas for $k_1,k_2,u_{n+1}$.
 $$k_1 = f(t_n+\gamma h,u_n+h\gamma k_1)
@@ -206,7 +210,7 @@ $$\imp (1+Lh\gamma)k_2 = -L\sbr{u_n+h(1-\gamma)k_1-\phi(t_n+h)}+\phi'(t_n+h)$$
 $$\imp k_2 = \frac{-L\sbr{u_n+h(1-\gamma)k_1-\phi(t_n+h)}+\phi'(t_n+h)}{1+Lh\gamma}$$
 $$u_{n+1} = u_n+h\sbr{(1-\gamma)k_1+\gamma k_2}$$
 
-We do the same for DIRK3.
+We do the same for DIRK3 (abuse of notation for DIRK of order 3).
 $$k_1 = f(t_n+\gamma h,u_n+h\gamma k_1)$$
 so the explicit formula for $k_1$ is the same as in DIRK2.
 $$k_1 = \frac{-L\sbr{u_n-\phi(t_n+\gamma h)}+\phi'(t_n+\gamma h)}{1+Lh\gamma}$$
@@ -217,14 +221,39 @@ $$\imp (1+Lh\gamma)k_2 = -L\sbr{u_n+h(1-2\gamma)k_1-\phi(t_n+(1-\gamma)h)}+\phi'
 $$\imp k_2 = \frac{-L\sbr{u_n+h(1-2\gamma)k_1-\phi(t_n+(1-\gamma)h)}+\phi'(t_n+(1-\gamma)h)}{1+Lh\gamma}$$
 $$u_{n+1} = u_n+\frac h2[k_1+k_2]$$
 
-Code: \url{https://github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw3.ipynb}
 
 \begin{center}
-\includegraphics[scale=.3]{hw3 dirk2 err}
-\includegraphics[scale=.3]{hw3 dirk3 err}
+	\includegraphics[scale=.3]{hw3 dirk2 err}
+	\includegraphics[scale=.3]{hw3 dirk3 err}
 \end{center}
 
-For larger values of $h$, about $\log h>-10$, the log--log graph has a slope of 2, ie the error looks quadratic in $h$. For smaller values of $h$, about $\log h<-10$, the log--log graph has a slope of 1, ie the error looks linear in $h$.
+For $h>10^{-4}$, the log--log graph roughly has a slope of 2, ie the error is on the order of $h$. For $10^{-5}<h<10^{-4}$, the log--log graph roughly has a slope of 1, ie the error is on the order of $h^2$. For $h<10^{-5}$, the slope is considerably steeper, ie the error is on the order of a high power of $h$.
+
+
+\item Repeating (a) with $y(0)=\sin(\frac\pi4)+10$, we notably get a region for DIRK2 where error increases as $h$ decreases, and a region for DIRK3 of very small slope.
+
+\begin{center}
+	\includegraphics[scale=.3]{hw3 dirk2 err new ic}
+	\includegraphics[scale=.3]{hw3 dirk3 err new ic}
+\end{center}
+
+For each method, we plot error vs time graphs for $h=10^{-1},10^{-2},10^{-3}$ and $T_\text{max}=10,1$.
+
+\begin{center}
+	\includegraphics[scale=.3]{hw3 dirk2 err vs t graph 1}
+	\includegraphics[scale=.3]{hw3 dirk2 err vs t graph 2}
+	\includegraphics[scale=.3]{hw3 dirk2 err vs t graph 3}
+	\includegraphics[scale=.3]{hw3 dirk2 err vs t graph 4}
+	\includegraphics[scale=.3]{hw3 dirk2 err vs t graph 5}
+	\includegraphics[scale=.3]{hw3 dirk2 err vs t graph 6}
+	
+	\includegraphics[scale=.3]{hw3 dirk3 err vs t graph 1}
+	\includegraphics[scale=.3]{hw3 dirk3 err vs t graph 2}
+	\includegraphics[scale=.3]{hw3 dirk3 err vs t graph 3}
+	\includegraphics[scale=.3]{hw3 dirk3 err vs t graph 4}
+	\includegraphics[scale=.3]{hw3 dirk3 err vs t graph 5}
+	\includegraphics[scale=.3]{hw3 dirk3 err vs t graph 6}
+\end{center}
 
 \end{enumerate}
 
