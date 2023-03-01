@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  28 FEB 2023 05:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  1 MAR 2023 05:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1160,16 +1160,52 @@ n/10 https : / / github . com / RokettoJanpu / Scientific-[]Computing-[]2 / blo
 b / main / hw4 . ipynb$[] 
  []
 
-[5] (hw4.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+
+ []
+
+<hw4 dirk x.png, id=38, 578.16pt x 144.54pt>
+File: hw4 dirk x.png Graphic file (type png)
+<use hw4 dirk x.png>
+Package pdftex.def Info: hw4 dirk x.png  used on input line 294.
+(pdftex.def)             Requested size: 144.53964pt x 36.1349pt.
+<hw4 dirk y.png, id=40, 578.16pt x 144.54pt>
+File: hw4 dirk y.png Graphic file (type png)
+<use hw4 dirk y.png>
+Package pdftex.def Info: hw4 dirk y.png  used on input line 295.
+(pdftex.def)             Requested size: 144.53964pt x 36.1349pt.
+<hw4 dirk z.png, id=41, 578.16pt x 144.54pt>
+File: hw4 dirk z.png Graphic file (type png)
+<use hw4 dirk z.png>
+Package pdftex.def Info: hw4 dirk z.png  used on input line 296.
+(pdftex.def)             Requested size: 144.53964pt x 36.1349pt.
+<hw4 bdf x.png, id=42, 578.16pt x 144.54pt>
+File: hw4 bdf x.png Graphic file (type png)
+<use hw4 bdf x.png>
+Package pdftex.def Info: hw4 bdf x.png  used on input line 299.
+(pdftex.def)             Requested size: 144.53964pt x 36.1349pt.
+<hw4 bdf y.png, id=43, 578.16pt x 144.54pt>
+File: hw4 bdf y.png Graphic file (type png)
+<use hw4 bdf y.png>
+Package pdftex.def Info: hw4 bdf y.png  used on input line 300.
+(pdftex.def)             Requested size: 144.53964pt x 36.1349pt.
+<hw4 bdf z.png, id=44, 578.16pt x 144.54pt>
+File: hw4 bdf z.png Graphic file (type png)
+<use hw4 bdf z.png>
+Package pdftex.def Info: hw4 bdf z.png  used on input line 301.
+(pdftex.def)             Requested size: 144.53964pt x 36.1349pt.
+[5 <./hw4 dirk x.png> <./hw4 dirk y.png> <./hw4 dirk z.png> <./hw4 bdf x.png> <
+./hw4 bdf y.png> <./hw4 bdf z.png>] (hw4.aux)
 Package rerunfilecheck Info: File `hw4.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33816 strings out of 476465
- 717397 string characters out of 2790746
+ 33886 strings out of 476465
+ 718609 string characters out of 2790746
  1873324 words of memory out of 3000000
- 53515 multiletter control sequences out of 15000+600000
- 521882 words of font info for 93 fonts, out of 8000000 for 9000
+ 53575 multiletter control sequences out of 15000+600000
+ 521933 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,14n,118p,1002b,1114s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
@@ -1188,9 +1224,9 @@ s/cm/cmr7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public
 pe1/public/amsfonts/cm/cmsy5.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RyanPC/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on hw4.pdf (5 pages, 187073 bytes).
+Output written on hw4.pdf (5 pages, 251414 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
+ 118 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
- 16909 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 16939 words of extra memory for PDF output out of 17280 (max. 10000000)
 
