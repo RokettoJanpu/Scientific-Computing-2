@@ -102,18 +102,18 @@
 $$\rho(z) = z^k + \sum_{j=0}^{k-1}\alpha_jz^{k-1-j}$$
 and the recurrence is
 $$u_{n+1} + \sum_{j=0}^{k-1}\alpha_ju_{n-j} = 0$$
-Plug $u_n=n^lr^n$ into the LHS of the recurrence. Below, $w$ depends on $l$ and $n$, but for the sake of brevity we denote only the dependence on $l$.
-$$w_l := u_{n+1} + \sum_{j=0}^{k-1}\alpha_ju_{n-j}
-= (n+1)^lr^{n+1} + \sum_{j=0}^{k-1}\alpha_j(n-j)^lr^{n-j}
-= r^{n-k+1} \sbr{(n+1)^lr^k + \sum_{j=0}^{k-1}\alpha_j(n-j)^lr^{k-1-j}}$$
-Now induct on $l$ for $0\le l\le m-1$.\\
-
-For the base case,
-$$w_0 = r^{n-k+1}\sbr{r^k + \sum_{j=0}^{k-1}a_jr^{k-1-j}}
-= r^{n-k+1}\rho(r)
+Define a linear operator $D:=r\dv{r}$. Then for all $n$ and $l$,
+$$D[n^lr^n] = r\dv{r} n^lr^n = rn^lnr^{n-1} = n^{l+1}r^n$$
+so that in particular,
+$$n^lr^n = D[n^{l-1}r^n] = D^2[n^{l-2}r^n] = \ldots = D^l[r^n] \quad (1.1)$$
+Plug $u_n=n^lr^n$ into the LHS of the recurrence, apply (1.1) to each term, then use the linearity of $D$.
+$$u_{n+1} + \sum_{j=0}^{k-1}\alpha_ju_{n-j} = (n+1)^lr^{n+1} + \sum_{j=0}^{k-1}\alpha_j(n-j)^lr^{n-j}
+= D^l[r^{n+1}] + \sum_{j=0}^{k-1}\alpha_j D^l[r^{n-j}]
+= D^l\sbr{r^{n+1} + \sum_{j=0}^{k-1}\alpha_j r^{n-j}}$$
+$$= D^l\sbr{r^{n-k+1}\br{r^k + \sum_{j=0}^{k-1}\alpha_jr^{k-1-j}}}
+= D^l[r^{n-k+1}\rho(r)]
+= D^l[0]
 = 0$$
-For the inductive step, assume $w_{l-1}=0$.
-
 \sep
 
 
