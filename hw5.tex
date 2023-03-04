@@ -102,7 +102,7 @@
 
 \begin{enumerate}
 	
-\item From $H(p,q)=T(p)=U(q)$,
+\item From $H(p,q)=T(p)+U(q)$,
 $$\ptl_pH(p,q) = T'(p),
 \quad \ptl_qH(p,q) = U'(q)$$
 Plug into the Stoermer--Verlet method.
@@ -140,7 +140,7 @@ $$\m{p_{n+1} \\ q_{n+1}} = A\m{p_n \\ q_n},
 \quad c := \frac hm$$
 
 
-\item We compute
+\item \pf We compute
 $$JA = \m{0 & 1 \\ -1 & 0}\m{a & b \\ c & a}
 = \m{c & a \\ -a & -b}$$
 $$\imp A^TJA = \m{a & c \\ b & a}\m{c & a \\ -a & -b}
@@ -152,7 +152,39 @@ $$a^2 - bc = 1 + \frac14h^4\om^4 - h^2\om^2 - h^2\om^2\br{\frac14h^2\om^2 - 1}
 $$\imp A^TJA = \m{0 & 1 \\ -1 & 0} = J$$
 
 
-\item e
+\item \pf The shadow Hamiltonian is
+$$H^*(p_n,q_n) = \frac{p^2}{2m} + \frac12m\om^2q^2\sbr{1 - \frac14h^2\om^2}
+= \m{p_n \\ q_n}^T S \m{p_n \\ q_n},
+\quad S := \m{d & 0 \\ 0 & e},
+\quad d := \frac1{2m},
+\quad e := \frac12m\om^2\sbr{1 - \frac14h^2\om^2}$$
+We compute
+$$SA = \m{d & 0 \\ 0 & e}\m{a & b \\ c & a}
+= \m{da & db \\ ec & ea}$$
+$$A^TSA = \m{a & c \\ b & a}\m{da & db \\ ec & ea}
+= \m{da^2+ec^2 & dba+eac \\ bda+aec & db^2+ea^2}
+= \m{da^2+ec^2 & a(bd+ec) \\ a(bd+ec) & db^2+ea^2}$$
+\begin{align*}
+	da^2 + ec^2 &= \frac{1}{2m}\sbr{1 + \frac14h^4\om^4 - h^2\om^2} + \frac12m\om^2\sbr{1 - \frac14h^2\om^2}\frac{h^2}{m^2}\\
+	&= \frac{1}{2m}\sbr{1 + \frac14h^4\om^4 - h^2\om^2 + h^2\om^2 - \frac14h^4\om^4}\\
+	&= \frac{1}{2m}\\
+	&= d
+\end{align*}
+$$bd + ec = \frac12h\om^2\sbr{\frac14h^2\om^2 - 1} + \frac12h\om^2\sbr{1 - \frac14h^2\om^2} = 0$$
+\begin{align*}
+	db^2 + ea^2 &= \frac{1}{2m}h^2m^2\om^4\sbr{\frac14h^2\om^2 - 1}^2 + \frac12m\om^2\sbr{1 - \frac14h^2\om^2}\sbr{1 + \frac14h^4\om^4 - h^2\om^2} \\
+	&= \frac12m\om^2\sbr{1-\frac14h^2\om^2}\sbr{h^2\om^2\br{1 - \frac14h^2\om^2} + 1 + \frac14h^4\om^4 - h^2\om^2}\\
+	&= \frac12m\om^2\sbr{1-\frac14h^2\om^2}\sbr{h^2\om^2 - \frac14h^4\om^4 + 1 + \frac14h^4\om^4 - h^2\om^2}\\
+	&= \frac12m\om^2\sbr{1-\frac14h^2\om^2}\\
+	&= e	
+\end{align*}
+Put together,
+$$A^TSA = \m{d & a\cdot0 \\ a\cdot0 & e} = \m{d & 0 \\ 0 & e} = S$$
+$$\imp H^*(p_{n+1},q_{n+1}) = \m{p_{n+1} \\ q_{n+1}}^TS\m{p_{n+1} \\ q_{n+1}}
+= \m{p_{n} \\ q_{n}}^TA^TSA\m{p_{n} \\ q_{n}}
+= \m{p_{n} \\ q_{n}}^TS\m{p_{n} \\ q_{n}}
+= H^*(p_n,q_n)$$
+Thus $H^*$ is conserved.
 
 \end{enumerate}
 
