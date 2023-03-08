@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  4 MAR 2023 16:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  7 MAR 2023 15:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1134,15 +1134,15 @@ Overfull \hbox (49.23842pt too wide) detected at line 160
 cmm/m/it/10 ;  e \OT1/cmr/m/n/10 := []\OML/cmm/m/it/10 m![] []
  []
 
-[2] (hw5.aux)
+[2] [3] (hw5.aux)
 Package rerunfilecheck Info: File `hw5.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33797 strings out of 476465
- 717173 string characters out of 2790746
- 1883324 words of memory out of 3000000
- 53506 multiletter control sequences out of 15000+600000
+ 33800 strings out of 476465
+ 717213 string characters out of 2790746
+ 1884324 words of memory out of 3000000
+ 53507 multiletter control sequences out of 15000+600000
  521561 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,11n,118p,1002b,1111s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1158,9 +1158,9 @@ yanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:
 /Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmsy7.pfb>
-Output written on hw5.pdf (2 pages, 121676 bytes).
+Output written on hw5.pdf (3 pages, 127016 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
+ 78 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
  16397 words of extra memory for PDF output out of 17280 (max. 10000000)
 
