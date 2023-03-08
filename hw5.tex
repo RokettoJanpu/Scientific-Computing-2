@@ -217,6 +217,7 @@ $$k = f(z_n) + \frac12hDf(z_n)k
 \imp k = \sbr{I - \frac12hDf(z_n)}\inv f(z_n)$$
 Newton's iteration for approximating $k$ uses the Jacobian of $F(k):=k-f(z_n+\frac12hk)$,
 $$DF(k) = I - Df\br{z_n + \frac12hk}\frac12hI = I - \frac12hDf\br{z_n + \frac12hk}$$
+Below are the orbits using IMP for 100, 1000, and 10000 steps per period, and the corresponding Hamiltonian vs time graphs.
 
 \begin{center}
 	\includegraphics[scale=.3]{hw5 IMP orbit 100 steps}
@@ -238,6 +239,7 @@ $$\ptl_pH(p,q) = \grad T(p) = \m{u \\ v},
 In the method derived in problem 1, replace $T'$ and $U'$ by $\grad T$ and $\grad U$.
 $$q_{n+1} = q_n + h\grad T\br{p_n - \frac12hU'(q_n)}$$
 $$p_{n+1} = p_n - \frac12h\sbr{U'(q_n) + \grad U\br{q_n + h\grad T\br{p_n - \frac12h\grad U(q_n)}}}$$
+Below are the same plots as in part (b) but using SV instead.
 
 \begin{center}
 	\includegraphics[scale=.3]{hw5 SV orbit 100 steps}
