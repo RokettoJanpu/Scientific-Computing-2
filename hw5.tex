@@ -194,12 +194,103 @@ Thus $H^*$ is conserved.
 \begin{enumerate}[label=(\alph*)]
 	
 \item The Hamiltonian equations of motion are
-$$\dot u = -\ptl_xH = -\frac{x}{(x^2+y^2)^{3/2}}$$
-$$\dot v = -\ptl_yH = -\frac{y}{(x^2+y^2)^{3/2}}$$
+$$\dot u = -\ptl_xH = -x(x^2+y^2)^{-3/2}$$
+$$\dot v = -\ptl_yH = -y(x^2+y^2)^{-3/2}$$
 $$\dot x = -\ptl_uH = u$$
 $$\dot y = -\ptl_vH = v$$
 From the initial conditions, the total energy is
 $$H\eval_{t=0} = \frac120^2 + \frac12\br{\frac12}^2 - \frac{1}{(2^2+0^2)^{1/2}} = \frac18 - \frac12 = -\frac38 < 0$$
+
+
+\item Code: \url{https://github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw5.ipynb}
+
+The Jacobian of $f$ is
+$$Df(u,v,x,y) = \m{
+0 & 0 & (2x^2 - y^2)(x^2 + y^2)^{-5/2} & 3xy(x^2 + y^2)^{-5/2} \\
+0 & 0 & 3xy(x^2 + y^2)^{-5/2} & (2y^2 - x^2)(x^2 + y^2)^{-5/2} \\
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0
+}$$
+In the implicit midpoint rule (IMP), the initial approximation of $k$ is given by
+$$k = f(z_n) + \frac12hDf(z_n)k
+\imp \sbr{I - \frac12hDf(z_n)}k = f(z_n)
+\imp k = \sbr{I - \frac12hDf(z_n)}f(z_n)$$
+Newton's iteration for approximating $k$ uses the Jacobian of $F(k):=k-f(z_n+\frac12hk)$,
+$$DF(k) = I - Df\br{z_n + \frac12hk}\frac12hI = I - \frac12hDf\br{z_n + \frac12hk}$$
+
+\begin{center}
+	\includegraphics[scale=.3]{hw5 IMP orbit 100 steps}
+	\includegraphics[scale=.3]{hw5 IMP orbit 1000 steps}
+	\includegraphics[scale=.3]{hw5 IMP orbit 10000 steps}
+	\includegraphics[scale=.3]{hw5 IMP ham 100 steps}
+	\includegraphics[scale=.3]{hw5 IMP ham 1000 steps}
+	\includegraphics[scale=.3]{hw5 IMP ham 10000 steps}
+\end{center}
+
+
+\item In the Stoermer--Verlet method (SV), set $p:=(u,v)$ and $q:=(x,y)$. The Hamiltonian is
+$$H(p,q) = T(p) + U(q),
+\quad T(p) := \frac12u^2 + \frac12v^2,
+\quad U(q) := -(x^2 + y^2)^{-1/2}$$
+so that
+$$\ptl_pH(p,q) = \grad T(p) = \m{u \\ v},
+\quad \ptl_qH(p,q) = \grad U(q) = \m{x(x^2+y^2)^{-3/2} \\ y(x^2+y^2)^{-3/2}}$$
+In the method derived in problem 1, replace $T'$ and $U'$ by $\grad T$ and $\grad U$.
+$$q_{n+1} = q_n + h\grad T\br{p_n - \frac12hU'(q_n)}$$
+$$p_{n+1} = p_n - \frac12h\sbr{U'(q_n) + \grad U\br{q_n + h\grad T\br{p_n - \frac12h\grad U(q_n)}}}$$
+
+\begin{center}
+	\includegraphics[scale=.3]{hw5 SV orbit 100 steps}
+	\includegraphics[scale=.3]{hw5 SV orbit 1000 steps}
+	\includegraphics[scale=.3]{hw5 SV orbit 10000 steps}
+	\includegraphics[scale=.3]{hw5 SV ham 100 steps}
+	\includegraphics[scale=.3]{hw5 SV ham 1000 steps}
+	\includegraphics[scale=.3]{hw5 SV ham 10000 steps}
+\end{center}
+
+
+\item To compare accuracy, we compare the differences in the maximum and minimum Hamiltonian, listed in the order corresponding to the number of steps taken per period: 100, 1000, 10000. The differences for IMP are:
+$$0.005081464348190012,
+\quad 4.900006001706814\cdot10^{-5},
+\quad 4.898265737462992\cdot10^{-7}$$
+The differences for SV are:
+$$0.0039456711144399415,
+\quad 4.022530826314208\cdot10^{-5},
+\quad 4.0233147502455324\cdot10^{-7}$$
+The differences for SV are smaller than those for IMP, so SV is more accurate than IMP.
+
 \end{enumerate}
+\sep
+
+
+
+\tbf{Problem 3.} Using $f(z)=\lambda z$,
+$$k = f\br{z_n + \frac12hk}
+= \lambda\br{z_n + \frac12hk}
+= \lambda z_n + \frac12h\lambda k
+\imp \br{1 - \frac12h\lambda}k = \lambda z_n
+\imp k = \lambda\br{1 - \frac12h\lambda}\inv z_n$$
+$$\imp z_{n+1} = z_n + hk
+= z_n + h\lambda\br{1 - \frac12h\lambda}\inv z_n
+= \sbr{1 + h\lambda\br{1 - \frac12h\lambda}\inv}z_n$$
+Set $w:=h\lambda$, so
+$$1 + h\lambda\br{1 - \frac12h\lambda}\inv = 1 + w\br{1 - \frac12w}\inv
+= 1 + w\br{\frac{2-w}{2}}\inv
+= 1 + \frac{2w}{2-w}
+= \frac{2-w+2w}{2-w}
+= \frac{w+2}{2-w}$$
+$$\imp z_{n+1} = \frac{w+2}{2-w}z_n \imp z_n = \br{\frac{w+2}{2-w}}^nz_0$$
+Now $w=x+iy$ where $x:=\Re w$ and $y:=\Im w$. Then
+$$z_n \app[n][\infty] 0
+\iff \abs{\frac{w+2}{w-2}}<1
+\iff |w+2| < |w-2|
+\iff |w+2|^2 < |w-2|^2
+\iff (x+2)^2 + y^2 < (x-2)^2 + y^2$$
+$$\iff (x+2)^2 < (x-2)^2
+\iff x^2 + 4 + 4x < x^2 + 4 - 4x
+\iff 4x < -4x
+\iff 8x < 0
+\iff x < 0$$
+Thus the RAS is $\brc{w\in\bC: \Re w<0}$.
 	
 \end{document}
