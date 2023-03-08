@@ -153,7 +153,7 @@ $$\imp A^TJA = \m{0 & 1 \\ -1 & 0} = J$$
 
 
 \item \pf The shadow Hamiltonian is
-$$H^*(p_n,q_n) = \frac{p^2}{2m} + \frac12m\om^2q^2\sbr{1 - \frac14h^2\om^2}
+$$H^*(p_n,q_n) = \frac{p_n^2}{2m} + \frac12m\om^2q_n^2\sbr{1 - \frac14h^2\om^2}
 = \m{p_n \\ q_n}^T S \m{p_n \\ q_n},
 \quad S := \m{d & 0 \\ 0 & e},
 \quad d := \frac1{2m},
@@ -194,10 +194,10 @@ Thus $H^*$ is conserved.
 \begin{enumerate}[label=(\alph*)]
 	
 \item The Hamiltonian equations of motion are
-$$\dot u = -\ptl_xH = -x(x^2+y^2)^{-3/2}$$
-$$\dot v = -\ptl_yH = -y(x^2+y^2)^{-3/2}$$
-$$\dot x = -\ptl_uH = u$$
-$$\dot y = -\ptl_vH = v$$
+$$\dot u = -\ptl_xH(u,v,x,y) = -x(x^2+y^2)^{-3/2}$$
+$$\dot v = -\ptl_yH(u,v,x,y) = -y(x^2+y^2)^{-3/2}$$
+$$\dot x = -\ptl_uH(u,v,x,y) = u$$
+$$\dot y = -\ptl_vH(u,v,x,y) = v$$
 From the initial conditions, the total energy is
 $$H\eval_{t=0} = \frac120^2 + \frac12\br{\frac12}^2 - \frac{1}{(2^2+0^2)^{1/2}} = \frac18 - \frac12 = -\frac38 < 0$$
 
@@ -214,7 +214,7 @@ $$Df(u,v,x,y) = \m{
 In the implicit midpoint rule (IMP), the initial approximation of $k$ is given by
 $$k = f(z_n) + \frac12hDf(z_n)k
 \imp \sbr{I - \frac12hDf(z_n)}k = f(z_n)
-\imp k = \sbr{I - \frac12hDf(z_n)}f(z_n)$$
+\imp k = \sbr{I - \frac12hDf(z_n)}\inv f(z_n)$$
 Newton's iteration for approximating $k$ uses the Jacobian of $F(k):=k-f(z_n+\frac12hk)$,
 $$DF(k) = I - Df\br{z_n + \frac12hk}\frac12hI = I - \frac12hDf\br{z_n + \frac12hk}$$
 
