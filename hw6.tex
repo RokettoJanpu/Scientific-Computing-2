@@ -136,11 +136,11 @@
 
 
 \tbf{Problem 2.} The BVP on the domain $\Omega:=[-\pi,\pi]\times[0,2]$ is
-$$u_{xx} + u_{yy} = g(x,y) :=
+$$u_{xx} + u_{yy} = g(x) :=
 \begin{cases}
 	-\cos x, & -\frac\pi2 \le x \le \frac\pi2\\
 	0, & \text{else}
-\end{cases}$$
+\end{cases} \quad (2.1)$$
 with BCs
 $$u\eval_{x=\pi} = u\eval_{x=-\pi},
 \quad u_x\eval_{x=\pi} = u_x\eval_{x=-\pi},
@@ -153,15 +153,20 @@ $$h_x := \frac{2\pi}{J},
 Then
 $$u_{xx}(x,y) = \frac{1}{h_x^2}\sbr{u(x+h_x,y) - 2u(x,y) + u(x-h_x,y)} + O(h_x^2)$$
 $$u_{yy}(x,y) = \frac{1}{h_y^2}\sbr{u(x,y+h_y) - 2u(x,y) + u(x,y-h_y)} + O(h_y^2)$$
-Using the compass direction notation from lecture,
+Plug these expressions into (2.1) and use the compass direction notation from lecture.
 $$-2u_P\sbr{\frac{1}{h_x^2} + \frac{1}{h_y^2}} + \frac{1}{h_x^2}[u_E + u_W] + \frac{1}{h_y^2}[u_N + u_S] = g_P$$
 Set $a:=\frac{1}{h_x^2},~b:=\frac{1}{h_y^2},~c:=a+b$, so that
-$$-2cu_P + a[u_E + u_W] + b[u_N + u_S] = g_P$$
+$$-2cu_P + a[u_E + u_W] + b[u_N + u_S] = g_P \quad (2.2)$$
 
-This creates a mesh from $\Omega$ with $(J+1)^2$ points. To explore the problem, take $J=4$. The corresponding mesh is shown below.
+To explore the appropriate numerical method, take $J=4$. The mesh steps create a mesh from $\Omega$ with $(J+1)^2=25$ points. Using the BCs, it is enough to solve for the values of 16 points, labeled below.
 
 \begin{center}
 	\includegraphics[scale=.1]{hw6 2 grid}
 \end{center}
+
+Apply (2.2) to each point in the mesh to obtain a system $Au=f$, shown below on the left. The block structure of $A$ is compactly written on the right.
+
+\includegraphics[scale=.1]{hw6 2 full}
+\includegraphics[scale=.09]{hw6 2 block}
 
 \end{document}
