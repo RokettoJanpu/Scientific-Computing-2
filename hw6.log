@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  10 MAR 2023 23:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  10 MAR 2023 23:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1177,11 +1177,11 @@ Package pdftex.def Info: hw6 e full.png  used on input line 130.
 (pdftex.def)             Requested size: 218.32841pt x 185.3031pt.
 [2 <./hw6 c full.png> <./hw6 c block.png> <./hw6 d full.png> <./hw6 d block.png
 > <./hw6 e full.png>]
-<hw6 2 grid.png, id=34, 1177.39874pt x 1598.97375pt>
+<hw6 2 grid.png, id=34, 1152.305pt x 1648.1575pt>
 File: hw6 2 grid.png Graphic file (type png)
 <use hw6 2 grid.png>
 Package pdftex.def Info: hw6 2 grid.png  used on input line 164.
-(pdftex.def)             Requested size: 117.74677pt x 159.90674pt.
+(pdftex.def)             Requested size: 115.23724pt x 164.8254pt.
 <hw6 2 full.png, id=35, 2242.3775pt x 1812.7725pt>
 File: hw6 2 full.png Graphic file (type png)
 <use hw6 2 full.png>
@@ -1230,7 +1230,7 @@ s/cm/cmr7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public
 pe1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/RyanPC/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on hw6.pdf (4 pages, 7368503 bytes).
+Output written on hw6.pdf (4 pages, 7376352 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
