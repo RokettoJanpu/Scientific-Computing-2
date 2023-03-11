@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  10 MAR 2023 22:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  10 MAR 2023 23:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1192,16 +1192,26 @@ File: hw6 2 block.png Graphic file (type png)
 <use hw6 2 block.png>
 Package pdftex.def Info: hw6 2 block.png  used on input line 170.
 (pdftex.def)             Requested size: 236.94504pt x 105.87097pt.
- [3 <./hw6 2 grid.png>] [4 <./hw6 2 full.png> <./hw6 2 block.png>] (hw6.aux)
+ [3 <./hw6 2 grid.png>]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<hw6 2 plot.png, id=50, 462.528pt x 346.896pt>
+File: hw6 2 plot.png Graphic file (type png)
+<use hw6 2 plot.png>
+Package pdftex.def Info: hw6 2 plot.png  used on input line 177.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
+ [4 <./hw6 2 full.png> <./hw6 2 block.png> <./hw6 2 plot.png>] (hw6.aux)
 Package rerunfilecheck Info: File `hw6.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33938 strings out of 476465
- 719770 string characters out of 2790746
+ 33958 strings out of 476465
+ 720105 string characters out of 2790746
  1861324 words of memory out of 3000000
- 53629 multiletter control sequences out of 15000+600000
- 521561 words of font info for 89 fonts, out of 8000000 for 9000
+ 53646 multiletter control sequences out of 15000+600000
+ 521729 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,9n,118p,1002b,1115s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
@@ -1218,10 +1228,11 @@ yanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C
 s/cm/cmr7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on hw6.pdf (4 pages, 7315903 bytes).
+/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/RyanPC/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on hw6.pdf (4 pages, 7356827 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
+ 119 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
- 16457 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 16974 words of extra memory for PDF output out of 17280 (max. 10000000)
 
