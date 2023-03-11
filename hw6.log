@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  11 MAR 2023 12:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  11 MAR 2023 12:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1212,11 +1212,11 @@ Package rerunfilecheck Info: File `hw6.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33958 strings out of 476465
- 720105 string characters out of 2790746
- 1861324 words of memory out of 3000000
+ 33966 strings out of 476465
+ 720165 string characters out of 2790746
+ 1863324 words of memory out of 3000000
  53646 multiletter control sequences out of 15000+600000
- 521729 words of font info for 90 fonts, out of 8000000 for 9000
+ 521933 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,9n,118p,1002b,1115s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
@@ -1235,7 +1235,7 @@ s/cm/cmr7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public
 pe1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/RyanPC/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on hw6.pdf (4 pages, 7418120 bytes).
+Output written on hw6.pdf (4 pages, 7418512 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
