@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  17 MAR 2023 00:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  17 MAR 2023 22:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1124,12 +1124,12 @@ File: uesint.fd
 File: hw7 q1 mesh.png Graphic file (type png)
 <use hw7 q1 mesh.png>
 Package pdftex.def Info: hw7 q1 mesh.png  used on input line 129.
-(pdftex.def)             Requested size: 274.24055pt x 50.99348pt.
+(pdftex.def)             Requested size: 246.7914pt x 45.88947pt.
 <hw7 q1 full.png, id=7, 2503.3525pt x 1796.7125pt>
 File: hw7 q1 full.png Graphic file (type png)
 <use hw7 q1 full.png>
 Package pdftex.def Info: hw7 q1 full.png  used on input line 137.
-(pdftex.def)             Requested size: 250.34991pt x 179.68178pt.
+(pdftex.def)             Requested size: 225.292pt x 161.69714pt.
 
 [1
 
@@ -1144,43 +1144,87 @@ File: hw7 q1 plot.png Graphic file (type png)
 <use hw7 q1 plot.png>
 Package pdftex.def Info: hw7 q1 plot.png  used on input line 144.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
- [2 <./hw7 q1 full.png> <./hw7 q1 plot.png>]
-Overfull \hbox (5.48073pt too wide) detected at line 197
- \OT1/cmr/m/n/10 =[]\OMS/cmsy/m/n/10 )  \OML/cmm/m/it/10 ^^Q[]\OT1/cmr/m/n/10 (
-\OML/cmm/m/it/10 x; y\OT1/cmr/m/n/10 ) = \OMS/cmsy/m/n/10 ^^@[] [] \OT1/cmr/m/n
-/10 = [] []
+<hw7 q2 shape 1.png, id=31, 462.528pt x 346.896pt>
+File: hw7 q2 shape 1.png Graphic file (type png)
+<use hw7 q2 shape 1.png>
+Package pdftex.def Info: hw7 q2 shape 1.png  used on input line 158.
+(pdftex.def)             Requested size: 161.88722pt x 121.4154pt.
+<hw7 q2 shape 2.png, id=32, 462.528pt x 346.896pt>
+File: hw7 q2 shape 2.png Graphic file (type png)
+<use hw7 q2 shape 2.png>
+Package pdftex.def Info: hw7 q2 shape 2.png  used on input line 159.
+(pdftex.def)             Requested size: 161.88722pt x 121.4154pt.
+<hw7 q2 shape 3.png, id=33, 462.528pt x 346.896pt>
+File: hw7 q2 shape 3.png Graphic file (type png)
+<use hw7 q2 shape 3.png>
+Package pdftex.def Info: hw7 q2 shape 3.png  used on input line 160.
+(pdftex.def)             Requested size: 161.88722pt x 121.4154pt.
+
+Overfull \hbox (20.35107pt too wide) in paragraph at lines 158--162
+[][] [] []
  []
 
-[3] (hw7.aux)
+[2 <./hw7 q1 full.png> <./hw7 q1 plot.png> <./hw7 q2 shape 1.png> <./hw7 q2 sha
+pe 2.png> <./hw7 q2 shape 3.png>]
+Overfull \hbox (38.52298pt too wide) detected at line 179
+\OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 w[]\OT1/cmr/m/n/10 (1) + \OML/cmm/m/it/10 
+w[]\OT1/cmr/m/n/10 (0) + [][] \OML/cmm/m/it/10 w[]\OT1/cmr/m/n/10 (\OML/cmm/m/i
+t/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT
+1/cmr/m/n/10 )\OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@ [][] \
+OML/cmm/m/it/10 w\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m
+/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 dx
+  \OT1/cmr/m/n/10 =[]\OMS/cmsy/m/n/10 )  [][] \OML/cmm/m/it/10 w[]\OT1/cmr/m/n/
+10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (\OML/
+cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 = \OMS/cmsy/m
+/n/10 ^^@ [][] \OML/cmm/m/it/10 w\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/
+n/10 )\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OM
+L/cmm/m/it/10 dx \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 w[]\OT1/cmr/m/n/10 (1) \OMS
+/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 w[]\OT1/cmr/m/n/10 (0)
+ []
+
+[3] [4]
+Overfull \hbox (33.29877pt too wide) detected at line 273
+\OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y\OT1/cmr/m/n/10 ) = [] 
+\OML/cmm/m/it/10 u[]^^Q[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y\OT1/cmr/m/n/10 
+)  =[]\OMS/cmsy/m/n/10 )  []\OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
+ x; y\OT1/cmr/m/n/10 ) = [] \OML/cmm/m/it/10 u[][]^^Q[]\OT1/cmr/m/n/10 (\OML/cm
+m/m/it/10 x; y\OT1/cmr/m/n/10 ) = [] []
+ []
+
+[5] (hw7.aux)
 Package rerunfilecheck Info: File `hw7.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33853 strings out of 476465
- 718086 string characters out of 2790746
- 1876324 words of memory out of 3000000
- 53547 multiletter control sequences out of 15000+600000
- 521831 words of font info for 92 fonts, out of 8000000 for 9000
+ 33930 strings out of 476465
+ 719400 string characters out of 2790746
+ 1877324 words of memory out of 3000000
+ 53598 multiletter control sequences out of 15000+600000
+ 524949 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,7n,118p,1002b,1205s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\RyanPC\AppData\Local\MiKTeX\fonts/pk/ljfour/public/esint/dpi600\es
-int10.pk><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmbx10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmex10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/RyanPC/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/RyanPC/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/RyanPC/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Rya
-nPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/
-Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.
-pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on hw7.pdf (3 pages, 941653 bytes).
+ 116i,13n,118p,1002b,1205s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\RyanPC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
+m1000.pk> <C:\Users\RyanPC\AppData\Local\MiKTeX\fonts/pk/ljfour/public/esint/dp
+i600\esint10.pk><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmbsy10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/RyanPC/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/RyanPC/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/RyanPC/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Rya
+nPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/
+Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr12.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr17.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr5.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/RyanPC/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/RyanPC/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/RyanPC/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Ry
+anPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on hw7.pdf (5 pages, 1280805 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 16924 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 136 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
+ 23083 words of extra memory for PDF output out of 24883 (max. 10000000)
 
