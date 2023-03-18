@@ -184,8 +184,8 @@ $$A_{ij} = \int_0^1\vp_i'(x)\vp_j'(x)dx$$
 First compute
 $$\vp_i'(x) =
 \begin{cases}
-	0, & x\le x_{i-1} \text{ or } x\ge x_{i+1}\\
-	\frac{1}{x_i-x_{i-1}}, & x_{i-1}<x\le x_i\\
+	0, & x<x_{i-1} \text{ or } x>x_{i+1}\\
+	\frac{1}{x_i-x_{i-1}}, & x_{i-1}<x<x_i\\
 	-\frac{1}{x_{i+1}-x_i}, & x_i<x<x_{i+1}
 \end{cases}$$
 We examine cases for the value of $j$.
@@ -197,26 +197,26 @@ We examine cases for the value of $j$.
 	\item If $j=i-1$ then
 	$$\vp_i'(x)\vp_j'(x) =
 	\begin{cases}
-		0, & x\le x_j \text{ or } x\ge x_i\\
-		-\frac{1}{(x_i-x_{i-1})(x_{j+1}-x_j)}, & x_j<x<x_i\\
+		0, & x< x_{i-1} \text{ or } x> x_i\\
+		-\frac{1}{(x_i-x_{i-1})^2}, & x_{i-1}<x<x_i\\
 	\end{cases}$$
 	hence
-	$$A_{ij} = -\frac{x_i-x_j}{(x_i-x_{i-1})(x_{j+1}-x_j)}$$
+	$$A_{ij} = -\frac{x_i-x_{i-1}}{(x_i-x_{i-1})^2} = -\frac{1}{x_i-x_{i-1}}$$
 	
 	\item If $j=i+1$ then
 	$$\vp_i'(x)\vp_j'(x) =
 	\begin{cases}
-		0, & x\le x_i \text{ or } x\ge x_j\\
-		-\frac{1}{(x_{i+1}-x_{i})(x_{j}-x_{j-1})}, & x_i<x<x_j\\
+		0, & x< x_i \text{ or } x> x_{i+1}\\
+		-\frac{1}{(x_{i+1}-x_{i})^2}, & x_i<x<x_{i+1}\\
 	\end{cases}$$
 	hence
-	$$A_{ij} = -\frac{x_j-x_i}{(x_{i+1}-x_{i})(x_{j}-x_{j-1})}$$
+	$$A_{ij} = -\frac{x_{i+1}-x_i}{(x_{i+1}-x_{i})^2} = -\frac{1}{x_{i+1}-x_{i}}$$
 	
 	\item If $j=i$ then
 	$$\vp_i'(x)\vp_j'(x) =
 	\begin{cases}
-		0, & x\le x_{i-1} \text{ or } x\ge x_{i+1}\\
-		\frac{1}{(x_i-x_{i-1})^2}, & x_{i-1}<x\le x_i\\
+		0, & x< x_{i-1} \text{ or } x> x_{i+1}\\
+		\frac{1}{(x_i-x_{i-1})^2}, & x_{i-1}<x<x_i\\
 		\frac{1}{(x_{i+1}-x_i)^2}, & x_i<x<x_{i+1}
 	\end{cases}$$
 	hence
@@ -228,8 +228,8 @@ In summary,
 $$A_{ij} = 
 \begin{cases}
 	0, & j\le i-2 \text{ or } j\ge i+2\\
-	-\frac{x_i-x_j}{(x_i-x_{i-1})(x_{j+1}-x_j)}, & j=i-1\\
-	-\frac{x_j-x_i}{(x_{i+1}-x_{i})(x_{j}-x_{j-1})}, & j=i+1\\
+	-\frac{1}{x_i-x_{i-1}}, & j=i-1\\
+	-\frac{1}{x_{i+1}-x_{i}}, & j=i+1\\
 	\frac{1}{x_i-x_{i-1}} + \frac{1}{x_{i+1}-x_i}, & j=i
 \end{cases}$$
 

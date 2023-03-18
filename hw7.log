@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  17 MAR 2023 22:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  18 MAR 2023 00:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1182,7 +1182,7 @@ L/cmm/m/it/10 dx \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 w[]\OT1/cmr/m/n/10 (1) \OMS
 /cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 w[]\OT1/cmr/m/n/10 (0)
  []
 
-[3] [4]
+[3]
 Overfull \hbox (33.29877pt too wide) detected at line 273
 \OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y\OT1/cmr/m/n/10 ) = [] 
 \OML/cmm/m/it/10 u[]^^Q[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y\OT1/cmr/m/n/10 
@@ -1191,14 +1191,14 @@ Overfull \hbox (33.29877pt too wide) detected at line 273
 m/m/it/10 x; y\OT1/cmr/m/n/10 ) = [] []
  []
 
-[5] (hw7.aux)
+[4] [5] (hw7.aux)
 Package rerunfilecheck Info: File `hw7.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  33930 strings out of 476465
  719400 string characters out of 2790746
- 1877324 words of memory out of 3000000
+ 1878324 words of memory out of 3000000
  53598 multiletter control sequences out of 15000+600000
  524949 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1222,7 +1222,7 @@ MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/RyanPC/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/RyanPC/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Ry
 anPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on hw7.pdf (5 pages, 1280805 bytes).
+Output written on hw7.pdf (5 pages, 1280147 bytes).
 PDF statistics:
  136 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
