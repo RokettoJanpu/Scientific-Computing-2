@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  29 MAR 2023 05:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  29 MAR 2023 16:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1211,7 +1211,7 @@ mm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 dx \OMS/cmsy/m/n/10 ^^Y []
  []
 
 [5]
-Overfull \hbox (33.29877pt too wide) detected at line 361
+Overfull \hbox (33.29877pt too wide) detected at line 360
 \OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y\OT1/cmr/m/n/10 ) = [] 
 \OML/cmm/m/it/10 u[]^^Q[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y\OT1/cmr/m/n/10 
 )  =[]\OMS/cmsy/m/n/10 )  []\OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
@@ -1250,7 +1250,7 @@ MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/RyanPC/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/RyanPC/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Ry
 anPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on hw7.pdf (6 pages, 1288598 bytes).
+Output written on hw7.pdf (6 pages, 1288504 bytes).
 PDF statistics:
  142 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)
