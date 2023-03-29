@@ -299,7 +299,7 @@ $$A_{N+1,j} =
 
 We now compute the load vector $b$. For $1\le i\le N$, we approximate
 $$\int_0^1\vp_i(x)f(x)dx = \int_{x_{i-1}}^{x_i}\vp_i(x)f(x)dx + \int_{x_i}^{x_{i+1}}\vp_i(x)f(x)dx
-\approx f\br{\frac{x_i-x_{i-1}}2}\frac{x_i-x_{i-1}}2 + f\br{\frac{x_{i+1}-x_{i}}2}\frac{x_{i+1}-x_{i}}2$$
+\approx f\br{\frac{x_{i-1}+x_{i}}2}\frac{x_{i}-x_{i-1}}2 + f\br{\frac{x_{i}+x_{i+1}}2}\frac{x_{i+1}-x_{i}}2$$
 From the BCs, set the vector $u_D$ with components
 $$(u_D)_i :=
 \begin{cases}
@@ -312,10 +312,15 @@ $$Au_D =
 Thus for $1\le i\le N$,
 $$b_i = -(Au_D)_i + \int_0^1\vp_i(x)f(x)dx \approx
 \begin{cases}
-	\frac{1}{x_1} + f\br{\frac{x_1}2}\frac{x_1}2 + f\br{\frac{x_{2}-x_{1}}2}\frac{x_{2}-x_{1}}2, & i=1\\
-	f\br{\frac{x_i-x_{i-1}}2}\frac{x_i-x_{i-1}}2 + f\br{\frac{x_{i+1}-x_{i}}2}\frac{x_{i+1}-x_{i}}2, & 2\le i\le N-1\\
-	\frac{1}{x_{N+1}-x_N} + f\br{\frac{x_N-x_{N-1}}2}\frac{x_N-x_{N-1}}2 + f\br{\frac{x_{N+1}-x_{i}}2}\frac{x_{N+1}-x_{N}}2, & i=N\\
+	\frac{1}{x_1} + f\br{\frac{x_{1}}2}\frac{x_{1}}2 + f\br{\frac{x_{1}+x_{2}}2}\frac{x_{2}-x_{1}}2, & i=1\\
+	f\br{\frac{x_{i-1}+x_{i}}2}\frac{x_{i}-x_{i-1}}2 + f\br{\frac{x_{i}+x_{i+1}}2}\frac{x_{i+1}-x_{i}}2, & 2\le i\le N-1\\
+	\frac{1}{x_{N+1}-x_N} + f\br{\frac{x_{N-1}+x_{N}}2}\frac{x_{N}-x_{N-1}}2 + f\br{\frac{x_{N}+x_{N+1}}2}\frac{x_{N+1}-x_{N}}2, & i=N\\
 \end{cases}$$
+
+
+\item In what case the FEM solution would coincide with the finite difference solution
+using the central difference scheme?
+
 \end{enumerate}
 
 
