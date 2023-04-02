@@ -130,14 +130,24 @@ $$= v(x) - v(0) - x[v(1) - v(0)]
 Since $u\in H^1_0([0,1])$, the identity in particular holds for $u$.
 
 
-\item The linear interpolant, as a linear combination of the basis functions, is
+\item The linear interpolant $I_hu$, as a linear combination of the basis functions $\vp_j$, is
 $$I_hu = \sum_{j=1}^n u(x_j)\vp_j$$
 
 
-\item \pf e
+\item \pf Note that the function $\psi_j$ is not differentiable at $x_j$, but is differentiable at all other points.
+
+Suppose the functions $\psi_j$ are linearly dependent, i.e. there exist scalars $c_j$, not all 0, so that
+$$\sum_{j=1}^nc_j\psi_j=0$$
+In particular the linear combination
+$$\sum_{j=1}^nc_j\psi_j$$
+is differentiable. From the assumption we can pick $i$ so that $c_i\ne0$. Since the functions $\psi_j$, for $j\ne i$, are differentiable at $x_i$, the linear combination
+$$\sum_{j=1 \atop j\ne i}^n c_j\psi_j$$
+is differentiable at $x_i$. Also, since $\psi_i$ is not differentiable at $x_i$ and $c_i\ne0$, the function $c_i\psi_i$ is not differentiable at $x_i$. This means the linear combination $\sum_{j=1}^nc_j\psi_j$ is not differentiable at $x_i$, a contradiction. Thus the functions $\psi_j$ are linearly independent.
+
+Lastly, since $\dim(S_h)=n$, the $n$ linearly independent functions $\psi_j$ form a basis of $S_h$.
 
 
-\item \pf Recall the computations
+\item \pf Recall that
 $$G_y(x,y) =
 \begin{cases}
 	1-x, & y<x\\
