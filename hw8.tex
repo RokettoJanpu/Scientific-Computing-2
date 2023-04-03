@@ -138,7 +138,13 @@ Since $u\in H^1_0([0,1])$, the identity in particular holds for $u$.
 $$I_hu = \sum_{j=1}^n u(x_j)\vp_j$$
 
 
-\item \pf Note that the function $\psi_j$ is not differentiable at $x_j$, but is differentiable at all other points.
+\item \pf The function
+$$\psi_j(x) := G(x_j,y) =
+\begin{cases}
+	(1-x_j)y, & y\le x_j\\
+	x_j(1-y), & y>x_j
+\end{cases}$$
+satisfies $\psi_j(0)=\psi_j(1)=0$ and is linear on each interval $[x_i,x_{i+1}]$ for $0\le i\le n$, so $\psi_j\in S_h$. Also note that $\psi_j$ is not differentiable at $x_j$, but is differentiable at all other points.
 
 Suppose the functions $\psi_j$ are linearly dependent, i.e. there exist scalars $c_j$, not all 0, so that
 $$\sum_{j=1}^nc_j\psi_j=0$$
