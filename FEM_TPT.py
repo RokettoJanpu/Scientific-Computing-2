@@ -73,7 +73,6 @@ def stima_Langevin(verts):
     G = np.reshape(G,(3,1))
     M = (0.5/det)*np.matmul(G,np.transpose(G))
     return M
-    
 
 def stimavbdv(verts,b1,b2):
     bdv1 = b1*np.array([verts[1,1]-verts[2,1],verts[2,1]-verts[0,1],verts[0,1]-verts[1,1]])
@@ -81,6 +80,7 @@ def stimavbdv(verts,b1,b2):
     bdv = np.reshape(bdv1+bdv2,(1,3))
     M = (1/6)*np.concatenate((bdv,bdv,bdv),axis = 0)
     return M
+
 
 def FEM_committor_solver(pts,tri,Aind,Bind,fpot,beta):
     Npts = np.size(pts,axis=0)

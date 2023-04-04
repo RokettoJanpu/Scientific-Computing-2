@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  2 APR 2023 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.26)  4 APR 2023 13:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1132,7 +1132,41 @@ b / main / hw8 . ipynb$[]
  []
 
 
-Overfull \hbox (16.92905pt too wide) detected at line 130
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+<hw8 mesh.png, id=7, 462.528pt x 346.896pt>
+File: hw8 mesh.png Graphic file (type png)
+<use hw8 mesh.png>
+Package pdftex.def Info: hw8 mesh.png  used on input line 111.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+<hw8 voltage 1.pdf, id=9, 462.52798pt x 346.89601pt>
+File: hw8 voltage 1.pdf Graphic file (type pdf)
+<use hw8 voltage 1.pdf>
+Package pdftex.def Info: hw8 voltage 1.pdf  used on input line 118.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+<hw8 current 1.pdf, id=10, 346.89601pt x 346.89601pt>
+File: hw8 current 1.pdf Graphic file (type pdf)
+<use hw8 current 1.pdf>
+Package pdftex.def Info: hw8 current 1.pdf  used on input line 119.
+(pdftex.def)             Requested size: 138.75594pt x 138.75594pt.
+[1
+
+{C:/Users/RyanPC/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./hw8 mesh.
+png> <./hw8 voltage 1.pdf> <./hw8 current 1.pdf>]
+<hw8 voltage 2.pdf, id=90, 462.52798pt x 346.89601pt>
+File: hw8 voltage 2.pdf Graphic file (type pdf)
+<use hw8 voltage 2.pdf>
+Package pdftex.def Info: hw8 voltage 2.pdf  used on input line 124.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+<hw8 current 2.pdf, id=91, 346.89601pt x 346.89601pt>
+File: hw8 current 2.pdf Graphic file (type pdf)
+<use hw8 current 2.pdf>
+Package pdftex.def Info: hw8 current 2.pdf  used on input line 125.
+(pdftex.def)             Requested size: 138.75594pt x 138.75594pt.
+
+Overfull \hbox (16.92905pt too wide) detected at line 160
 \OT1/cmr/m/n/10 = (1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) [
 ][] \OML/cmm/m/it/10 v[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )\OM
 L/cmm/m/it/10 dy \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 x [][] v[]\OT1/cmr/m/n/1
@@ -1147,29 +1181,27 @@ OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 dy \OMS/cmsy/m/n/10 ^^@ \OML
 /cmm/m/it/10 dy
  []
 
-[1
-
-{C:/Users/RyanPC/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+[2 <./hw8 voltage 2.pdf> <./hw8 current 2.pdf>]
 
 Package amsmath Warning: Foreign command \atop;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 154.
+(amsmath)                 on input line 184.
 
-[2] [3] (hw8.aux)
+[3] [4] (hw8.aux)
 Package rerunfilecheck Info: File `hw8.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33858 strings out of 476465
- 717962 string characters out of 2790746
+ 33911 strings out of 476465
+ 719052 string characters out of 2790746
  1867324 words of memory out of 3000000
- 53534 multiletter control sequences out of 15000+600000
- 524949 words of font info for 107 fonts, out of 8000000 for 9000
+ 53577 multiletter control sequences out of 15000+600000
+ 525000 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,13n,118p,1002b,1121s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\RyanPC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
-m1000.pk> <C:\Users\RyanPC\AppData\Local\MiKTeX\fonts/pk/ljfour/public/esint/dp
-i600\esint10.pk><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ 116i,13n,118p,1002b,1227s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\RyanPC\AppData\Local\MiKTeX\fonts/pk/ljfour/public/esint/dpi600\es
+int10.pk> <C:\Users\RyanPC\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
+600\tcrm1000.pk><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmbsy10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/RyanPC/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/RyanPC/AppData/Local/P
@@ -1186,9 +1218,9 @@ MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/RyanPC/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/RyanPC/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Ry
 anPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on hw8.pdf (3 pages, 189402 bytes).
+Output written on hw8.pdf (4 pages, 575700 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 23053 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 23078 words of extra memory for PDF output out of 24883 (max. 10000000)
 

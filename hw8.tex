@@ -97,7 +97,37 @@
 
 
 
-\tbf{Problem 1.} Code: \url{https://github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw8.ipynb}
+\tbf{Problem 1.} Code: \url{https://github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw8.ipynb}\\
+
+These functions were written:
+\begin{itemize}
+	\item a\_func: Determine the conductivity at a point.
+	\item find\_vert\_line\_pts: Find the mesh points along a given vertical line
+	\item FEM\_hw\_solver: FEM solver for the BVP in the HW.
+\end{itemize}
+
+We use the function distmesh2D to generate the mesh. For the fixed points, we pick the corners of the square and 100 evenly spaced points on the circle with center $(1.5,1.5)$ and radius 1.
+\begin{center}
+	\includegraphics[scale=.5]{hw8 mesh}
+\end{center}
+
+We solve for the voltage with the function FEM\_hw\_solver. We then plot the voltage and the current density.
+\begin{itemize}
+	\item For $a_1=1.2$ and $a_2=1$:
+	\begin{center}
+		\includegraphics[scale=.4]{hw8 voltage 1}
+		\includegraphics[scale=.4]{hw8 current 1}
+	\end{center}
+	Note that in this case $a_1>a_2$, which visually corresponds to the fact that the current density is greater on the inside of the circle than the outside.
+	\item For $a_1=0.8$ and $a_2=1$:
+	\begin{center}
+		\includegraphics[scale=.4]{hw8 voltage 2}
+		\includegraphics[scale=.4]{hw8 current 2}
+	\end{center}
+	Note that in this case $a_1<a_2$, which visually corresponds to the fact that the current density is greater on the outside of the circle than the inside.
+\end{itemize}
+These cases illustrate the principle of ``the path of least resistance'', in the sense that current flow is higher in regions of greater electrical conductivity.
+\sep
 
 
 
