@@ -84,7 +84,7 @@
 \DeclareMathOperator{\Arg}{Arg}
 
 % title
-\title{Scientific Computing HW 9}
+\title{Complex Analysis Quiz 3}
 \author{Ryan Chen}
 %\date{\today}
 \setlength{\parindent}{0pt}
@@ -96,46 +96,58 @@
 
 
 
-\tbf{Problem 2.} Using separation of variables, write
-$$u(x,t) = X(x)T(t)$$
-Plug into the PDE.
-$$X(x)T'(t) = X''(x)T(t)
-\imp \frac{T'(t)}{T(t)} = \frac{X''(x)}{X(x)} = -\lambda
-\imp X''+\lambda X=0,~T'+\lambda T=0$$
-The eigenvalue problem for $X$,
-$$X''+\lambda X = 0, ~X(0) = X'(\pi) = 0$$
-has eigenvalues and eigenfunctions
-$$\lambda_n = (n+1/2)^2,
-~X_n(x) = \sin[(n+1/2)x],
-~n\ge 0$$
-Solving the ODE for $T$,
-$$\quad T'+\lambda_n T=0
-\imp T(t) = e^{-\lambda n}t$$
-Thus the solution to the BVP is, for some coefficients $a_n$,
-$$u(x,t) = \sum_{n\ge0}a_ne^{-(n+1/2)^2t}\sin[(n+1/2)x]$$
-Applying the IC,
-$$x = u\eval_{t=0} = \sum_{n\ge0}a_n\sin[(n+1/2)x]$$
-Fix $m\ge0$, multiply each side by $X_m(x)$, and integrate on $[0,\pi]$. Using the fact $\int_0^\pi X_n(x)X_m(x)dx=\frac\pi2\delta_{nm}$, the RHS becomes
-$$\int_0^\pi \sum_{n\ge0}a_nX_n(x)X_m(x)dx = \sum_{n\ge0}a_n\int_0^\pi X_n(x)X_m(x)dx
-= \sum_{n\ge0}a_n\frac\pi2 \delta_{nm}
-= a_m\frac\pi2$$
-Integrating by parts, the LHS becomes
-$$\int_0^\pi x\sin[(m+1/2)x]dx = \sbr{-\frac{1}{m+1/2}x\cos[(m+1/2)x] + \frac{1}{(m+1/2)^2}\sin[(m+1/2)x]}\eval_0^\pi$$
-$$= -0 + 0 + \frac{1}{(m+1/2)^2}(-1)^{m} - 0
-= \frac{(-1)^{m}}{(m+1/2)^2}$$
-Thus
-$$a_m\frac\pi2 = \frac{(-1)^{m}}{(m+1/2)^2}
-\imp a_m = \frac{2(-1)^{m+1}}{\pi(m+1/2)^2}$$
+\begin{enumerate}
+	
+\item Write
+$$h(\alpha) = \int_0^\infty f(x)dx,
+\quad f(z) := \frac{1}{z^\alpha+1}$$
+The simple poles $z_k$ of $f$ are
+$$z^\alpha = -1 = e^{i(2k+1)\pi}
+\imp z_k = e^{i(2k+1)\pi/\alpha}$$
+Consider the contour
+$$\Gamma := [0,R] + C_R - \gamma_R,
+\quad C_R: z=Re^{it},~0\le t\le\frac{2\pi}{\alpha},
+\quad \gamma_R: z=te^{i2\pi/\alpha},~0\le t\le R$$
+so that
+$$\int_\Gamma f(z)dz = \int_{[0,R]}f(z)dz + \int_{C_R}f(z)dz - \int_{\gamma_R}f(z)dz$$
+and the only pole of $f$ that lies inside $\Gamma$ is $z_0=e^{i\pi/\alpha}$. We find
+$$\Res(f,z_0) = \lim_{z\to z_0}\frac{z-z_0}{z^\alpha+1}$$
+Using L'Hopital's rule,
+$$\Res(f,z_0) = \lim_{z\to z_0}\frac{1}{\alpha z^{\alpha-1}}
+= \frac{1}{\alpha z_0^{\alpha-1}}
+= \frac{z_0}{\alpha z_0^\alpha}
+= -\frac{z_0}{\alpha}$$
+Thus by the residue theorem,
+$$\int_\Gamma f(z)dz = 2\pi i\Res(f,z_0)
+= -2\pi i\frac{z_0}{\alpha}
+= -2\pi i\frac{e^{i\pi/\alpha}}{\alpha}$$
 
-Code:
-\url{https://github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw9%20q2.ipynb}
+On $C_R$,
+$$|z| = R
+\imp |f(z)| \le \frac{1}{||z|^\alpha-1|}
+= \frac{1}{R^\alpha-1}
+= O\br{\frac{1}{R^\alpha}}$$
+so that, using the fact $\alpha>1$,
+$$\abs{\int_{C_R}f(z)dz} = O\br{\frac{1}{R^{\alpha-1}}}
+\app[R][\infty] 0$$
+Then we compute
+$$\int_{\gamma_R}f(z)dz = \int_0^R\frac{1}{t^\alpha e^{i2\pi}+1}e^{i2\pi/\alpha}dt
+= e^{i2\pi/\alpha}\int_0^R f(t)dt$$
 
-\begin{center}
-	\includegraphics[scale=.5]{hw9 q2 t=0}
-	\includegraphics[scale=.5]{hw9 q2 t=2}
-\end{center}
+Putting together the computations, as $R\to\infty$,
+$$-2\pi i\frac{e^{i\pi/\alpha}}{\alpha} = \int_0^\infty f(x)dx - e^{i2\pi/\alpha}\int_0^R f(x)dx
+= \sbr{1 - e^{i2\pi/\alpha}}\int_0^\infty f(x)dx$$
+Multiply by $e^{-i\pi/\alpha}$.
+$$\frac{-2\pi i}{\alpha} = \sbr{e^{-i\pi/\alpha} - e^{i\pi/\alpha}}\int_0^\infty f(x)dx
+= -2i\sin\frac\pi\alpha\int_0^\infty f(x)dx$$
+$$\imp h(\alpha) = \int_0^\infty f(x)dx = \frac{\pi/\alpha}{\sin\pi/\alpha}$$
 
-In the same ipynb file, we find that the maximum value of $|u(x,0)-x|$ for $m = 100$ is about $6.37\times10^{-3}$.
+
+\item From the last part, the expression for $h(\alpha)$ is valid for
+$$\alpha\in\bC-\sbr{\brc{\frac1k:k\in\bZ}\cup\brc0}$$
+
+\end{enumerate}
+
 
 	
 \end{document}
