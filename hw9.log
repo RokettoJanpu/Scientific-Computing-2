@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.8)  12 APR 2023 21:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.8)  12 APR 2023 21:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1150,19 +1150,19 @@ ng> <./hw9 error.png> <./hw9 loss.png>]
 File: hw9 q2 t=0.png Graphic file (type png)
 <use hw9 q2 t=0.png>
 Package pdftex.def Info: hw9 q2 t=0.png  used on input line 161.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
 <hw9 q2 t=2.png, id=31, 462.528pt x 346.896pt>
 File: hw9 q2 t=2.png Graphic file (type png)
 <use hw9 q2 t=2.png>
 Package pdftex.def Info: hw9 q2 t=2.png  used on input line 162.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
- [2 <./hw9 q2 t=0.png> <./hw9 q2 t=2.png>] [3] (hw9.aux)
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+ [2 <./hw9 q2 t=0.png> <./hw9 q2 t=2.png>] (hw9.aux)
 Package rerunfilecheck Info: File `hw9.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34173 strings out of 476387
- 728455 string characters out of 5788945
+ 34172 strings out of 476387
+ 728449 string characters out of 5788945
  1861660 words of memory out of 5000000
  53944 multiletter control sequences out of 15000+600000
  522199 words of font info for 94 fonts, out of 8000000 for 9000
@@ -1184,9 +1184,9 @@ sfonts/cm/cmr7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RyanPC/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on hw9.pdf (3 pages, 368655 bytes).
+Output written on hw9.pdf (2 pages, 367982 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
+ 102 PDF objects out of 1000 (max. 8388607)
+ 3 named destinations out of 1000 (max. 500000)
  18982 words of extra memory for PDF output out of 20736 (max. 10000000)
 
