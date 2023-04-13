@@ -96,14 +96,30 @@
 
 
 
-\tbf{Problem 1.} The file Lagaris5.ipynb was modified:
+\tbf{Problem 1.} Code:
 
 \url{https://github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw9 q1 v2.ipynb}
 
+This file is the same as Lagaris5.ipynb but with the following modifications:
+
 \begin{itemize}
-	\item In the function ExactSolution, return $y^2\sin\pi x$.
-	\item In the function ActiveFun(x),
+	\item ExactSolution returns $y^2\sin(\pi x)$.
+	\item ActiveFun includes $\tanh^{(4)}(x)$.
+	\item NeuralNetwork includes computations for $N_{yx},~N_{yxx},~N_{yxW},~N_{yxxW}$.
+	\item SolutionModel returns $B(x,y) + x(1-x)y[NN(x,y;W)-NN(x,1;W)-NN_y(x,1;W)]$.
+	\item RHS returns $(2-\pi^2y^2)\sin(\pi x)$.
+	\item PoissonEqSolutionModel is modified for the above solution model.
 \end{itemize}
+
+Below is the computed solution and error.
+\begin{center}
+	\includegraphics[scale=.5]{hw9 sol}
+	\includegraphics[scale=.5]{hw9 error}
+\end{center}
+Below is a graph of loss vs iteration number.
+\begin{center}
+	\includegraphics[scale=.3]{hw9 loss}
+\end{center}
 
 
 
