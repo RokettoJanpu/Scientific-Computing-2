@@ -142,7 +142,7 @@ $$\int_\Omega v\Delta u_ndx = \int_{\ptl\Omega}v\pdv{u_n}{n}ds - \int_\Omega\gra
 = -\int_\Omega\grad v\cdot\grad u_ndx$$
 and similarly for the term involving $\Delta u_{n+1}$. We obtain the weak solution to the IBVP.
 $$\int_\Omega u_{n+1}vdx + \frac12dt\int_\Omega\grad v\cdot\grad u_{n+1}dx = dt\int_\Omega vdx + \int_\Omega u_nvdx + -\frac12dt\int_\Omega\grad v\cdot\grad u_ndx$$
-From this we write the FEM solution. Given a triangulation $\tau$ of $\Omega$, let $\eta_i$ be piecewise affine on each triangle in $\tau$. Then for each timestep $n$, we solve 
+From this we write the FEM solution. Given a triangulation $\tau$ of $\Omega$, let $\eta_i$ be the piecewise linear basis functions from prior FEM problems. Then for each timestep $n$, we solve 
 $$(B+\frac12dtA)U_{n+1} = dtb + (B-\frac12dtA)U_n$$
 where
 $$A_{ij} = \sum_{T\in\tau}\int_T\grad\eta_i\cdot\grad\eta_jdx,
