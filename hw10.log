@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.8)  19 APR 2023 18:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.8)  19 APR 2023 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1134,19 +1134,40 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [2]
-(hw10.aux)
+<hw10 mesh.png, id=24, 462.528pt x 346.896pt>
+File: hw10 mesh.png Graphic file (type png)
+<use hw10 mesh.png>
+Package pdftex.def Info: hw10 mesh.png  used on input line 160.
+(pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
+<hw10 sol t=0.1.pdf, id=26, 346.89601pt x 346.89601pt>
+File: hw10 sol t=0.1.pdf Graphic file (type pdf)
+<use hw10 sol t=0.1.pdf>
+Package pdftex.def Info: hw10 sol t=0.1.pdf  used on input line 166.
+(pdftex.def)             Requested size: 208.1392pt x 208.1392pt.
+<hw10 sol t=1.0.pdf, id=27, 346.89601pt x 346.89601pt>
+File: hw10 sol t=1.0.pdf Graphic file (type pdf)
+<use hw10 sol t=1.0.pdf>
+Package pdftex.def Info: hw10 sol t=1.0.pdf  used on input line 167.
+(pdftex.def)             Requested size: 208.1392pt x 208.1392pt.
+ [2 <./hw10 mesh.png>]
+<hw10 steady state sol.png, id=39, 462.528pt x 346.896pt>
+File: hw10 steady state sol.png Graphic file (type png)
+<use hw10 steady state sol.png>
+Package pdftex.def Info: hw10 steady state sol.png  used on input line 173.
+(pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
+ [3 <./hw10 sol t=0.1.pdf> <./hw10 sol t=1.0.pdf> <./hw10 steady state sol.png>
+] (hw10.aux)
 Package rerunfilecheck Info: File `hw10.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34145 strings out of 476387
- 727869 string characters out of 5788945
- 1868660 words of memory out of 5000000
- 53909 multiletter control sequences out of 15000+600000
+ 34192 strings out of 476387
+ 728882 string characters out of 5788945
+ 1865660 words of memory out of 5000000
+ 53945 multiletter control sequences out of 15000+600000
  524479 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,7n,118p,1003b,1107s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,7n,118p,1003b,1207s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\RyanPC\AppData\Local\MiKTeX\fonts/pk/ljfour/public/esint/dpi600\es
 int10.pk><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmbsy10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/
@@ -1163,9 +1184,9 @@ ic/amsfonts/cm/cmr7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RyanPC/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on hw10.pdf (2 pages, 162059 bytes).
+Output written on hw10.pdf (3 pages, 416377 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 21005 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 150 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 21025 words of extra memory for PDF output out of 24883 (max. 10000000)
 
