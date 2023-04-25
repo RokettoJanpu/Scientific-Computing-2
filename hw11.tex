@@ -113,7 +113,9 @@ $$u_{xx} = \frac12[\vp''(x+at)+\vp''(x-at)] + \frac{1}{2a}[\psi'(x+at)-\psi'(x-a
 $$a^2u_{xx} = \frac{a^2}{2}[\vp''(x+at)+\vp''(x-at)] + \frac{a}{2}[\psi'(x+at)-\psi'(x-at)] = u_{tt}$$
 
 
-\item The domain of influence
+\item The form of solution is
+$$u(x,t) = \frac12[\vp(x+at)+\vp(x-at)] + \frac{1}{2a}\int_{x-at}^{x+at}\psi(s)ds$$
+From its terms we see that $u(x,t)$ depends precisely on the values of $\vp$ at $x\pm at$ and the values of $\psi$ on $[x-at,x+at]$. Thus the domain of dependence of a point $(x,t)$ is $\brc{(s,0):x-at\le s\le x+at}$.
 
 
 \item We see that
@@ -173,11 +175,34 @@ $$\m{\psi(x) \\ \vp'(x)} = w\eval_{t=0} = Cy\eval_{t=0}
 
 \item Code: \url{github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw11 q1.ipynb}
 
+Lax--Friedrichs:
 \begin{center}
-	\includegraphics[scale=.2]{hw11 sol at n = 10}
-	\includegraphics[scale=.2]{hw11 sol at n = 20}
-	\includegraphics[scale=.2]{hw11 sol at n = 40}
-	\includegraphics[scale=.2]{hw11 sol at n = 80}
+	\includegraphics[scale=.4]{hw11 sol n = 10 method 0}
+	\includegraphics[scale=.4]{hw11 sol n = 20 method 0}
+\end{center}
+\begin{center}
+	\includegraphics[scale=.4]{hw11 sol n = 40 method 0}
+	\includegraphics[scale=.4]{hw11 sol n = 80 method 0}
+\end{center}
+
+Upwind:
+\begin{center}
+	\includegraphics[scale=.4]{hw11 sol n = 10 method 1}
+	\includegraphics[scale=.4]{hw11 sol n = 20 method 1}
+\end{center}
+\begin{center}
+	\includegraphics[scale=.4]{hw11 sol n = 40 method 1}
+	\includegraphics[scale=.4]{hw11 sol n = 80 method 1}
+\end{center}
+
+Beam--Warming:
+\begin{center}
+	\includegraphics[scale=.4]{hw11 sol n = 10 method 3}
+	\includegraphics[scale=.4]{hw11 sol n = 20 method 3}
+\end{center}
+\begin{center}
+	\includegraphics[scale=.4]{hw11 sol n = 40 method 3}
+	\includegraphics[scale=.4]{hw11 sol n = 80 method 3}
 \end{center}
 	
 \end{enumerate}
