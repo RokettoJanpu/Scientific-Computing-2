@@ -113,6 +113,9 @@ $$u_{xx} = \frac12[\vp''(x+at)+\vp''(x-at)] + \frac{1}{2a}[\psi'(x+at)-\psi'(x-a
 $$a^2u_{xx} = \frac{a^2}{2}[\vp''(x+at)+\vp''(x-at)] + \frac{a}{2}[\psi'(x+at)-\psi'(x-at)] = u_{tt}$$
 
 
+\item The domain of influence
+
+
 \item We see that
 $$w := \m{u_t \\ u_x}
 \imp w_x = \m{u_{tx} \\ u_{xx}}$$
@@ -166,6 +169,16 @@ Then we find the initial condition for $y$, i.e. the initial conditions for $\xi
 $$\m{\psi(x) \\ \vp'(x)} = w\eval_{t=0} = Cy\eval_{t=0}
 \imp y\eval_{t=0} = C\inv\m{\psi(x) \\ \vp'(x)}
 = \frac{1}{2a}\m{\psi(x)+a\vp'(x) \\ -\psi(x)+a\vp'(x)}$$
+
+
+\item Code: \url{github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw11 q1.ipynb}
+
+\begin{center}
+	\includegraphics[scale=.2]{hw11 sol at n = 10}
+	\includegraphics[scale=.2]{hw11 sol at n = 20}
+	\includegraphics[scale=.2]{hw11 sol at n = 40}
+	\includegraphics[scale=.2]{hw11 sol at n = 80}
+\end{center}
 	
 \end{enumerate}
 
