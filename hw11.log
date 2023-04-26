@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.8)  25 APR 2023 03:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.8)  25 APR 2023 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1129,6 +1129,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+Overfull \hbox (4.90807pt too wide) in paragraph at lines 176--177
+[]\OT1/cmr/m/n/10 (-20) Code: []$\OT1/cmtt/m/n/10 https : / / github . com / Ro
+kettoJanpu / Scientific-[]Computing-[]2 / blob / main / hw11 % 20q1 . ipynb$[] 
+
+ []
+
 <hw11 sol n = 10 method 0.png, id=26, 462.528pt x 346.896pt>
 File: hw11 sol n = 10 method 0.png Graphic file (type png)
 <use hw11 sol n = 10 method 0.png>
@@ -1149,7 +1156,7 @@ File: hw11 sol n = 80 method 0.png Graphic file (type png)
 <use hw11 sol n = 80 method 0.png>
 Package pdftex.def Info: hw11 sol n = 80 method 0.png  used on input line 185.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
- [2 <./hw11 sol n = 10 method 0.png> <./hw11 sol n = 20 method 0.png>]
+[2 <./hw11 sol n = 10 method 0.png> <./hw11 sol n = 20 method 0.png>]
 <hw11 sol n = 10 method 1.png, id=40, 462.528pt x 346.896pt>
 File: hw11 sol n = 10 method 1.png Graphic file (type png)
 <use hw11 sol n = 10 method 1.png>
@@ -1170,40 +1177,62 @@ File: hw11 sol n = 80 method 1.png Graphic file (type png)
 <use hw11 sol n = 80 method 1.png>
 Package pdftex.def Info: hw11 sol n = 80 method 1.png  used on input line 195.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
-<hw11 sol n = 10 method 3.png, id=44, 462.528pt x 346.896pt>
-File: hw11 sol n = 10 method 3.png Graphic file (type png)
-<use hw11 sol n = 10 method 3.png>
-Package pdftex.def Info: hw11 sol n = 10 method 3.png  used on input line 200.
+<hw11 sol n = 10 method 2.png, id=44, 462.528pt x 346.896pt>
+File: hw11 sol n = 10 method 2.png Graphic file (type png)
+<use hw11 sol n = 10 method 2.png>
+Package pdftex.def Info: hw11 sol n = 10 method 2.png  used on input line 200.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
-<hw11 sol n = 20 method 3.png, id=45, 462.528pt x 346.896pt>
-File: hw11 sol n = 20 method 3.png Graphic file (type png)
-<use hw11 sol n = 20 method 3.png>
-Package pdftex.def Info: hw11 sol n = 20 method 3.png  used on input line 201.
+<hw11 sol n = 20 method 2.png, id=45, 462.528pt x 346.896pt>
+File: hw11 sol n = 20 method 2.png Graphic file (type png)
+<use hw11 sol n = 20 method 2.png>
+Package pdftex.def Info: hw11 sol n = 20 method 2.png  used on input line 201.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
  [3 <./hw11 sol n = 40 method 0.png> <./hw11 sol n = 80 method 0.png> <./hw11 s
 ol n = 10 method 1.png> <./hw11 sol n = 20 method 1.png> <./hw11 sol n = 40 met
 hod 1.png> <./hw11 sol n = 80 method 1.png>]
-<hw11 sol n = 40 method 3.png, id=56, 462.528pt x 346.896pt>
+<hw11 sol n = 40 method 2.png, id=56, 462.528pt x 346.896pt>
+File: hw11 sol n = 40 method 2.png Graphic file (type png)
+<use hw11 sol n = 40 method 2.png>
+Package pdftex.def Info: hw11 sol n = 40 method 2.png  used on input line 204.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+<hw11 sol n = 80 method 2.png, id=57, 462.528pt x 346.896pt>
+File: hw11 sol n = 80 method 2.png Graphic file (type png)
+<use hw11 sol n = 80 method 2.png>
+Package pdftex.def Info: hw11 sol n = 80 method 2.png  used on input line 205.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+<hw11 sol n = 10 method 3.png, id=58, 462.528pt x 346.896pt>
+File: hw11 sol n = 10 method 3.png Graphic file (type png)
+<use hw11 sol n = 10 method 3.png>
+Package pdftex.def Info: hw11 sol n = 10 method 3.png  used on input line 210.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+<hw11 sol n = 20 method 3.png, id=59, 462.528pt x 346.896pt>
+File: hw11 sol n = 20 method 3.png Graphic file (type png)
+<use hw11 sol n = 20 method 3.png>
+Package pdftex.def Info: hw11 sol n = 20 method 3.png  used on input line 211.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+<hw11 sol n = 40 method 3.png, id=60, 462.528pt x 346.896pt>
 File: hw11 sol n = 40 method 3.png Graphic file (type png)
 <use hw11 sol n = 40 method 3.png>
-Package pdftex.def Info: hw11 sol n = 40 method 3.png  used on input line 204.
+Package pdftex.def Info: hw11 sol n = 40 method 3.png  used on input line 214.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
-<hw11 sol n = 80 method 3.png, id=57, 462.528pt x 346.896pt>
+<hw11 sol n = 80 method 3.png, id=61, 462.528pt x 346.896pt>
 File: hw11 sol n = 80 method 3.png Graphic file (type png)
 <use hw11 sol n = 80 method 3.png>
-Package pdftex.def Info: hw11 sol n = 80 method 3.png  used on input line 205.
+Package pdftex.def Info: hw11 sol n = 80 method 3.png  used on input line 215.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
- [4 <./hw11 sol n = 10 method 3.png> <./hw11 sol n = 20 method 3.png> <./hw11 s
-ol n = 40 method 3.png> <./hw11 sol n = 80 method 3.png>] (hw11.aux)
+ [4 <./hw11 sol n = 10 method 2.png> <./hw11 sol n = 20 method 2.png> <./hw11 s
+ol n = 40 method 2.png> <./hw11 sol n = 80 method 2.png> <./hw11 sol n = 10 met
+hod 3.png> <./hw11 sol n = 20 method 3.png> <./hw11 sol n = 40 method 3.png> <.
+/hw11 sol n = 80 method 3.png>] [5] (hw11.aux)
 Package rerunfilecheck Info: File `hw11.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34249 strings out of 476387
- 731762 string characters out of 5788945
+ 34298 strings out of 476387
+ 733226 string characters out of 5788945
  1872660 words of memory out of 5000000
- 54014 multiletter control sequences out of 15000+600000
- 521729 words of font info for 90 fonts, out of 8000000 for 9000
+ 54054 multiletter control sequences out of 15000+600000
+ 521831 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,13n,118p,1003b,1217s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\RyanPC\AppData\Local\MiKTeX\fonts/pk/ljfour/public/esint/dpi600\es
@@ -1220,9 +1249,9 @@ pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmsy7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmtt10.pfb>
-Output written on hw11.pdf (4 pages, 466224 bytes).
+Output written on hw11.pdf (5 pages, 519125 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 16969 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
+ 16989 words of extra memory for PDF output out of 17280 (max. 10000000)
 

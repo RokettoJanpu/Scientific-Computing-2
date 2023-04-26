@@ -147,8 +147,8 @@ $$A-\lambda_2I = \m{a & a^2 \\ 1 & a}
 \imp v_2 = \m{-a \\ 1}$$
 Diagonalizing $A$,
 $$A = C\Lambda C\inv,
-\quad C := [v_1,v_2],
-\quad \Lambda := \diag(\lambda_1,\lambda_2)$$
+\quad C := [v_1,v_2] = \m{a & -a \\ 1 & 1},
+\quad \Lambda := \diag(\lambda_1,\lambda_2) = \diag(a,-a)$$
 
 Changing variable, we obtain independent PDEs.
 $$y := C\inv w = \m{\xi \\ \eta}
@@ -160,8 +160,8 @@ $$\imp 0 = w_t - Aw_x
 = C(y_t-\Lambda y_x)
 \imp y_t - \Lambda y_x = 0
 \imp y_t = \Lambda y_x$$
-$$\imp \xi_t = \lambda_1\xi_x = a\xi_x,
-~\eta_t = \lambda_2\eta_x = -a\eta_x$$
+$$\imp \xi_t = a\xi_x,
+~\eta_t = -a\eta_x$$
 
 First find $C\inv$.
 $$\det C = \m[v]{a & -a \\ 1 & 1}
@@ -173,7 +173,7 @@ $$\m{\psi(x) \\ \vp'(x)} = w\eval_{t=0} = Cy\eval_{t=0}
 = \frac{1}{2a}\m{\psi(x)+a\vp'(x) \\ -\psi(x)+a\vp'(x)}$$
 
 
-\item Code: \url{github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw11 q1.ipynb}
+\item Code: \url{https://github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw11%20q1.ipynb}
 
 Lax--Friedrichs:
 \begin{center}
@@ -195,6 +195,16 @@ Upwind:
 	\includegraphics[scale=.4]{hw11 sol n = 80 method 1}
 \end{center}
 
+Lax--Wendroff:
+\begin{center}
+	\includegraphics[scale=.4]{hw11 sol n = 10 method 2}
+	\includegraphics[scale=.4]{hw11 sol n = 20 method 2}
+\end{center}
+\begin{center}
+	\includegraphics[scale=.4]{hw11 sol n = 40 method 2}
+	\includegraphics[scale=.4]{hw11 sol n = 80 method 2}
+\end{center}
+
 Beam--Warming:
 \begin{center}
 	\includegraphics[scale=.4]{hw11 sol n = 10 method 3}
@@ -204,6 +214,10 @@ Beam--Warming:
 	\includegraphics[scale=.4]{hw11 sol n = 40 method 3}
 	\includegraphics[scale=.4]{hw11 sol n = 80 method 3}
 \end{center}
+
+Each scheme is highly accurate in that it computes a solution that essentially coincides with the exact solution, with exceptions occurring at cusps. Some cusps are created and remain at points corresponding to cusps of the initial displacement $\vp(x)=\max(1-|x|,0)$, i.e. at $x=0,1,-1$. From the exact solution
+$$u(x,t) = \frac12[\vp(x+at)+\vp(x-at)]$$
+the other cusps occur at $x\pm at=0,1,-1$, i.e. $x=\mp at,1\mp at,-1\mp at$, and this fact is visually shown by the fact that these cusps propagate with the solution.
 	
 \end{enumerate}
 
