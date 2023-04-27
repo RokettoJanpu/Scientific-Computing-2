@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.8)  26 APR 2023 23:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.8)  26 APR 2023 23:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1234,18 +1234,46 @@ Overfull \hbox (12.58856pt too wide) detected at line 360
 []
  []
 
-[7] [8] [9] [10] (hw11.aux)
+[7] [8] [9]
+<hw11 UL.png, id=114, 1445.4pt x 732.336pt>
+File: hw11 UL.png Graphic file (type png)
+<use hw11 UL.png>
+Package pdftex.def Info: hw11 UL.png  used on input line 465.
+(pdftex.def)             Requested size: 289.07487pt x 146.4646pt.
+<hw11 LaxFr.png, id=115, 1445.4pt x 732.336pt>
+File: hw11 LaxFr.png Graphic file (type png)
+<use hw11 LaxFr.png>
+Package pdftex.def Info: hw11 LaxFr.png  used on input line 469.
+(pdftex.def)             Requested size: 289.07487pt x 146.4646pt.
+ [10 <./hw11 UL.png (PNG copy)>]
+<hw11 LW.png, id=120, 1445.4pt x 732.336pt>
+File: hw11 LW.png Graphic file (type png)
+<use hw11 LW.png>
+Package pdftex.def Info: hw11 LW.png  used on input line 473.
+(pdftex.def)             Requested size: 289.07487pt x 146.4646pt.
+<hw11 LF.png, id=121, 1445.4pt x 732.336pt>
+File: hw11 LF.png Graphic file (type png)
+<use hw11 LF.png>
+Package pdftex.def Info: hw11 LF.png  used on input line 477.
+(pdftex.def)             Requested size: 289.07487pt x 146.4646pt.
+<hw11 BWL.png, id=122, 1445.4pt x 732.336pt>
+File: hw11 BWL.png Graphic file (type png)
+<use hw11 BWL.png>
+Package pdftex.def Info: hw11 BWL.png  used on input line 481.
+(pdftex.def)             Requested size: 289.07487pt x 146.4646pt.
+ [11 <./hw11 LaxFr.png (PNG copy)> <./hw11 LW.png (PNG copy)> <./hw11 LF.png (P
+NG copy)>] [12 <./hw11 BWL.png (PNG copy)>] (hw11.aux)
 Package rerunfilecheck Info: File `hw11.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34355 strings out of 476387
- 733860 string characters out of 5788945
+ 34412 strings out of 476387
+ 734768 string characters out of 5788945
  1875660 words of memory out of 5000000
- 54081 multiletter control sequences out of 15000+600000
+ 54131 multiletter control sequences out of 15000+600000
  522190 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,13n,118p,1003b,1219s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,13n,118p,1003b,1261s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\RyanPC\AppData\Local\MiKTeX\fonts/pk/ljfour/public/esint/dpi600\es
 int10.pk><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmbx10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -1261,9 +1289,9 @@ cm/cmr7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on hw11.pdf (10 pages, 1276579 bytes).
+Output written on hw11.pdf (12 pages, 1511200 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 16999 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 192 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 17024 words of extra memory for PDF output out of 17280 (max. 10000000)
 

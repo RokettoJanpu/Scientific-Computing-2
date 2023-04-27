@@ -397,61 +397,90 @@ Given $a$ and $h$, pick $k=\frac ha$ so that $\nu=1$, hence $f(\nu)=g(\nu)=p(\nu
 
 \item For UL,
 $$u_t + au_x = \frac12ah(1-\nu)u_{xx}$$
-Take the FT in $x$, using the fact $\widehat{\ptl_x^nu}(z)=(iz)^n\hat u(z)$, and solve.
+Take the FT in $x$, using the fact $\widehat{\ptl_x^nu}(\xi)=(i\xi)^n\hat u(\xi)$, and solve.
 \begin{align*}
-	\hat u_t + iaz\hat u &= \frac12ah(1-\nu)(iz)^2\hat u\\
-	&= -\frac12ah(1-\nu)z^2\hat u\\
-	\hat u_t + iaz\hat u + \frac12ah(1-\nu)z^2\hat u &= 0\\
-	\hat u(z,t) &= \hat u_0(z)\exp(-iazt)\exp(-\frac12ah(1-\nu)z^2t)
+	\hat u_t + ia\xi\hat u &= \frac12ah(1-\nu)(i\xi)^2\hat u\\
+	&= -\frac12ah(1-\nu)\xi^2\hat u\\
+	\hat u_t + ia\xi\hat u + \frac12ah(1-\nu)\xi^2\hat u &= 0\\
+	\hat u(\xi,t) &= \hat u_0(\xi)\exp(-ia\xi t)\exp(-\frac12ah(1-\nu)\xi^2t)
 \end{align*}
+Due to the second exponential term, the Fourier modes decay as $t\to\infty$.
 
 For LaxFr,
 $$u_t + au_x = \frac12\frac{ah}{\nu}(1-\nu^2)u_{xx}$$
 Take the FT in $x$ and solve.
 \begin{align*}
-	\hat u_t + iaz\hat u &= -\frac12\frac{ah}{\nu}(1-\nu^2)z^2\hat u\\
-	\hat u_t + iaz\hat u + \frac12\frac{ah}{\nu}(1-\nu^2)z^2\hat u &= 0\\
-	\hat u(z,t) &= \hat u_0(z)\exp(-iazt)\exp(-\frac12\frac{ah}{\nu}(1-\nu^2)z^2t)
+	\hat u_t + ia\xi\hat u &= -\frac12\frac{ah}{\nu}(1-\nu^2)\xi^2\hat u\\
+	\hat u_t + ia\xi\hat u + \frac12\frac{ah}{\nu}(1-\nu^2)\xi^2\hat u &= 0\\
+	\hat u(\xi,t) &= \hat u_0(\xi)\exp(-ia\xi t)\exp(-\frac12\frac{ah}{\nu}(1-\nu^2)\xi^2t)
 \end{align*}
+Due to the second exponential term, the Fourier modes decay as $t\to\infty$.
 
 For LW and LF,
 $$u_t + au_x = \frac16ah^2(\nu^2-1)u_{xxx}$$
 Take the FT in $x$ and solve.
 \begin{align*}
-	\hat u_t + iaz\hat u &= -i\frac16ah^2(\nu^2-1)z^3\hat u\\
-	\hat u_t + iaz\hat u + i\frac16ah^2(\nu^2-1)z^3\hat u &= 0\\
-	\hat u(z,t) &= \hat u_0(z)\exp(-iazt)\exp(-i\frac16ah^2(\nu^2-1)z^3t)
+	\hat u_t + ia\xi\hat u &= -i\frac16ah^2(\nu^2-1)\xi^3\hat u\\
+	\hat u_t + ia\xi\hat u + i\frac16ah^2(\nu^2-1)\xi^3\hat u &= 0\\
+	\hat u(\xi,t) &= \hat u_0(\xi)\exp(-ia\xi t)\exp(-i\frac16ah^2(\nu^2-1)\xi^3t)
 \end{align*}
+The Fourier modes do not decay as $t\to\infty$.
+
 The dispersion relation is
-$$\omega(z) = az + \frac16ah^2(\nu^2-1)z^3$$
+$$\omega(\xi) = a\xi + \frac16ah^2(\nu^2-1)\xi^3$$
 The phase velocity is
-$$c_p(z) = \frac{\omega(z)}{z} = a + \frac16ah^2(\nu^2-1)z^2$$
+$$c_p(\xi) = \frac{\omega(\xi)}{\xi} = a + \frac16ah^2(\nu^2-1)\xi^2$$
 The group velocity is
-$$c_g(z) = \omega'(z) = a + \frac12ah^2(\nu^2-1)z^2$$
+$$c_g(\xi) = \omega'(\xi) = a + \frac12ah^2(\nu^2-1)\xi^2$$
 
 For BWL,
 $$u_t + au_x = \frac16ah^2(2-3\nu+\nu^2)v_{xxx}$$
 Take the FT in $x$ and solve.
 \begin{align*}
-	\hat u_t + iaz\hat u &= -i\frac16ah^2(2-3\nu+\nu^2)z^3\hat u\\
-	\hat u_t + iaz\hat u + i\frac16ah^2(2-3\nu+\nu^2)z^3\hat u\\
-	\hat u(z,t) &= \hat u_0(z)\exp(-iazt)\exp(-i\frac16ah^2(2-3\nu+\nu^2)z^3t)
+	\hat u_t + ia\xi\hat u &= -i\frac16ah^2(2-3\nu+\nu^2)\xi^3\hat u\\
+	\hat u_t + ia\xi\hat u + i\frac16ah^2(2-3\nu+\nu^2)\xi^3\hat u &= 0\\
+	\hat u(\xi,t) &= \hat u_0(\xi)\exp(-ia\xi t)\exp(-i\frac16ah^2(2-3\nu+\nu^2)\xi^3t)
 \end{align*}
+The Fourier modes do not decay as $t\to\infty$.
+
 The dispersion relation is
-$$\omega(z) = az + \frac16ah^2(2-3\nu+\nu^2)z^3$$
+$$\omega(\xi) = a\xi + \frac16ah^2(2-3\nu+\nu^2)\xi^3$$
 The phase velocity is
-$$c_p(z) = \frac{\omega(z)}{z} = a + \frac16ah^2(2-3\nu+\nu^2)z^2$$
+$$c_p(\xi) = \frac{\omega(\xi)}{\xi} = a + \frac16ah^2(2-3\nu+\nu^2)\xi^2$$
 The group velocity is
-$$c_g(z) = \omega'(z) = a + \frac12ah^2(2-3\nu+\nu^2)z^2$$
+$$c_g(\xi) = \omega'(\xi) = a + \frac12ah^2(2-3\nu+\nu^2)\xi^2$$
 
 The original advection equation is
 $$u_t + au_x = 0$$
 Taking the FT in $x$ gives
-$$\hat u_t + iaz\hat u = 0$$
+$$\hat u_t + ia\xi\hat u = 0$$
 The dispersion relation is
-$$\omega(z) = az$$
+$$\omega(\xi) = a\xi$$
 Hence the phase and group velocities are
 $$c_p = c_g = a$$
+
+The file advection.m was run for each scheme.
+
+\begin{center}
+	\includegraphics[scale=.2]{hw11 UL}
+\end{center}
+The RHS of modified UL is proportional to $u_{xx}$, which smears the solution over time.
+\begin{center}
+	\includegraphics[scale=.2]{hw11 LaxFr}
+\end{center}
+The RHS of modified LaxFr is proportional to $u_{xx}$, which smears the solution over time.
+\begin{center}
+	\includegraphics[scale=.2]{hw11 LW}
+\end{center}
+The RHS of modified LW is proportional to $u_{xxx}$, which produces oscillations over time.
+\begin{center}
+	\includegraphics[scale=.2]{hw11 LF}
+\end{center}
+The RHS of modified LF is proportional to $u_{xxx}$, which produces oscillations over time.
+\begin{center}
+	\includegraphics[scale=.2]{hw11 BWL}
+\end{center}
+The RHS of modified BWL is proportional to $u_{xxx}$, which produces oscillations over time.
 
 \end{enumerate}
 
