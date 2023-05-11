@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.8)  10 MAY 2023 21:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.4.8)  10 MAY 2023 23:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1122,43 +1122,166 @@ LaTeX Font Info:    Trying to load font information for U+esint on input line 9
 (C:\Users\RyanPC\AppData\Local\Programs\MiKTeX\tex/latex/esint\uesint.fd
 File: uesint.fd 
 )
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<hw13 sol t = 0 method 0.png, id=7, 462.528pt x 346.896pt>
+File: hw13 sol t = 0 method 0.png Graphic file (type png)
+<use hw13 sol t = 0 method 0.png>
+Package pdftex.def Info: hw13 sol t = 0 method 0.png  used on input line 130.
+(pdftex.def)             Requested size: 106.3792pt x 79.7844pt.
+<hw13 sol t = 1 method 0.png, id=9, 462.528pt x 346.896pt>
+File: hw13 sol t = 1 method 0.png Graphic file (type png)
+<use hw13 sol t = 1 method 0.png>
+Package pdftex.def Info: hw13 sol t = 1 method 0.png  used on input line 131.
+(pdftex.def)             Requested size: 106.3792pt x 79.7844pt.
+<hw13 sol t = 2 method 0.png, id=10, 462.528pt x 346.896pt>
+File: hw13 sol t = 2 method 0.png Graphic file (type png)
+<use hw13 sol t = 2 method 0.png>
+Package pdftex.def Info: hw13 sol t = 2 method 0.png  used on input line 132.
+(pdftex.def)             Requested size: 106.3792pt x 79.7844pt.
+<hw13 sol t = 3 method 0.png, id=11, 462.528pt x 346.896pt>
+File: hw13 sol t = 3 method 0.png Graphic file (type png)
+<use hw13 sol t = 3 method 0.png>
+Package pdftex.def Info: hw13 sol t = 3 method 0.png  used on input line 133.
+(pdftex.def)             Requested size: 106.3792pt x 79.7844pt.
+<hw13 sol t = 4 method 0.png, id=12, 462.528pt x 346.896pt>
+File: hw13 sol t = 4 method 0.png Graphic file (type png)
+<use hw13 sol t = 4 method 0.png>
+Package pdftex.def Info: hw13 sol t = 4 method 0.png  used on input line 134.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<hw13 sol t = 5 method 0.png, id=13, 462.528pt x 346.896pt>
+File: hw13 sol t = 5 method 0.png Graphic file (type png)
+<use hw13 sol t = 5 method 0.png>
+Package pdftex.def Info: hw13 sol t = 5 method 0.png  used on input line 135.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<hw13 sol t = 6 method 0.png, id=14, 462.528pt x 346.896pt>
+File: hw13 sol t = 6 method 0.png Graphic file (type png)
+<use hw13 sol t = 6 method 0.png>
+Package pdftex.def Info: hw13 sol t = 6 method 0.png  used on input line 136.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+
 [1
 
-{C:/Users/RyanPC/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<hw13 q4 plot.png, id=26, 1445.4pt x 732.336pt>
+{C:/Users/RyanPC/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./hw13 sol 
+t = 0 method 0.png> <./hw13 sol t = 1 method 0.png> <./hw13 sol t = 2 method 0.
+png> <./hw13 sol t = 3 method 0.png>]
+<hw13 sol t = 0 method 1.png, id=41, 462.528pt x 346.896pt>
+File: hw13 sol t = 0 method 1.png Graphic file (type png)
+<use hw13 sol t = 0 method 1.png>
+Package pdftex.def Info: hw13 sol t = 0 method 1.png  used on input line 140.
+(pdftex.def)             Requested size: 106.3792pt x 79.7844pt.
+<hw13 sol t = 1 method 1.png, id=42, 462.528pt x 346.896pt>
+File: hw13 sol t = 1 method 1.png Graphic file (type png)
+<use hw13 sol t = 1 method 1.png>
+Package pdftex.def Info: hw13 sol t = 1 method 1.png  used on input line 141.
+(pdftex.def)             Requested size: 106.3792pt x 79.7844pt.
+<hw13 sol t = 2 method 1.png, id=43, 462.528pt x 346.896pt>
+File: hw13 sol t = 2 method 1.png Graphic file (type png)
+<use hw13 sol t = 2 method 1.png>
+Package pdftex.def Info: hw13 sol t = 2 method 1.png  used on input line 142.
+(pdftex.def)             Requested size: 106.3792pt x 79.7844pt.
+<hw13 sol t = 3 method 1.png, id=44, 462.528pt x 346.896pt>
+File: hw13 sol t = 3 method 1.png Graphic file (type png)
+<use hw13 sol t = 3 method 1.png>
+Package pdftex.def Info: hw13 sol t = 3 method 1.png  used on input line 143.
+(pdftex.def)             Requested size: 106.3792pt x 79.7844pt.
+<hw13 sol t = 4 method 1.png, id=45, 462.528pt x 346.896pt>
+File: hw13 sol t = 4 method 1.png Graphic file (type png)
+<use hw13 sol t = 4 method 1.png>
+Package pdftex.def Info: hw13 sol t = 4 method 1.png  used on input line 144.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<hw13 sol t = 5 method 1.png, id=46, 462.528pt x 346.896pt>
+File: hw13 sol t = 5 method 1.png Graphic file (type png)
+<use hw13 sol t = 5 method 1.png>
+Package pdftex.def Info: hw13 sol t = 5 method 1.png  used on input line 145.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<hw13 sol t = 6 method 1.png, id=47, 462.528pt x 346.896pt>
+File: hw13 sol t = 6 method 1.png Graphic file (type png)
+<use hw13 sol t = 6 method 1.png>
+Package pdftex.def Info: hw13 sol t = 6 method 1.png  used on input line 146.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<hw13 sol t = 0 method 2.png, id=48, 462.528pt x 346.896pt>
+File: hw13 sol t = 0 method 2.png Graphic file (type png)
+<use hw13 sol t = 0 method 2.png>
+Package pdftex.def Info: hw13 sol t = 0 method 2.png  used on input line 150.
+(pdftex.def)             Requested size: 106.3792pt x 79.7844pt.
+<hw13 sol t = 1 method 2.png, id=49, 462.528pt x 346.896pt>
+File: hw13 sol t = 1 method 2.png Graphic file (type png)
+<use hw13 sol t = 1 method 2.png>
+Package pdftex.def Info: hw13 sol t = 1 method 2.png  used on input line 151.
+(pdftex.def)             Requested size: 106.3792pt x 79.7844pt.
+<hw13 sol t = 2 method 2.png, id=50, 462.528pt x 346.896pt>
+File: hw13 sol t = 2 method 2.png Graphic file (type png)
+<use hw13 sol t = 2 method 2.png>
+Package pdftex.def Info: hw13 sol t = 2 method 2.png  used on input line 152.
+(pdftex.def)             Requested size: 106.3792pt x 79.7844pt.
+<hw13 sol t = 3 method 2.png, id=51, 462.528pt x 346.896pt>
+File: hw13 sol t = 3 method 2.png Graphic file (type png)
+<use hw13 sol t = 3 method 2.png>
+Package pdftex.def Info: hw13 sol t = 3 method 2.png  used on input line 153.
+(pdftex.def)             Requested size: 106.3792pt x 79.7844pt.
+<hw13 sol t = 4 method 2.png, id=52, 462.528pt x 346.896pt>
+File: hw13 sol t = 4 method 2.png Graphic file (type png)
+<use hw13 sol t = 4 method 2.png>
+Package pdftex.def Info: hw13 sol t = 4 method 2.png  used on input line 154.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<hw13 sol t = 5 method 2.png, id=53, 462.528pt x 346.896pt>
+File: hw13 sol t = 5 method 2.png Graphic file (type png)
+<use hw13 sol t = 5 method 2.png>
+Package pdftex.def Info: hw13 sol t = 5 method 2.png  used on input line 155.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<hw13 sol t = 6 method 2.png, id=54, 462.528pt x 346.896pt>
+File: hw13 sol t = 6 method 2.png Graphic file (type png)
+<use hw13 sol t = 6 method 2.png>
+Package pdftex.def Info: hw13 sol t = 6 method 2.png  used on input line 156.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+ [2 <./hw13 sol t = 4 method 0.png> <./hw13 sol t = 5 method 0.png> <./hw13 sol
+ t = 6 method 0.png> <./hw13 sol t = 0 method 1.png> <./hw13 sol t = 1 method 1
+.png> <./hw13 sol t = 2 method 1.png> <./hw13 sol t = 3 method 1.png> <./hw13 s
+ol t = 4 method 1.png> <./hw13 sol t = 5 method 1.png> <./hw13 sol t = 6 method
+ 1.png> <./hw13 sol t = 0 method 2.png> <./hw13 sol t = 1 method 2.png> <./hw13
+ sol t = 2 method 2.png> <./hw13 sol t = 3 method 2.png> <./hw13 sol t = 4 meth
+od 2.png> <./hw13 sol t = 5 method 2.png> <./hw13 sol t = 6 method 2.png>]
+<hw13 q4 plot.png, id=78, 1445.4pt x 732.336pt>
 File: hw13 q4 plot.png Graphic file (type png)
 <use hw13 q4 plot.png>
-Package pdftex.def Info: hw13 q4 plot.png  used on input line 147.
+Package pdftex.def Info: hw13 q4 plot.png  used on input line 190.
 (pdftex.def)             Requested size: 433.62335pt x 219.70248pt.
- [2 <./hw13 q4 plot.png (PNG copy)>] (hw13.aux)
+ [3 <./hw13 q4 plot.png (PNG copy)>] [4]
+(hw13.aux)
 Package rerunfilecheck Info: File `hw13.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34116 strings out of 476387
- 727580 string characters out of 5788945
- 1871660 words of memory out of 5000000
- 53894 multiletter control sequences out of 15000+600000
- 521954 words of font info for 92 fonts, out of 8000000 for 9000
+ 34373 strings out of 476387
+ 735135 string characters out of 5788945
+ 1870660 words of memory out of 5000000
+ 54113 multiletter control sequences out of 15000+600000
+ 522712 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,9n,118p,1003b,958s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,9n,118p,1003b,1041s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\RyanPC\AppData\Local\MiKTeX\fonts/pk/ljfour/public/esint/dpi600\es
 int10.pk><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmex10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/RyanPC/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/RyanPC/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/RyanPC/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Rya
-nPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/
-Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.
-pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmsy7.pfb>
-Output written on hw13.pdf (2 pages, 453392 bytes).
+onts/cm/cmbx10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmbx12.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/RyanPC/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/RyanPC/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/RyanPC/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Ry
+anPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr17.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr5.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/RyanPC/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RyanPC/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on hw13.pdf (4 pages, 964896 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
- 18450 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
+ 21115 words of extra memory for PDF output out of 24883 (max. 10000000)
 

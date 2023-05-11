@@ -115,6 +115,47 @@ Which coincides with Lax--Wendroff.
 
 
 
+\section*{Problem 2.}
+
+\pf Recall $F(u_L,u_R)=f(u^*(u_L,u_R))$. From the fact $f''>0$, $f'$ is increasing. Suppose $u_L\le u_R$. In case 1, from $f'(u_L)\ge0$ we have $f'\ge0$ hence $f$ is increasing, so $F(u_L,u_R)=\min_{u_L\le u\le u_R}f(u)=f(u_L)$. In case 2, from $f'(u_R)\le0$, we have $f'\le0$ hence $f$ is decreasing, so $F(u_L,u_R)=\min_{u_L\le u\le u_R}f(u)=f(u_R)$. In case 3, we have $f$ is increasing, so $(f(u_L)-f(u_R))/(u_L-u_R)>0$ hence $F(u_L,u_R)=f(u_L)$. Similar arguments can be made for when we suppose $u_L>u_R$.
+
+
+
+\section*{Problem 3.}
+
+Code: \url{https://github.com/RokettoJanpu/Scientific-Computing-2/blob/main/hw13q3.ipynb}
+
+Lax--Friedrichs:
+\begin{center}
+	\includegraphics[scale=.23]{hw13 sol t = 0 method 0}
+	\includegraphics[scale=.23]{hw13 sol t = 1 method 0}
+	\includegraphics[scale=.23]{hw13 sol t = 2 method 0}
+	\includegraphics[scale=.23]{hw13 sol t = 3 method 0}
+	\includegraphics[scale=.3]{hw13 sol t = 4 method 0}
+	\includegraphics[scale=.3]{hw13 sol t = 5 method 0}
+	\includegraphics[scale=.3]{hw13 sol t = 6 method 0}
+\end{center}
+Richtmyer:
+\begin{center}
+	\includegraphics[scale=.23]{hw13 sol t = 0 method 1}
+	\includegraphics[scale=.23]{hw13 sol t = 1 method 1}
+	\includegraphics[scale=.23]{hw13 sol t = 2 method 1}
+	\includegraphics[scale=.23]{hw13 sol t = 3 method 1}
+	\includegraphics[scale=.3]{hw13 sol t = 4 method 1}
+	\includegraphics[scale=.3]{hw13 sol t = 5 method 1}
+	\includegraphics[scale=.3]{hw13 sol t = 6 method 1}
+\end{center}
+MacCormack:
+\begin{center}
+	\includegraphics[scale=.23]{hw13 sol t = 0 method 2}
+	\includegraphics[scale=.23]{hw13 sol t = 1 method 2}
+	\includegraphics[scale=.23]{hw13 sol t = 2 method 2}
+	\includegraphics[scale=.23]{hw13 sol t = 3 method 2}
+	\includegraphics[scale=.3]{hw13 sol t = 4 method 2}
+	\includegraphics[scale=.3]{hw13 sol t = 5 method 2}
+	\includegraphics[scale=.3]{hw13 sol t = 6 method 2}
+\end{center}
+
 \section*{Problem 4.}
 Write the PDE as
 $$u_t = \underbrace{-u_{xxxx} - u_{xx}}_{=:Lu} \underbrace{-\frac12(u^2)_x}_{=:N(u)}$$
@@ -142,7 +183,9 @@ $$Le^{tL}v + e^{tL}v_t = Le^{tL}v + N(e^{tL}v)
 \imp e^{tL}v_t = N(e^{tL}v)
 \imp v_t = e^{-tL}N(e^{tL}v)$$
 
-The file KdVrkm.m was modified to solve this PDE.
+The file KdVrkm.m was modified to solve this PDE:
+
+\url{https://github.com/RokettoJanpu/Scientific-Computing-2/blob/main/KdVrkm.m}
 \begin{center}
 	\includegraphics[scale=.3]{hw13 q4 plot}
 \end{center}
