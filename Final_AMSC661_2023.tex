@@ -1,0 +1,186 @@
+\documentclass[fleqn,11pt]{article}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{epstopdf}
+\usepackage{amsthm}
+\usepackage{threeparttable}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{pdfpages}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{lipsum}
+\usepackage{wasysym}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\usepackage{multicol}
+
+%\textwidth = 7 in
+\textheight = 9.0 in
+%\oddsidemargin = -0.25 in
+%\evensidemargin = 0.0 in
+\topmargin = -0.5 in
+%\headheight = 0.5 in
+%\headsep = 0.0 in
+%\parskip = 0.2in
+%\parindent = 0.0in
+
+\newtheorem{claim}{Claim}
+\newtheorem{lemma}{Lemma}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}{Proposition}
+%\newtheorem{remark}{Remark}
+%\newtheorem{example}{Example}
+\newcounter{examplecounter}
+
+%\newenvironment{proof}[1][Proof]{\begin{trivlist}
+%\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{remark}[1][Remark]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+%\newenvironment{example}[1][Example]{\begin{trivlist}
+%\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{exercise}[1][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+
+\newenvironment{example}{\begin{quote}%
+    \refstepcounter{examplecounter}%
+  \textbf{Example \arabic{examplecounter}}%
+  \quad
+}{%
+\end{quote}%
+}
+
+\def\mr{\mathbb{R}}
+\def\mx{\mathbf{x}}
+\def\mzero{\mathbf{0}}
+\def\ma{\mathbf{a}}
+\def\mb{\mathbf{b}}
+\def\mc{\mathbf{c}}
+\def\sd{S_{\Delta}}
+\def\d{\Delta}
+\def\mb{\mathcal{B}}
+\def\ma{\mathcal{A}}
+\def\var{{\rm Var}}
+\def\cov{{\rm Cov}}
+\def\d{\delta}
+
+
+\hypersetup{colorlinks=true,linkbordercolor=red,linkcolor=blue,pdfborderstyle={/S/U/W 1}}
+
+
+\begin{document}
+AMSC661, Spring 2023 \hspace{3in} Maria Cameron
+\begin{center}
+\textbf{Take-home Final exam. Problem 1. Due  May 18, 11:59 PM}
+\end{center}
+
+\begin{itemize}
+\item {\bf All codes must be written by you from scratch.} 
+
+\item {\bf Every student must work independently. }
+
+\item {\bf You should submit a single pdf file with your solutions and link your codes to it.}
+
+\item {\bf You should type the analytical solutions. I will deduct 10\% of your score for a handwritten solution.}
+
+\end{itemize}
+
+\begin{enumerate}
+\item{\bf (10 pts)}
+Consider the Schr\"{o}dinger equation in 1D  in free space:
+\begin{equation}
+\label{eq1}
+\psi_t = \frac{i}{2}\psi_{xx},
+\end{equation}
+where $i$ is the imaginary unit.
+The initial condition is the wave packet 
+\begin{equation}
+\label{eq2}
+\psi(x,0) = \frac{1}{(2\pi\sigma_0^2)^{1/4}}\exp\left(-\frac{x^2}{4\sigma_0^2} + i k_0x\right).
+\end{equation}
+The function $\psi(x,t)$ is called the \emph{wave function}. 
+Its absolute value squared, $|\psi(x,t)|^2$ is the probability density function for finding the particle at time $t$ at the position $x$.
+Therefore,
+\begin{equation}
+\label{eq3}
+\int_{-\infty}^{\infty}|\psi(x,t)|^2dx = 1\quad\text{for all}~t.
+\end{equation}
+\begin{enumerate}
+\item Work out the derivation of the exact solution to \eqref{eq1} with the initial condition \eqref{eq2} using the Fourier transform method. 
+This procedure is sketched in \href{https://ocw.mit.edu/courses/6-974-fundamentals-of-photonics-quantum-electronics-spring-2006/235adf962a3ef4772b2f494261e00d4b_chapter4.pdf}{Section 4.1 in these lecture notes}. Show your calculations. 
+
+\item Consider the numerical method for solving \eqref{eq1} described in \href{https://web.pa.msu.edu/people/duxbury/courses/phy480/SchrodingerDynamics.pdf}{this paper}: the second order central finite difference approximation of $\psi_{xx}$ and time stepping using RK4 (see the very end of this paper). We will call this method $D_0^2 + $RK4.
+Obtain the modified equation for $D_0^2 + $RK4 neglecting the error in time integration (assume that the time integration is done exactly). What kind of numerical error do you expect to have for this method (extra dissipation, wrong speed of propagation of Fourier modes, etc)?
+
+\item Propose a numerical method for obtaining a solution to \eqref{eq1}--\eqref{eq2} using discrete Fourier transform. 
+Note that this method is very simple because the PDE is linear with constant coefficients. Detail this method in a pseudocode so that it outputs the solution at times $0$, $t_1$, ..., $t_{M}$.
+
+\end{enumerate}
+
+%%
+\item{\bf (10 pts)}
+\begin{enumerate}
+\item Set $k_0 = 10$ and $\sigma_0 = 0.1$. Solve the Schr\"{o}dinger equation \eqref{eq1} numerically on the time interval $0\le t\le T_{\max} = 0.4$ in two ways: $(i)$ using $D_0^2+$RK4 
+and $(ii)$ the spectral method that you proposed in the previous problem. 
+Use the interval $-20\le x\le 20$ as the computational domain in $x$ and periodic boundary conditions.
+Choose $N_x = 4096$ points in space and observe that the numerical solution visibly matches the numerical solution by both methods.
+Plot the absolute value of the solution, $|\psi(x,t)|$, at times $T_{\max}(j/5)$, $j = 0,1,2,3,4,5$.  Check that \eqref{eq3} holds nearly exactly for each numerical solution nonetheless.
+
+\item 
+Then take $N_x = 256$ points in space. 
+Plot the absolute value of the exact and numerical solution, $|\psi(x,t)|$, at times $T_{\max}(j/5)$, $j = 0,1,2,3,4,5$. 
+The numerical errors in both methods become apparent.
+Check that \eqref{eq3} still holds nearly exactly to each numerical solution.
+Explain the nature of the error for each method. 
+\end{enumerate}
+
+%%
+\item{\bf (10 pts)}
+Read Section 10 and Appendix C in \href{https://www.math.hu-berlin.de/~cc/cc_homepage/download/1999-AJ_CC_FS-50_Lines_of_Matlab.pdf}{Jochen Alberty, Carsten Carstensen and Stefan A. Funken, ``Remarks around 50 lines of Matlab: short finite element implementation"} on
+the numerical solution of the Ginzburg-Landau equation using the finite element method.
+
+Let $\Omega = [-1,1]^2$. Set $\epsilon = 0.01$.
+Consider the following boundary-value problem for the Ginzburg-Landau
+\begin{equation}
+\label{eq4}
+\epsilon \Delta u = u^3 - u,\quad x\in\Omega,\quad u = u_D,\quad x\in\partial\Omega.
+\end{equation}
+Note that if $u\equiv \pm1$ in $\Omega$, then the right-hand side of the Ginzburg-Landau equation is zero. Hence these are solutions to \eqref{eq4} provided that $u_D =\pm 1$ respectively.
+$u\equiv 0$ is also a solution if $u_D = 0$, however, it is unstable with respect to small perturbations.
+\begin{enumerate}
+\item 
+Let $v\in\mathcal{H}_0^1(\Omega)$, i.e., any function whose weak gradient exists in $\Omega$ and which is equal to zero on the boundary $\partial \Omega$.
+Derive the weak formulation (15) in Alberty et al.
+\item
+Starting from Newton's iteration $y_{n+1} = y_n -J^{-1}(y_n)F(y_n)$ for solving $F(y) = 0$, where $J$ is the Jacobian matrix for $F$, derive equations (17) and (18) in Alberty et al.
+\item 
+Triangulate the domain $\Omega$.
+Take the mesh step about $h=0.04$. 
+Display your mesh using the command {\tt triplot} or similar.
+\item
+Set the boundary conditions $u_D = 0$ and solve the Ginsburg-Landau equation.
+If you keep the initial guess to be $u\equiv -1$ as in Appendix C in Alberty et al., you will get the solution shown in Figure 5 (left) in Alberty et al.
+Use the command {\tt trisurf} or similar for visualization.
+\item
+Now take the frustrated boundary condition: $u_D = 1$ at the left and right sides of $\Omega$ and $u_D = -1$ at the top and bottom sides of $\Omega$.
+Compute the solution and visualize it using {\tt trisurf} or similar.
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+\end{enumerate}
+%
+\end{document}
