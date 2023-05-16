@@ -100,7 +100,8 @@
 
 \begin{enumerate}[label=(\alph*)]
 	
-\item In this part we use the fact
+\item
+In this part we use the fact
 $$\int_{-\infty}^{\infty}\exp(-ax^2+bx)dx = \br{\frac\pi a}^{1/2}\exp[\frac{b^2}{4a}]$$
 Take the Fourier transform of the PDE in $x$, using the fact $\hat{\ptl_x^n\psi}=(i\xi)^n\psi$.
 $$\hat\psi_t = \frac i2(i\xi)^2\hat\psi = -\frac i2\xi^2\hat\psi
@@ -138,7 +139,8 @@ so that
 
 \begin{enumerate}[label=(\alph*)]
 	
-\item Fix a test function $v\in H_0^1(\Omega)$. Multiply the PDE by $v$ and integrate over $\Omega$.
+\item
+Fix a test function $v\in H_0^1(\Omega)$. Multiply the PDE by $v$ and integrate over $\Omega$.
 $$\int_\Om \ep v\Delta udx = \int_\Om (u^3-u)vdx$$
 Using Green's first identity and the fact $v=0$ on $\ptl\Om$, the LHS is
 $$\int_\Om \ep v\Delta udx = -\int_\Om \ep\grad u\cdot\grad vdx + \int_{\ptl\Om} \ep v\pdv{u}{n}ds
@@ -152,8 +154,14 @@ $$-\int_\Om \ep\grad u\cdot\grad vdx = \int_\Om (u^3-u)vdx
 
 
 \item
+Code for problem 3:
+
+\url{https://github.com/RokettoJanpu/Scientific-Computing-2/blob/main/FINAL%20q3.ipynb}
+
+Below is a mesh of $\Omega$.
+
 \begin{center}
-	\includegraphics[scale=.2]{FINAL q3 mesh}
+	\includegraphics[scale=.5]{FINAL q3 mesh}
 \end{center}
 \end{enumerate}
 	
