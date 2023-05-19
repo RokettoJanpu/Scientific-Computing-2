@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.12)  18 MAY 2023 23:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.12)  18 MAY 2023 23:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1122,211 +1122,221 @@ File: uesint.fd
 [1
 
 {C:/Users/RyanPC/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-<FINAL u_abs t = 0.0 m = 4096 D02+RK4.png, id=31, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.0 m = 4096 D02+RK4.png Graphic file (type png)
-<use FINAL u_abs t = 0.0 m = 4096 D02+RK4.png>
-Package pdftex.def Info: FINAL u_abs t = 0.0 m = 4096 D02+RK4.png  used on inpu
-t line 189.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL u_abs t = 0.08 m = 4096 D02+RK4.png, id=33, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.08 m = 4096 D02+RK4.png Graphic file (type png)
-<use FINAL u_abs t = 0.08 m = 4096 D02+RK4.png>
-Package pdftex.def Info: FINAL u_abs t = 0.08 m = 4096 D02+RK4.png  used on inp
-ut line 190.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL u_abs t = 0.16 m = 4096 D02+RK4.png, id=34, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.16 m = 4096 D02+RK4.png Graphic file (type png)
-<use FINAL u_abs t = 0.16 m = 4096 D02+RK4.png>
-Package pdftex.def Info: FINAL u_abs t = 0.16 m = 4096 D02+RK4.png  used on inp
-ut line 191.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL u_abs t = 0.24 m = 4096 D02+RK4.png, id=35, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.24 m = 4096 D02+RK4.png Graphic file (type png)
-<use FINAL u_abs t = 0.24 m = 4096 D02+RK4.png>
-Package pdftex.def Info: FINAL u_abs t = 0.24 m = 4096 D02+RK4.png  used on inp
-ut line 194.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL u_abs t = 0.32 m = 4096 D02+RK4.png, id=36, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.32 m = 4096 D02+RK4.png Graphic file (type png)
-<use FINAL u_abs t = 0.32 m = 4096 D02+RK4.png>
-Package pdftex.def Info: FINAL u_abs t = 0.32 m = 4096 D02+RK4.png  used on inp
-ut line 195.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL u_abs t = 0.4 m = 4096 D02+RK4.png, id=37, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.4 m = 4096 D02+RK4.png Graphic file (type png)
-<use FINAL u_abs t = 0.4 m = 4096 D02+RK4.png>
-Package pdftex.def Info: FINAL u_abs t = 0.4 m = 4096 D02+RK4.png  used on inpu
-t line 196.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL prob m = 4096 D02+RK4.png, id=38, 462.528pt x 346.896pt>
-File: FINAL prob m = 4096 D02+RK4.png Graphic file (type png)
-<use FINAL prob m = 4096 D02+RK4.png>
-Package pdftex.def Info: FINAL prob m = 4096 D02+RK4.png  used on input line 20
-0.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-<FINAL u_abs t = 0.0 m = 4096 DFT.png, id=39, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.0 m = 4096 DFT.png Graphic file (type png)
-<use FINAL u_abs t = 0.0 m = 4096 DFT.png>
-Package pdftex.def Info: FINAL u_abs t = 0.0 m = 4096 DFT.png  used on input li
-ne 204.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL u_abs t = 0.08 m = 4096 DFT.png, id=40, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.08 m = 4096 DFT.png Graphic file (type png)
-<use FINAL u_abs t = 0.08 m = 4096 DFT.png>
-Package pdftex.def Info: FINAL u_abs t = 0.08 m = 4096 DFT.png  used on input l
-ine 205.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL u_abs t = 0.16 m = 4096 DFT.png, id=41, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.16 m = 4096 DFT.png Graphic file (type png)
-<use FINAL u_abs t = 0.16 m = 4096 DFT.png>
-Package pdftex.def Info: FINAL u_abs t = 0.16 m = 4096 DFT.png  used on input l
-ine 206.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-
-[3 <./FINAL u_abs t = 0.0 m = 4096 D02+RK4.png> <./FINAL u_abs t = 0.08 m = 409
-6 D02+RK4.png> <./FINAL u_abs t = 0.16 m = 4096 D02+RK4.png> <./FINAL u_abs t =
- 0.24 m = 4096 D02+RK4.png> <./FINAL u_abs t = 0.32 m = 4096 D02+RK4.png> <./FI
-NAL u_abs t = 0.4 m = 4096 D02+RK4.png> <./FINAL prob m = 4096 D02+RK4.png>]
-<FINAL u_abs t = 0.24 m = 4096 DFT.png, id=56, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.24 m = 4096 DFT.png Graphic file (type png)
-<use FINAL u_abs t = 0.24 m = 4096 DFT.png>
-Package pdftex.def Info: FINAL u_abs t = 0.24 m = 4096 DFT.png  used on input l
-ine 209.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL u_abs t = 0.32 m = 4096 DFT.png, id=57, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.32 m = 4096 DFT.png Graphic file (type png)
-<use FINAL u_abs t = 0.32 m = 4096 DFT.png>
-Package pdftex.def Info: FINAL u_abs t = 0.32 m = 4096 DFT.png  used on input l
-ine 210.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL u_abs t = 0.4 m = 4096 DFT.png, id=58, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.4 m = 4096 DFT.png Graphic file (type png)
-<use FINAL u_abs t = 0.4 m = 4096 DFT.png>
-Package pdftex.def Info: FINAL u_abs t = 0.4 m = 4096 DFT.png  used on input li
-ne 211.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL prob m = 4096 DFT.png, id=59, 462.528pt x 346.896pt>
-File: FINAL prob m = 4096 DFT.png Graphic file (type png)
-<use FINAL prob m = 4096 DFT.png>
-Package pdftex.def Info: FINAL prob m = 4096 DFT.png  used on input line 215.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-<FINAL u_abs t = 0.0 m = 256 D02+RK4.png, id=60, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.0 m = 256 D02+RK4.png Graphic file (type png)
-<use FINAL u_abs t = 0.0 m = 256 D02+RK4.png>
-Package pdftex.def Info: FINAL u_abs t = 0.0 m = 256 D02+RK4.png  used on input
- line 222.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL u_abs t = 0.08 m = 256 D02+RK4.png, id=61, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.08 m = 256 D02+RK4.png Graphic file (type png)
-<use FINAL u_abs t = 0.08 m = 256 D02+RK4.png>
-Package pdftex.def Info: FINAL u_abs t = 0.08 m = 256 D02+RK4.png  used on inpu
-t line 223.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL u_abs t = 0.16 m = 256 D02+RK4.png, id=62, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.16 m = 256 D02+RK4.png Graphic file (type png)
-<use FINAL u_abs t = 0.16 m = 256 D02+RK4.png>
-Package pdftex.def Info: FINAL u_abs t = 0.16 m = 256 D02+RK4.png  used on inpu
-t line 224.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL u_abs t = 0.24 m = 256 D02+RK4.png, id=63, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.24 m = 256 D02+RK4.png Graphic file (type png)
-<use FINAL u_abs t = 0.24 m = 256 D02+RK4.png>
-Package pdftex.def Info: FINAL u_abs t = 0.24 m = 256 D02+RK4.png  used on inpu
-t line 227.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL u_abs t = 0.32 m = 256 D02+RK4.png, id=64, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.32 m = 256 D02+RK4.png Graphic file (type png)
-<use FINAL u_abs t = 0.32 m = 256 D02+RK4.png>
-Package pdftex.def Info: FINAL u_abs t = 0.32 m = 256 D02+RK4.png  used on inpu
-t line 228.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL u_abs t = 0.4 m = 256 D02+RK4.png, id=65, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.4 m = 256 D02+RK4.png Graphic file (type png)
-<use FINAL u_abs t = 0.4 m = 256 D02+RK4.png>
-Package pdftex.def Info: FINAL u_abs t = 0.4 m = 256 D02+RK4.png  used on input
- line 229.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-
-[4 <./FINAL u_abs t = 0.0 m = 4096 DFT.png> <./FINAL u_abs t = 0.08 m = 4096 DF
-T.png> <./FINAL u_abs t = 0.16 m = 4096 DFT.png> <./FINAL u_abs t = 0.24 m = 40
-96 DFT.png> <./FINAL u_abs t = 0.32 m = 4096 DFT.png> <./FINAL u_abs t = 0.4 m 
-= 4096 DFT.png> <./FINAL prob m = 4096 DFT.png> <./FINAL u_abs t = 0.0 m = 256 
-D02+RK4.png> <./FINAL u_abs t = 0.08 m = 256 D02+RK4.png> <./FINAL u_abs t = 0.
-16 m = 256 D02+RK4.png>]
-<FINAL prob m = 256 D02+RK4.png, id=81, 462.528pt x 346.896pt>
-File: FINAL prob m = 256 D02+RK4.png Graphic file (type png)
-<use FINAL prob m = 256 D02+RK4.png>
-Package pdftex.def Info: FINAL prob m = 256 D02+RK4.png  used on input line 233
-.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-<FINAL u_abs t = 0.0 m = 256 DFT.png, id=82, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.0 m = 256 DFT.png Graphic file (type png)
-<use FINAL u_abs t = 0.0 m = 256 DFT.png>
-Package pdftex.def Info: FINAL u_abs t = 0.0 m = 256 DFT.png  used on input lin
-e 237.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL u_abs t = 0.08 m = 256 DFT.png, id=83, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.08 m = 256 DFT.png Graphic file (type png)
-<use FINAL u_abs t = 0.08 m = 256 DFT.png>
-Package pdftex.def Info: FINAL u_abs t = 0.08 m = 256 DFT.png  used on input li
-ne 238.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL u_abs t = 0.16 m = 256 DFT.png, id=84, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.16 m = 256 DFT.png Graphic file (type png)
-<use FINAL u_abs t = 0.16 m = 256 DFT.png>
-Package pdftex.def Info: FINAL u_abs t = 0.16 m = 256 DFT.png  used on input li
-ne 239.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL u_abs t = 0.24 m = 256 DFT.png, id=85, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.24 m = 256 DFT.png Graphic file (type png)
-<use FINAL u_abs t = 0.24 m = 256 DFT.png>
-Package pdftex.def Info: FINAL u_abs t = 0.24 m = 256 DFT.png  used on input li
-ne 242.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL u_abs t = 0.32 m = 256 DFT.png, id=86, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.32 m = 256 DFT.png Graphic file (type png)
-<use FINAL u_abs t = 0.32 m = 256 DFT.png>
-Package pdftex.def Info: FINAL u_abs t = 0.32 m = 256 DFT.png  used on input li
-ne 243.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL u_abs t = 0.4 m = 256 DFT.png, id=87, 462.528pt x 346.896pt>
-File: FINAL u_abs t = 0.4 m = 256 DFT.png Graphic file (type png)
-<use FINAL u_abs t = 0.4 m = 256 DFT.png>
-Package pdftex.def Info: FINAL u_abs t = 0.4 m = 256 DFT.png  used on input lin
-e 244.
-(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
-<FINAL prob m = 256 DFT.png, id=88, 462.528pt x 346.896pt>
-File: FINAL prob m = 256 DFT.png Graphic file (type png)
-<use FINAL prob m = 256 DFT.png>
-Package pdftex.def Info: FINAL prob m = 256 DFT.png  used on input line 248.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
- [5 <./FINAL u_abs t = 0.24 m = 256 D02+RK4.png> <./FINAL u_abs t = 0.32 m = 25
-6 D02+RK4.png> <./FINAL u_abs t = 0.4 m = 256 D02+RK4.png> <./FINAL prob m = 25
-6 D02+RK4.png> <./FINAL u_abs t = 0.0 m = 256 DFT.png> <./FINAL u_abs t = 0.08 
-m = 256 DFT.png> <./FINAL u_abs t = 0.16 m = 256 DFT.png> <./FINAL u_abs t = 0.
-24 m = 256 DFT.png> <./FINAL u_abs t = 0.32 m = 256 DFT.png> <./FINAL u_abs t =
- 0.4 m = 256 DFT.png>]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<FINAL q3 mesh.png, id=104, 462.528pt x 346.896pt>
+
+Overfull \hbox (14.56602pt too wide) in paragraph at lines 191--193
+[][]$\OT1/cmtt/m/n/10 https : / / github . com / RokettoJanpu / Scientific-[]Co
+mputing-[]2 / blob / main / FINAL % 20q2 % 20D02 % 2BRK4 .
+ []
+
+
+Overfull \hbox (11.53828pt too wide) in paragraph at lines 191--193
+\OT1/cmtt/m/n/10 ipynb$[] []$https : / / github . com / RokettoJanpu / Scientif
+ic-[]Computing-[]2 / blob / main / FINAL % 20q2 % 20DFT .
+ []
+
+<FINAL u_abs t = 0.0 m = 4096 D02+RK4.png, id=33, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.0 m = 4096 D02+RK4.png Graphic file (type png)
+<use FINAL u_abs t = 0.0 m = 4096 D02+RK4.png>
+Package pdftex.def Info: FINAL u_abs t = 0.0 m = 4096 D02+RK4.png  used on inpu
+t line 196.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.08 m = 4096 D02+RK4.png, id=35, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.08 m = 4096 D02+RK4.png Graphic file (type png)
+<use FINAL u_abs t = 0.08 m = 4096 D02+RK4.png>
+Package pdftex.def Info: FINAL u_abs t = 0.08 m = 4096 D02+RK4.png  used on inp
+ut line 197.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.16 m = 4096 D02+RK4.png, id=36, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.16 m = 4096 D02+RK4.png Graphic file (type png)
+<use FINAL u_abs t = 0.16 m = 4096 D02+RK4.png>
+Package pdftex.def Info: FINAL u_abs t = 0.16 m = 4096 D02+RK4.png  used on inp
+ut line 198.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.24 m = 4096 D02+RK4.png, id=37, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.24 m = 4096 D02+RK4.png Graphic file (type png)
+<use FINAL u_abs t = 0.24 m = 4096 D02+RK4.png>
+Package pdftex.def Info: FINAL u_abs t = 0.24 m = 4096 D02+RK4.png  used on inp
+ut line 201.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.32 m = 4096 D02+RK4.png, id=38, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.32 m = 4096 D02+RK4.png Graphic file (type png)
+<use FINAL u_abs t = 0.32 m = 4096 D02+RK4.png>
+Package pdftex.def Info: FINAL u_abs t = 0.32 m = 4096 D02+RK4.png  used on inp
+ut line 202.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.4 m = 4096 D02+RK4.png, id=39, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.4 m = 4096 D02+RK4.png Graphic file (type png)
+<use FINAL u_abs t = 0.4 m = 4096 D02+RK4.png>
+Package pdftex.def Info: FINAL u_abs t = 0.4 m = 4096 D02+RK4.png  used on inpu
+t line 203.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL prob m = 4096 D02+RK4.png, id=40, 462.528pt x 346.896pt>
+File: FINAL prob m = 4096 D02+RK4.png Graphic file (type png)
+<use FINAL prob m = 4096 D02+RK4.png>
+Package pdftex.def Info: FINAL prob m = 4096 D02+RK4.png  used on input line 20
+7.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+[3 <./FINAL u_abs t = 0.0 m = 4096 D02+RK4.png> <./FINAL u_abs t = 0.08 m = 409
+6 D02+RK4.png> <./FINAL u_abs t = 0.16 m = 4096 D02+RK4.png> <./FINAL u_abs t =
+ 0.24 m = 4096 D02+RK4.png> <./FINAL u_abs t = 0.32 m = 4096 D02+RK4.png> <./FI
+NAL u_abs t = 0.4 m = 4096 D02+RK4.png>]
+<FINAL u_abs t = 0.0 m = 4096 DFT.png, id=57, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.0 m = 4096 DFT.png Graphic file (type png)
+<use FINAL u_abs t = 0.0 m = 4096 DFT.png>
+Package pdftex.def Info: FINAL u_abs t = 0.0 m = 4096 DFT.png  used on input li
+ne 211.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.08 m = 4096 DFT.png, id=58, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.08 m = 4096 DFT.png Graphic file (type png)
+<use FINAL u_abs t = 0.08 m = 4096 DFT.png>
+Package pdftex.def Info: FINAL u_abs t = 0.08 m = 4096 DFT.png  used on input l
+ine 212.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.16 m = 4096 DFT.png, id=59, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.16 m = 4096 DFT.png Graphic file (type png)
+<use FINAL u_abs t = 0.16 m = 4096 DFT.png>
+Package pdftex.def Info: FINAL u_abs t = 0.16 m = 4096 DFT.png  used on input l
+ine 213.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.24 m = 4096 DFT.png, id=60, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.24 m = 4096 DFT.png Graphic file (type png)
+<use FINAL u_abs t = 0.24 m = 4096 DFT.png>
+Package pdftex.def Info: FINAL u_abs t = 0.24 m = 4096 DFT.png  used on input l
+ine 216.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.32 m = 4096 DFT.png, id=61, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.32 m = 4096 DFT.png Graphic file (type png)
+<use FINAL u_abs t = 0.32 m = 4096 DFT.png>
+Package pdftex.def Info: FINAL u_abs t = 0.32 m = 4096 DFT.png  used on input l
+ine 217.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.4 m = 4096 DFT.png, id=62, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.4 m = 4096 DFT.png Graphic file (type png)
+<use FINAL u_abs t = 0.4 m = 4096 DFT.png>
+Package pdftex.def Info: FINAL u_abs t = 0.4 m = 4096 DFT.png  used on input li
+ne 218.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL prob m = 4096 DFT.png, id=63, 462.528pt x 346.896pt>
+File: FINAL prob m = 4096 DFT.png Graphic file (type png)
+<use FINAL prob m = 4096 DFT.png>
+Package pdftex.def Info: FINAL prob m = 4096 DFT.png  used on input line 222.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+ [4 <./FINAL prob m = 4096 D02+RK4.png> <./FINAL u_abs t = 0.0 m = 4096 DFT.png
+> <./FINAL u_abs t = 0.08 m = 4096 DFT.png> <./FINAL u_abs t = 0.16 m = 4096 DF
+T.png> <./FINAL u_abs t = 0.24 m = 4096 DFT.png> <./FINAL u_abs t = 0.32 m = 40
+96 DFT.png> <./FINAL u_abs t = 0.4 m = 4096 DFT.png>]
+<FINAL u_abs t = 0.0 m = 256 D02+RK4.png, id=75, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.0 m = 256 D02+RK4.png Graphic file (type png)
+<use FINAL u_abs t = 0.0 m = 256 D02+RK4.png>
+Package pdftex.def Info: FINAL u_abs t = 0.0 m = 256 D02+RK4.png  used on input
+ line 229.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.08 m = 256 D02+RK4.png, id=76, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.08 m = 256 D02+RK4.png Graphic file (type png)
+<use FINAL u_abs t = 0.08 m = 256 D02+RK4.png>
+Package pdftex.def Info: FINAL u_abs t = 0.08 m = 256 D02+RK4.png  used on inpu
+t line 230.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.16 m = 256 D02+RK4.png, id=77, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.16 m = 256 D02+RK4.png Graphic file (type png)
+<use FINAL u_abs t = 0.16 m = 256 D02+RK4.png>
+Package pdftex.def Info: FINAL u_abs t = 0.16 m = 256 D02+RK4.png  used on inpu
+t line 231.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.24 m = 256 D02+RK4.png, id=78, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.24 m = 256 D02+RK4.png Graphic file (type png)
+<use FINAL u_abs t = 0.24 m = 256 D02+RK4.png>
+Package pdftex.def Info: FINAL u_abs t = 0.24 m = 256 D02+RK4.png  used on inpu
+t line 234.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.32 m = 256 D02+RK4.png, id=79, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.32 m = 256 D02+RK4.png Graphic file (type png)
+<use FINAL u_abs t = 0.32 m = 256 D02+RK4.png>
+Package pdftex.def Info: FINAL u_abs t = 0.32 m = 256 D02+RK4.png  used on inpu
+t line 235.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.4 m = 256 D02+RK4.png, id=80, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.4 m = 256 D02+RK4.png Graphic file (type png)
+<use FINAL u_abs t = 0.4 m = 256 D02+RK4.png>
+Package pdftex.def Info: FINAL u_abs t = 0.4 m = 256 D02+RK4.png  used on input
+ line 236.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL prob m = 256 D02+RK4.png, id=81, 462.528pt x 346.896pt>
+File: FINAL prob m = 256 D02+RK4.png Graphic file (type png)
+<use FINAL prob m = 256 D02+RK4.png>
+Package pdftex.def Info: FINAL prob m = 256 D02+RK4.png  used on input line 240
+.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+ [5 <./FINAL prob m = 4096 DFT.png> <./FINAL u_abs t = 0.0 m = 256 D02+RK4.png>
+ <./FINAL u_abs t = 0.08 m = 256 D02+RK4.png> <./FINAL u_abs t = 0.16 m = 256 D
+02+RK4.png> <./FINAL u_abs t = 0.24 m = 256 D02+RK4.png> <./FINAL u_abs t = 0.3
+2 m = 256 D02+RK4.png> <./FINAL u_abs t = 0.4 m = 256 D02+RK4.png>]
+<FINAL u_abs t = 0.0 m = 256 DFT.png, id=94, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.0 m = 256 DFT.png Graphic file (type png)
+<use FINAL u_abs t = 0.0 m = 256 DFT.png>
+Package pdftex.def Info: FINAL u_abs t = 0.0 m = 256 DFT.png  used on input lin
+e 244.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.08 m = 256 DFT.png, id=95, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.08 m = 256 DFT.png Graphic file (type png)
+<use FINAL u_abs t = 0.08 m = 256 DFT.png>
+Package pdftex.def Info: FINAL u_abs t = 0.08 m = 256 DFT.png  used on input li
+ne 245.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.16 m = 256 DFT.png, id=96, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.16 m = 256 DFT.png Graphic file (type png)
+<use FINAL u_abs t = 0.16 m = 256 DFT.png>
+Package pdftex.def Info: FINAL u_abs t = 0.16 m = 256 DFT.png  used on input li
+ne 246.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.24 m = 256 DFT.png, id=97, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.24 m = 256 DFT.png Graphic file (type png)
+<use FINAL u_abs t = 0.24 m = 256 DFT.png>
+Package pdftex.def Info: FINAL u_abs t = 0.24 m = 256 DFT.png  used on input li
+ne 249.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.32 m = 256 DFT.png, id=98, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.32 m = 256 DFT.png Graphic file (type png)
+<use FINAL u_abs t = 0.32 m = 256 DFT.png>
+Package pdftex.def Info: FINAL u_abs t = 0.32 m = 256 DFT.png  used on input li
+ne 250.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL u_abs t = 0.4 m = 256 DFT.png, id=99, 462.528pt x 346.896pt>
+File: FINAL u_abs t = 0.4 m = 256 DFT.png Graphic file (type png)
+<use FINAL u_abs t = 0.4 m = 256 DFT.png>
+Package pdftex.def Info: FINAL u_abs t = 0.4 m = 256 DFT.png  used on input lin
+e 251.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+<FINAL prob m = 256 DFT.png, id=100, 462.528pt x 346.896pt>
+File: FINAL prob m = 256 DFT.png Graphic file (type png)
+<use FINAL prob m = 256 DFT.png>
+Package pdftex.def Info: FINAL prob m = 256 DFT.png  used on input line 255.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+ [6 <./FINAL prob m = 256 D02+RK4.png> <./FINAL u_abs t = 0.0 m = 256 DFT.png> 
+<./FINAL u_abs t = 0.08 m = 256 DFT.png> <./FINAL u_abs t = 0.16 m = 256 DFT.pn
+g> <./FINAL u_abs t = 0.24 m = 256 DFT.png> <./FINAL u_abs t = 0.32 m = 256 DFT
+.png> <./FINAL u_abs t = 0.4 m = 256 DFT.png>]
+<FINAL q3 mesh.png, id=113, 462.528pt x 346.896pt>
 File: FINAL q3 mesh.png Graphic file (type png)
 <use FINAL q3 mesh.png>
-Package pdftex.def Info: FINAL q3 mesh.png  used on input line 289.
+Package pdftex.def Info: FINAL q3 mesh.png  used on input line 296.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
- [6 <./FINAL prob m = 256 DFT.png>] [7 <./FINAL q3 mesh.png>] (FINAL.aux)
+ [7 <./FINAL prob m = 256 DFT.png>] [8 <./FINAL q3 mesh.png>] (FINAL.aux)
 Package rerunfilecheck Info: File `FINAL.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34557 strings out of 476422
- 742422 string characters out of 5789466
+ 34558 strings out of 476422
+ 742428 string characters out of 5789466
  1874242 words of memory out of 5000000
  54215 multiletter control sequences out of 15000+600000
  525402 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,13n,118p,1004b,1268s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,13n,118p,1004b,1266s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\RyanPC\AppData\Local\MiKTeX\fonts/pk/ljfour/public/esint/dpi600\es
 int10.pk><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmbsy10.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX/fonts/type1/
@@ -1344,9 +1354,9 @@ ype1/public/amsfonts/cm/cmr7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/RyanPC/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RyanPC/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on FINAL.pdf (7 pages, 893482 bytes).
+Output written on FINAL.pdf (8 pages, 900092 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
+ 198 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
  25246 words of extra memory for PDF output out of 29859 (max. 10000000)
 
