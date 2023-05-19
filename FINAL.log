@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.12)  18 MAY 2023 23:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.12)  18 MAY 2023 23:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1313,18 +1313,18 @@ Package microtype Info: Loading generic protrusion settings for font family
 <FINAL q3 mesh.png, id=104, 462.528pt x 346.896pt>
 File: FINAL q3 mesh.png Graphic file (type png)
 <use FINAL q3 mesh.png>
-Package pdftex.def Info: FINAL q3 mesh.png  used on input line 280.
+Package pdftex.def Info: FINAL q3 mesh.png  used on input line 289.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
- [6 <./FINAL prob m = 256 DFT.png> <./FINAL q3 mesh.png>] (FINAL.aux)
+ [6 <./FINAL prob m = 256 DFT.png>] [7 <./FINAL q3 mesh.png>] (FINAL.aux)
 Package rerunfilecheck Info: File `FINAL.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34552 strings out of 476422
- 742386 string characters out of 5789466
+ 34557 strings out of 476422
+ 742422 string characters out of 5789466
  1874242 words of memory out of 5000000
  54215 multiletter control sequences out of 15000+600000
- 525300 words of font info for 109 fonts, out of 8000000 for 9000
+ 525402 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,13n,118p,1004b,1268s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\RyanPC\AppData\Local\MiKTeX\fonts/pk/ljfour/public/esint/dpi600\es
@@ -1344,9 +1344,9 @@ ype1/public/amsfonts/cm/cmr7.pfb><C:/Users/RyanPC/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/RyanPC/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/RyanPC/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on FINAL.pdf (6 pages, 890615 bytes).
+Output written on FINAL.pdf (7 pages, 893482 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
  25246 words of extra memory for PDF output out of 29859 (max. 10000000)
 

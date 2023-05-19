@@ -141,7 +141,7 @@ Taylor expand.
 	v(x+h,t) &= v + hv_x + \frac12h^2v_{xx} + \frac16h^3v_{xxx} + \frac{1}{24}h^4v_{xxxx} + \frac{1}{120}h^5v_{xxxxx} + O(h^6)\\
 	v(x-h,t) &= v - hv_x + \frac12h^2v_{xx} - \frac16h^3v_{xxx} + \frac{1}{24}h^4v_{xxxx} - \frac{1}{120}h^5v_{xxxxx} + O(h^6)
 \end{align*}
-Plug in.
+Plug in the expansions.
 $$v_t = \frac{i}{2h^2}\sbr{h^2v_{xx} + \frac{1}{12}h^4v_{xxxx} + O(h^6)}
 = \frac i2v_{xx} + \frac{i}{24}h^2v_{xxxx} + O(h^4)$$
 We obtain the (third order) modified equation.
@@ -247,6 +247,8 @@ We check the total probability is nearly equal to 1.
 \begin{center}
 	\includegraphics[scale=.5]{FINAL prob m = 256 DFT}
 \end{center}
+
+Recalling the modified equation for $D_0^2$+RK4, the error arises from artificial Fourier modes which do not decay over time. For DFT, the error arises from the splitting of the solution into Fourier modes of different propagation speeds.
 	
 \end{enumerate}
 
@@ -266,7 +268,14 @@ $$-\int_\Om \ep\grad u\cdot\grad vdx = \int_\Om (u^3-u)vdx
 \imp \int_\Om \ep\grad u\cdot\grad vdx - \int_\Om (u-u^3)vdx = 0$$
 
 
-\item e
+\item
+Using Newton's iteration
+$$y_{n+1} = y_n - J\inv(y_n)F(y_n)$$
+we obtain
+$$J\inv(y_n)F(y_n) = y_n - y_{n+1}
+\imp F(y_n) = J(y_n)(y_n - y_{n+1})$$
+Writing $y_n=(u^n,v)$ and casting $u^n-u^{n+1}$ as a parameter of $J$,
+$$F(u^n,v) = J(u^n,v;u^n-u^{n+1})$$
 
 
 \item
