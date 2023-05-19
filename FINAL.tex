@@ -152,8 +152,103 @@ so its corresponding term within the solution $\hat v(\xi,t)$ in Fourier space i
 $$\exp[\frac{i}{24}h^2\xi^4t]$$
 Thus the modified equation introduces artificial Fourier modes which do not decay over time.
 
+
+\item
+\begin{algorithmic}
+	\State pick maximum time $T$
+	\State pick stepsize $h$ and timestep $k$
+	\State set mesh using stepsize $h$
+	\State $N \gets \frac Tk$
+	\State set time points between 0 and $T$ using timestep $k$
+	\State set initial condition vector $u_0$
+	\State $\hat u_0 \gets$ DFT of $u_0$
+	\State $\xi \gets 2\pi$ times vector of wavenumbers corresponding to mesh
+	\State $\hat u \gets$ solution of PDE in Fourier space, $\hat u_t=-\frac i2\xi^2\hat u$ (use SciPy solver with $\hat u_0$ and set of time points)
+	\State $u \gets$ array of 0s with the same size as $\hat u$
+	\For{$j$th row of $u$}
+		\State set the $j$th row of $u$ as the inverse DFT of the $j$th row of $\hat u$
+	\EndFor
+	\For{$j=0,\dots,N$}
+		\If{$jk\in[0,t_1,\dots,t_M]$}
+			\State print $j$th row of $u$
+		\EndIf
+	\EndFor
+\end{algorithmic}
+
 \end{enumerate}
 
+
+
+\section*{Problem 2}
+
+\begin{enumerate}[label=(\alph*)]
+	
+\item 
+In this part we take 4096 points in space. For $D_0^2$+RK4:
+\begin{center}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.0 m = 4096 D02+RK4}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.08 m = 4096 D02+RK4}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.16 m = 4096 D02+RK4}
+\end{center}
+\begin{center}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.24 m = 4096 D02+RK4}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.32 m = 4096 D02+RK4}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.4 m = 4096 D02+RK4}
+\end{center}
+We check the total probability is nearly equal to 1.
+\begin{center}
+	\includegraphics[scale=.5]{FINAL prob m = 4096 D02+RK4}
+\end{center}
+For the method using the discrete Fourier transform (DFT):
+\begin{center}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.0 m = 4096 DFT}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.08 m = 4096 DFT}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.16 m = 4096 DFT}
+\end{center}
+\begin{center}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.24 m = 4096 DFT}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.32 m = 4096 DFT}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.4 m = 4096 DFT}
+\end{center}
+We check the total probability is nearly equal to 1.
+\begin{center}
+	\includegraphics[scale=.5]{FINAL prob m = 4096 DFT}
+\end{center}
+
+
+\item 
+In this part we take 256 points in space. For $D_0^2$+RK4:
+\begin{center}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.0 m = 256 D02+RK4}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.08 m = 256 D02+RK4}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.16 m = 256 D02+RK4}
+\end{center}
+\begin{center}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.24 m = 256 D02+RK4}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.32 m = 256 D02+RK4}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.4 m = 256 D02+RK4}
+\end{center}
+We check the total probability is nearly equal to 1.
+\begin{center}
+	\includegraphics[scale=.5]{FINAL prob m = 256 D02+RK4}
+\end{center}
+For the method using the discrete Fourier transform (DFT):
+\begin{center}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.0 m = 256 DFT}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.08 m = 256 DFT}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.16 m = 256 DFT}
+\end{center}
+\begin{center}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.24 m = 256 DFT}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.32 m = 256 DFT}
+	\includegraphics[scale=.3]{FINAL u_abs t = 0.4 m = 256 DFT}
+\end{center}
+We check the total probability is nearly equal to 1.
+\begin{center}
+	\includegraphics[scale=.5]{FINAL prob m = 256 DFT}
+\end{center}
+	
+\end{enumerate}
 
 
 \section*{Problem 3}
